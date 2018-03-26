@@ -176,7 +176,10 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 ###对mpv进行各种自定义主要修改哪些文件和文件夹
 
 >mpv-easy-data\input.conf  主要用来自定义快捷键，文件中已经包含了充分的示例，也已经有了少量修改的快捷键
+
 >mpv-easy-data\rjno1.conf  主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
+
 >scripts  从网上得到的mpv的lua脚本、js脚本、自己制作的lua、js脚本要放在这个文件夹中才会被mpv有效读取
+
 >lua-settings  在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
 
