@@ -210,7 +210,7 @@ b.让mpv把历史记录文件保存到以下路径中
 >playlistmanager.lua   高级播放列表，代码经过些许修改，需要你按下脚本中的快捷键才能使用
 
 
-mpv可以使用的各种脚本请参考这个汇总页面
+### mpv可以使用的各种脚本请参考这个汇总页面
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
