@@ -50,7 +50,7 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 windows下mpv支持读取的配置路径基本包含2种。你只需要选择使用其中一种即可。
 
-**第一种(仅支持在纯英文路径下完全正常工作)**
+**第一种(仅支持在纯英文路径下完全正常工作):**
 
 ![](./img/mpv-conf-dir-1.jpg)
 
@@ -104,15 +104,15 @@ mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
 
 检查完毕之后往mpv.conf中添加下面这5行：
 
-input-conf=portable_config\mpv-easy-data\input.conf
+>input-conf=portable_config\mpv-easy-data\input.conf
 
-include=portable_config\mpv-easy-data\rjno1.conf
+>include=portable_config\mpv-easy-data\rjno1.conf
 
-watch-later-directory=portable_config\mpv-easy-data\watch_later
+>watch-later-directory=portable_config\mpv-easy-data\watch_later
 
-profile="ini-rjno1"
+>profile="ini-rjno1"
 
-write-filename-in-watch-later-config
+>write-filename-in-watch-later-config
 
 由于使用的是相对路径，所以不管今后mpv player文件夹被移动到什么路径下（必须纯英文路径），无需任何修改配置都能正常工作。
 
