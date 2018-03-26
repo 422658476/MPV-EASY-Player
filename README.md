@@ -46,11 +46,11 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 或许下面所说的文件存放路径、结构、调用方式和你之前所认为的、理所当然的方式有很多出入，甚至可能是多此一举的，但这些功夫都是为中文路径的支持，以及把尽可能少的文件存放到c盘纯英文路径下做的努力，好让大部分数据都保存在非C盘，防止配置文件的丢失和软件的丢失。
 
-## 如何把MPV-EASY Player的2个文件夹改变到适用于mpv
+## 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(windows)
 
 windows下mpv支持读取的配置路径基本包含2种。你只需要选择使用其中一种即可。
 
-#### 第一种(仅支持在纯英文路径下完全正常工作):**
+#### 第一种(仅支持在纯英文路径下完全正常工作):
 
 ![](./img/mpv-conf-dir-1.jpg)
 
@@ -116,7 +116,7 @@ b.让mpv把历史记录文件保存到以下路径中
 由于使用的是相对路径，所以不管今后mpv player文件夹被移动到任何**纯英文路径**下，无需任何处理配置都能正常工作。
 
 
-#### 第二种(支持中文路径，但某些文件要复制到c盘):**
+#### 第二种(支持中文路径，但某些文件要复制到c盘):
 
 ![](./img/mpv-conf-dir-2.jpg)
 
@@ -219,3 +219,34 @@ b.让mpv把历史记录文件保存到以下路径中
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 
+### 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(mac和linux)
+
+如果你已经在windows下完全掌握了之前【如果如果如何把MPV-EASY Player的2个文件夹改变到适用于mpv(windows)】中描述的2种方法，那么这些设置迁移到mac和linux也非常简单，
+
+【portable-data】【mpv-easy-data】文件夹按照结构放到以下路径后，依旧按照上方教程修改一下mpv.conf文件即可
+
+linux（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到）：
+
+~/.config/mpv/lua-settings
+
+~/.config/mpv/scripts
+
+~/.config/mpv/mpv.conf
+
+~/.config/mpv/mpv-easy-data
+
+mac（下方的~代表的是mac下的【个人目录】也就是home文件夹，.config是一个隐藏文件夹，需要【个人目录】下Command+Shift+G后输入.config后进入）：
+
+【个人目录】=finder->mac->mac系统分区->用户文件夹->用户名文件夹
+
+mac没有home？no no no
+
+使用mac系统的绝大部分人【个人目录】应该都放在了系统分区，如果你已经给mac分过区，并且使用过【设置】-【用户与群组】-【当前用户】右键菜单-【高级选项】-【个人目录】，那么可以把【个人目录】像linux一样挂载到非系统目录下，这样的好处显而易见，个人资料和设置与系统完全分离，重装系统最为干净。
+
+~/.config/mpv/lua-settings
+
+~/.config/mpv/scripts
+
+~/.config/mpv/mpv.conf
+
+~/.config/mpv/mpv-easy-data
