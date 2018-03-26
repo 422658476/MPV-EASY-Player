@@ -48,8 +48,11 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 ### 如何把MPV-EASY Player的2个文件夹改变到适用于mpv
 
-windows下mpv支持读取的配置路径基本包含2个。你只需要使用其中即可即可。
+windows下mpv支持读取的配置路径基本包含2个。你只需要选择使用其中一种即可。
 
+**第一种**
+
+![](./img/mpv-conf-dir-1.jpg)
 
 
 
