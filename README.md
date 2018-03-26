@@ -78,9 +78,9 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 3、文件导入到portable_config文件夹下。
 
-从这个网页顶部打包下载【portable-data】【mpv-easy-data】文件夹。
+从[这个网页](https://github.com/422658476/MPV-EASY-Player)顶部打包下载【portable-data】【mpv-easy-data】文件夹。
 
-把【portable-data】文件夹内的所有东西放入【mpv.exe所在文件夹\portable_config】
+把【portable-data】**文件夹内**的所有东西放入【mpv.exe所在文件夹\portable_config】
 
 把【mpv-easy-data】**“连同文件夹本身”**直接放入【mpv.exe所在文件夹\portable_config】
 
@@ -89,14 +89,13 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 4、修改mpv.conf文件内容，让mpv能够正常读取。
 
 修改mpv.conf的目的：
-
-引导mpv去读取下面路径中的配置文件
+a.引导mpv去读取下面路径中的配置文件
 
 >mpv.exe所在文件夹\portable_config\mpv-easy-data\input.conf
 
 >mpv.exe所在文件夹\portable_config\mpv-easy-data\rjno1.conf
 
-让mpv把历史记录文件保存到以下路径中
+b.让mpv把历史记录文件保存到以下路径中
 
 >mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
 
@@ -114,7 +113,7 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 >write-filename-in-watch-later-config
 
-由于使用的是相对路径，所以不管今后mpv player文件夹被移动到任何**纯英文路径**下，无需任何修改配置都能正常工作。
+由于使用的是相对路径，所以不管今后mpv player文件夹被移动到任何**纯英文路径**下，无需任何处理配置都能正常工作。
 
 
 **第二种(支持中文路径，但某些文件要复制到c盘):**
@@ -135,7 +134,11 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 >mpv.exe所在文件夹\data\mpv.conf
 
-【data】文件夹可以移动和更改到任何路径下，如果想要和mpv一起方便迁移，那么还是建议放在mpv.exe所在文件夹下
+>mpv.exe所在文件夹\data\mpv-easy-data
+
+【data】文件夹可以移动和更改到任何路径下，如果想要和mpv一起方便迁移，或者不熟悉mpv，那么还是建议放在mpv.exe所在文件夹下
+
+【mpv-easy-data】文件夹可以配合下面第二步对mpv.conf的修改，移动和更改到任何路径下，如果想要和mpv一起方便迁移，或者不熟悉mpv，那么还是建议放在【mpv.exe\data】文件夹下
 
 2.打开【mpv.exe所在文件夹\data】下的mpv.conf，检查每一行开头是否都有#号，没有的话请添加#号（以#号开头的每行文本都会被mpv认为是注释，不会产生任何作用）。
 
@@ -153,7 +156,7 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 >write-filename-in-watch-later-config
 
-由于使用的是相对路径，今后变更路径后都无需对mpv.conf进行任何修改。
+由于使用的是相对路径，今后【mpv player播放器】文件夹（参考下面第三步）变更路径后都无需对mpv.conf进行任何修改。
 
 3.把mpv.exe所在的文件夹和【data】文件夹转移到你想要存放的路径下（支持中文路径），比如我们迁移到
 
@@ -161,7 +164,7 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 >D:\mpv player播放器\data
 
-4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到下面这个路径，mpv文件夹不存在请自行创建
+4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到下面这个路径下，【mpv】文件夹不存在请自行创建
 
 >C:\Users\用户名\AppData\Roaming\mpv
 
@@ -186,7 +189,9 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
  
 ### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
-【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的解释说明进行改进和bug修正
+【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键、注释、脚本下载页面的说明才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的注释进行改进和bug修正
 
->osd-bar.lua
+>osd-bar.lua  MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以让进度条一直显示
+
+
 
