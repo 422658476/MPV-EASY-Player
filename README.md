@@ -118,7 +118,7 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 
 **第二种(支持中文路径，但某些文件要复制到c盘):**
-
+![](./img/mpv-conf-dir-2.jpg)
 第二种则是从第一种演变而来，当你拥有第一种之后，在它基础上稍加操作就能变成第二种。
 
 第二种方法主要是利用mpv在c盘的配置文件夹本身就是纯英文路径来解决lua脚本不支持中文路径的问题。
@@ -159,9 +159,12 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 >D:\mpv player播放器\data
 
-4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到【
+4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到下面这个路径，mpv文件夹不存在请自行创建
 
 >C:\Users\用户名\AppData\Roaming\mpv
+
+5、每次修改完【data】文件夹中的数据后，重新执行第四步的操作后在运行mpv.exe，修改的内容才会生效；重装系统导致【C:\Users\用户名\AppData\Roaming\mpv】下的数据丢失，也只需要重新执行第四步即可正常。
+
 
 
 
