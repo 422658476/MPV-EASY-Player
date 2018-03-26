@@ -191,7 +191,28 @@ b.让mpv把历史记录文件保存到以下路径中
 
 【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键、注释、脚本下载页面的说明才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的注释进行改进和bug修正
 
->osd-bar.lua  MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以让进度条一直显示
+mpv可以使用的各种脚本请参考这个汇总页面
+
+https://github.com/mpv-player/mpv/wiki/User-Scripts
+
+>osd-bar.lua    MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示
+
+>playlistnoplayback.lua    MPV-EASY-Player原创，如果你启用了记录播放历史和进度功能，在播放播放列表时这个lua脚本可以解决播放下个文件时自动跳转到之前播放进度的问题，也就是让播放列表每次播放下个文件总是从头播放
+
+>other.js    MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。
+
+>osc.lua   MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc方面拥有完全的自定义，目前修改过的代码在较小尺寸还有显示bug
+
+>autoload.lua   自动加载为播放列表
+
+>ontop-playback.lua    播放时置顶显示
+
+>open-file-dialog.lua   显示打开文件界面，需要你按下脚本中的快捷键才能使用
+
+>pause-when-minimize.lua    最小化是自动暂停
+
+>playlistmanager.lua   高级播放列表，代码经过些许修改，需要你按下脚本中的快捷键才能使用
+
 
 
 
