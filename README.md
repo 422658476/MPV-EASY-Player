@@ -50,7 +50,7 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 windows下mpv支持读取的配置路径基本包含2种。你只需要选择使用其中一种即可。
 
-**第一种**
+**第一种(仅支持在纯英文路径下完全正常工作)**
 
 ![](./img/mpv-conf-dir-1.jpg)
 
@@ -72,7 +72,7 @@ mpv.exe所在文件夹\portable_config\scripts
 
 mpv.exe所在文件夹\portable_config\mpv.conf
 
-不理解的话请参考图片和manual.pdf文档
+不理解的话请参考上方图片，文件夹和文件的作用请参考manual.pdf文档
 
 mpv默认就会读取portable_config这个子文件夹下的各种配置，所以接下来所有的文件都会存放于portable_config文件夹中在改动。
 
@@ -82,16 +82,39 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 把【portable-data】文件夹内的所有东西放入【mpv.exe所在文件夹\portable_config】
 
-把【mpv-easy-data】整个文件夹直接放入【mpv.exe所在文件夹\portable_config】
+把【mpv-easy-data】**“连同文件夹本身”**直接放入【mpv.exe所在文件夹\portable_config】
 
 导入文件后就会和图上的结构一样了，你也可以在这时手动确认一下文件夹和文件结构是否和图上一样。
 
-4、
+4、修改mpv.conf文件内容，让mpv能够正常读取。
 
+修改mpv.conf的目的：
 
+引导mpv去读取下面路径中的配置文件
 
+mpv.exe所在文件夹\portable_config\mpv-easy-data\input.conf
 
+mpv.exe所在文件夹\portable_config\mpv-easy-data\rjno1.conf
 
+让mpv把历史记录文件保存到以下路径中
+
+mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
+
+打开mpv.conf，检查每一行开头是否都有#号，没有的话请添加#号（以#号开头的每行文本都会被mpv认为是注释，不会产生任何作用）。
+
+检查完毕之后往mpv.conf中添加下面这5行：
+
+input-conf=portable_config\mpv-easy-data\input.conf
+
+include=portable_config\mpv-easy-data\rjno1.conf
+
+watch-later-directory=portable_config\mpv-easy-data\watch_later
+
+profile="ini-rjno1"
+
+write-filename-in-watch-later-config
+
+由于使用的是相对路径，所以不管今后mpv player文件夹被移动到什么路径下（必须纯英文路径），无需任何修改配置都能正常工作。
 
 
 
