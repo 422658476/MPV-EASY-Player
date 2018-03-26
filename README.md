@@ -176,7 +176,9 @@ b.让mpv把历史记录文件保存到以下路径中
 
 注意：如果默认参数不能够让mpv正常工作的话，那就说明mpv在版本升级的时候进行了某些参数的更改，你需要对比新旧版本manual.pdf文档，或者查看更新日志找出差别。
 
+---
 ### 如果你的mpv需要一些最基本的默认参数，那么可以直接复制[rjno1.conf](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf)中的参数，然后在进行修改
+---
 
 ### 对mpv进行各种自定义主要修改哪些文件和文件夹
 
