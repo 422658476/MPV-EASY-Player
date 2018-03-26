@@ -82,9 +82,9 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 把【portable-data】文件夹内的所有东西放入【mpv.exe所在文件夹\portable_config】
 
-把【mpv-easy-data】这个文件夹直接放入【mpv.exe所在文件夹\portable_config】
+把【mpv-easy-data】整个文件夹直接放入【mpv.exe所在文件夹\portable_config】
 
-你就会得到和图上一样的文件夹结构了。
+导入文件后就会和图上的结构一样了，你也可以在这时手动确认一下文件夹和文件结构是否和图上一样。
 
 4、
 
