@@ -223,9 +223,9 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 如果你已经在windows下完全掌握了之前【如果如果如何把MPV-EASY Player的2个文件夹改变到适用于mpv(windows)】中描述的2种方法，那么这些设置迁移到mac和linux也非常简单，
 
-【portable-data】【mpv-easy-data】文件夹按照结构放到以下路径后，依旧按照上方教程修改一下mpv.conf文件即可
+【portable-data】【mpv-easy-data】文件夹中的内容依葫芦画瓢按照结构放到以下路径后，依旧按照上方教程修改一下mpv.conf文件即可
 
-linux（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到）：
+**linux**（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到，【mpv】文件夹可能需要自行创建）：
 
 ~/.config/mpv/lua-settings
 
@@ -235,7 +235,7 @@ linux（下方的~代表的是linux下的home分区，.config是一个隐藏文�
 
 ~/.config/mpv/mpv-easy-data
 
-mac（下方的~代表的是mac下的【个人目录】也就是home文件夹，.config是一个隐藏文件夹，需要【个人目录】下Command+Shift+G后输入.config后进入）：
+**mac**（下方的~代表的是mac下的【个人目录】也就是home文件夹，.config是一个隐藏文件夹，需要【个人目录】下Command+Shift+G后输入.config后进入，【mpv】文件夹可能需要自行创建）：
 
 【个人目录】=finder->mac->mac系统分区->用户文件夹->用户名文件夹
 
