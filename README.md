@@ -184,7 +184,7 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 >lua-settings文件夹  在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
 
  
-### [【portable-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
+### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
 【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的解释说明进行改进和bug修正
 
