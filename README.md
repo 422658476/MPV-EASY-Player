@@ -1,6 +1,6 @@
 # MPV-EASY Player
 ![](./img/mpv-logo-128.png)
-### MPV-EASY Player 一个易于使用,基于MPV的播放器
+### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html) 一个易于使用,基于MPV的播放器
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
 
