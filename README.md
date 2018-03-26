@@ -64,13 +64,13 @@ windows下mpv支持读取的配置路径基本包含2种。你只需要选择使
 
 打开mpv.exe所在的文件夹(例子中也就是开打mpv player文件夹)，以mpv.exe所在的路径创建以下子文件夹和文件，这些文件和文件夹的名字和路径都是不能变动的。
 
-mpv.exe所在文件夹\portable_config
+>mpv.exe所在文件夹\portable_config
 
-mpv.exe所在文件夹\portable_config\lua-settings
+>mpv.exe所在文件夹\portable_config\lua-settings
 
-mpv.exe所在文件夹\portable_config\scripts
+>mpv.exe所在文件夹\portable_config\scripts
 
-mpv.exe所在文件夹\portable_config\mpv.conf
+>mpv.exe所在文件夹\portable_config\mpv.conf
 
 不理解的话请参考上方图片，文件夹和文件的作用请参考manual.pdf文档
 
@@ -92,13 +92,13 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 引导mpv去读取下面路径中的配置文件
 
-mpv.exe所在文件夹\portable_config\mpv-easy-data\input.conf
+>mpv.exe所在文件夹\portable_config\mpv-easy-data\input.conf
 
-mpv.exe所在文件夹\portable_config\mpv-easy-data\rjno1.conf
+>mpv.exe所在文件夹\portable_config\mpv-easy-data\rjno1.conf
 
 让mpv把历史记录文件保存到以下路径中
 
-mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
+>mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
 
 打开mpv.conf，检查每一行开头是否都有#号，没有的话请添加#号（以#号开头的每行文本都会被mpv认为是注释，不会产生任何作用）。
 
