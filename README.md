@@ -50,7 +50,7 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 windows下mpv支持读取的配置路径基本包含2种。你只需要选择使用其中一种即可。
 
-**第一种(仅支持在纯英文路径下完全正常工作)**
+**第一种(仅支持在纯英文路径下完全正常工作):**
 
 ![](./img/mpv-conf-dir-1.jpg)
 
@@ -64,13 +64,13 @@ windows下mpv支持读取的配置路径基本包含2种。你只需要选择使
 
 打开mpv.exe所在的文件夹(例子中也就是开打mpv player文件夹)，以mpv.exe所在的路径创建以下子文件夹和文件，这些文件和文件夹的名字和路径都是不能变动的。
 
-mpv.exe所在文件夹\portable_config
+>mpv.exe所在文件夹\portable_config
 
-mpv.exe所在文件夹\portable_config\lua-settings
+>mpv.exe所在文件夹\portable_config\lua-settings
 
-mpv.exe所在文件夹\portable_config\scripts
+>mpv.exe所在文件夹\portable_config\scripts
 
-mpv.exe所在文件夹\portable_config\mpv.conf
+>mpv.exe所在文件夹\portable_config\mpv.conf
 
 不理解的话请参考上方图片，文件夹和文件的作用请参考manual.pdf文档
 
@@ -92,37 +92,76 @@ mpv默认就会读取portable_config这个子文件夹下的各种配置，所�
 
 引导mpv去读取下面路径中的配置文件
 
-mpv.exe所在文件夹\portable_config\mpv-easy-data\input.conf
+>mpv.exe所在文件夹\portable_config\mpv-easy-data\input.conf
 
-mpv.exe所在文件夹\portable_config\mpv-easy-data\rjno1.conf
+>mpv.exe所在文件夹\portable_config\mpv-easy-data\rjno1.conf
 
 让mpv把历史记录文件保存到以下路径中
 
-mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
+>mpv.exe所在文件夹\portable_config\mpv-easy-data\watch_later
 
-打开mpv.conf，检查每一行开头是否都有#号，没有的话请添加#号（以#号开头的每行文本都会被mpv认为是注释，不会产生任何作用）。
+打开【mpv.exe所在文件夹\portable_config】下的mpv.conf，检查每一行开头是否都有#号，没有的话请添加#号（以#号开头的每行文本都会被mpv认为是注释，不会产生任何作用）。
 
 检查完毕之后往mpv.conf中添加下面这5行：
 
-input-conf=portable_config\mpv-easy-data\input.conf
+>input-conf=portable_config\mpv-easy-data\input.conf
 
-include=portable_config\mpv-easy-data\rjno1.conf
+>include=portable_config\mpv-easy-data\rjno1.conf
 
-watch-later-directory=portable_config\mpv-easy-data\watch_later
+>watch-later-directory=portable_config\mpv-easy-data\watch_later
 
-profile="ini-rjno1"
+>profile="ini-rjno1"
 
-write-filename-in-watch-later-config
+>write-filename-in-watch-later-config
 
-由于使用的是相对路径，所以不管今后mpv player文件夹被移动到什么路径下（必须纯英文路径），无需任何修改配置都能正常工作。
-
-
+由于使用的是相对路径，所以不管今后mpv player文件夹被移动到任何**纯英文路径**下，无需任何修改配置都能正常工作。
 
 
+**第二种(支持中文路径，但某些文件要复制到c盘):**
 
+第二种则是从第一种演变而来，当你拥有第一种之后，在它基础上稍加操作就能变成第二种。
 
+第二种方法主要是利用mpv在c盘的配置文件夹本身就是纯英文路径来解决lua脚本不支持中文路径的问题。
 
+1.重命名第一种中的【portable_config】文件夹，比如重命名成【data】文件夹，你将会得到以下这些，就像图中那样
 
+>mpv.exe所在文件夹\data
+
+>mpv.exe所在文件夹\data\lua-settings
+
+>mpv.exe所在文件夹\data\scripts
+
+>mpv.exe所在文件夹\data\mpv.conf
+
+【data】文件夹可以移动和更改到任何路径下，如果想要和mpv一起方便迁移，那么还是建议放在mpv.exe所在文件夹下
+
+2.打开【mpv.exe所在文件夹\data】下的mpv.conf，检查每一行开头是否都有#号，没有的话请添加#号（以#号开头的每行文本都会被mpv认为是注释，不会产生任何作用）。
+
+修改mpv.conf的目的：引导mpv去读取下面路径中的配置文件
+
+检查完毕之后mpv.conf中之前这5行修改成：
+
+>input-conf=data\input.conf
+
+>include=data\mpv-easy-data\rjno1.conf
+
+>watch-later-directory=data\mpv-easy-data\watch_later
+
+>profile="ini-rjno1"
+
+>write-filename-in-watch-later-config
+
+由于使用的是相对路径，今后变更路径后都无需对mpv.conf进行任何修改。
+
+3.把mpv.exe所在的文件夹和【data】文件夹转移到你想要存放的路径下（支持中文路径），比如我们迁移到
+
+>D:\mpv player播放器\mpv.exe
+
+>D:\mpv player播放器\data
+
+4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到【
+
+>C:\Users\用户名\AppData\Roaming\mpv
 
 
 
