@@ -9,6 +9,9 @@ MPV-EASY Player 一个易于使用,基于MPV的播放器
 
 不过既然除了2个exe文件，MPV-EASY Player具有的其他文件已经放到了github这里，那么这些文件对于你使用原版mpv肯定是非常有用的，少许修改放入mpv中就能让mpv获得一些或者很多的提升。
 
+如何获得MPV的manual.pdf（说明文档）
+https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档，也可以下载到pdf版，或者在你下载的mpv压缩包中也是包含这个manual.pdf的。
+
 
 
 
