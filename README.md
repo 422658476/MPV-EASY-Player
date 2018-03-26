@@ -55,21 +55,37 @@ windows下mpv支持读取的配置路径基本包含2种。你只需要选择使
 ![](./img/mpv-conf-dir-1.jpg)
 
 步骤：
+
 1.下载程序。
+
 从网上https://mpv.srsfckn.biz/ 或者 https://sourceforge.net/projects/mpv-player-windows/files/ 下载mpv程序的压缩包，解压到本地，比如图上是解压到mpv player文件夹下，所以你可以在mpv player文件夹中看到mpv.exe这个文件。
+
 2.创建不能变动的文件夹和文件。
+
 打开mpv.exe所在的文件夹(例子中也就是开打mpv player文件夹)，以mpv.exe所在的路径创建以下子文件夹和文件，这些文件和文件夹的名字和路径都是不能变动的。
+
 mpv.exe所在文件夹\portable_config
+
 mpv.exe所在文件夹\portable_config\lua-settings
+
 mpv.exe所在文件夹\portable_config\scripts
+
 mpv.exe所在文件夹\portable_config\mpv.conf
+
 不理解的话请参考图片和manual.pdf文档
+
 mpv默认就会读取portable_config这个子文件夹下的各种配置，所以接下来所有的文件都会存放于portable_config文件夹中在改动。
+
 3、文件导入到portable_config文件夹下。
+
 从这个网页顶部打包下载【portable-data】【mpv-easy-data】文件夹。
+
 把【portable-data】文件夹内的所有东西放入【mpv.exe所在文件夹\portable_config】
+
 把【mpv-easy-data】这个文件夹直接放入【mpv.exe所在文件夹\portable_config】
+
 你就会得到和图上一样的文件夹结构了。
+
 4、
 
 
