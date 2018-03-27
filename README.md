@@ -239,6 +239,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 【portable-data】【mpv-easy-data】文件夹中的内容依葫芦画瓢按照结构放到以下路径后，依旧按照上方教程修改一下mpv.conf文件即可
 
+---
 **linux**（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到，【mpv】文件夹可能需要自行创建）：
 
 ~/.config/mpv/lua-settings
@@ -249,6 +250,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 ~/.config/mpv/mpv-easy-data
 
+---
 **mac**（下方的~代表的是mac下的【个人目录】也就是home文件夹，.config是一个隐藏文件夹，需要【个人目录】下Command+Shift+G后输入.config后进入，【mpv】文件夹可能需要自行创建）：
 
 【个人目录】=finder->mac->mac系统分区->用户文件夹->用户名文件夹
