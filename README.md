@@ -253,6 +253,8 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 ---
 **mac**（下方的~代表的是mac下的【个人目录】也就是home文件夹，.config是一个隐藏文件夹，需要【个人目录】下Command+Shift+G后输入.config后进入，【mpv】文件夹可能需要自行创建）：
 
+![](./img/mpv-easy-player-mac.jpg)
+
 【个人目录】=finder->mac->mac系统分区->用户文件夹->用户名文件夹
 
 mac没有home？no no no
