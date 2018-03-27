@@ -264,3 +264,17 @@ mac没有home？no no no
 ~/.config/mpv/mpv.conf
 
 ~/.config/mpv/mpv-easy-data
+
+**mpv for mac**的某些缺陷（0.28.2时存在的）
+
+mpv for mac在osc样式方面的显示是有缺陷的，表现在于使用seekbarstyle参数更改osc进度条样式后，进度条的样式依旧不变或者显示的是和说明文档中不一样的样式，所以，如果你遇到了这个问题，请打开下方这个配置文件
+
+~/.config/mpv/lua-settings/osc.conf
+
+使用#号注释掉seekbarstyle这行，也就是
+
+seekbarstyle=***  ---->  #seekbarstyle=***
+
+如果还是有osc方面的问题，可以顺便注释一下同一文件中的layout这行，也就是
+
+layout=***  ---->  #layout=***
