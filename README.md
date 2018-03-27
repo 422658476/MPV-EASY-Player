@@ -30,7 +30,7 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 查看说明文档当然是重中之重，你可以知道哪些文件要放在什么路径下才会生效，什么参数才能激活什么功能，**十万个mpv的为什么**尽在其中。不过文档是英文的，看的时候用个翻译软件吧。
 
-### [【portable-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data)[【mpv-easy-data】2个文件夹的益处](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data)
+### [【portable-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data)[【mpv-easy-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data)2个文件夹的益处
 
 既然我已经上传了这2个文件夹中的所有文件，那就说明你看manual.pdf的负担能够减轻很多（写MPV-EASY Player也是为了减轻大家的负担，毕竟很多痛苦的过程，浪费的时间一个人承受就足够了），甚至只需要打开这2个文件夹中的一些文件，对里面的文本进行复制粘贴即可获得你想要的结果，**所以下面这些文字的目的都是为了把MPV-EASY Player中的大部分功能迁移到mpv下作的说明**，你也可以了解2者在运行和功能方面的差异，
 
