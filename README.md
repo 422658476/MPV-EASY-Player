@@ -182,15 +182,15 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ### 对mpv进行各种自定义主要修改哪些文件和文件夹
 
->mpv-easy-data\input.conf         主要用来自定义快捷键，文件中已经包含了充分的示例，也已经有了少量修改的快捷键
+>mpv-easy-data\input.conf         ----> 主要用来自定义快捷键，文件中已经包含了充分的示例，也已经有了少量修改的快捷键
 
->mpv-easy-data\rjno1.conf         主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
+>mpv-easy-data\rjno1.conf         ----> 主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
 
->scripts文件夹         从网上得到的mpv的lua脚本、js脚本、自己制作的lua、js脚本要放在这个文件夹中才会被mpv有效读取
+>scripts文件夹         ----> 从网上得到的mpv的lua脚本、js脚本、自己制作的lua、js脚本要放在这个文件夹中才会被mpv有效读取
 
->lua-settings文件夹         在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
+>lua-settings文件夹         ----> 在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
 
->lua-settings/osc.conf         这个文件可以调整mpv官方给出的所有osc设置
+>lua-settings/osc.conf         ----> 这个文件可以调整mpv官方给出的所有osc设置
 
 ### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
@@ -198,27 +198,27 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ![](./img/mpv-easy-player-osd-bar-lua.jpg)
 
->osd-bar.lua         MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示
+>osd-bar.lua         ----> MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示
 
->playlistnoplayback.lua         MPV-EASY-Player原创，如果你启用了记录播放历史和进度功能，在播放播放列表时这个lua脚本可以解决播放下个文件时自动跳转到之前播放进度的问题，也就是让播放列表每次播放下个文件总是从头播放
+>playlistnoplayback.lua         ----> MPV-EASY-Player原创，如果你启用了记录播放历史和进度功能，在播放播放列表时这个lua脚本可以解决播放下个文件时自动跳转到之前播放进度的问题，也就是让播放列表每次播放下个文件总是从头播放
 
->other.js         MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。
+>other.js         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。
 
 ![](./img/mpv-easy-player-osc-lua.jpg)
 
->osc.lua         MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc方面拥有完全的自定义，目前修改过的代码在较小尺寸还有显示bug。
+>osc.lua         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc方面拥有完全的自定义，目前修改过的代码在较小尺寸还有显示bug。
 
 **注意** 如果你想要使用mpv的原版osc界面，请删除osc.lua这个文件或者把它重命名成非lua后缀名
 
->autoload.lua         自动加载为播放列表
+>autoload.lua         ----> 自动加载为播放列表
 
->ontop-playback.lua         播放时置顶显示
+>ontop-playback.lua         ----> 播放时置顶显示
 
->open-file-dialog.lua         显示打开文件界面，需要你按下脚本中的快捷键才能使用
+>open-file-dialog.lua         ----> 显示打开文件界面，需要你按下脚本中的快捷键才能使用
 
->pause-when-minimize.lua         最小化是自动暂停
+>pause-when-minimize.lua         ----> 最小化是自动暂停
 
->playlistmanager.lua         高级播放列表，代码经过些许修改，需要你按下脚本中的快捷键才能使用
+>playlistmanager.lua         ----> 高级播放列表，代码经过些许修改，需要你按下脚本中的快捷键才能使用
 
 
 ### mpv可以使用的各种脚本请参考这个汇总页面
