@@ -196,7 +196,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键、注释、脚本下载页面的说明才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的注释进行改进和bug修正
 
-![](mpv-easy-player-osd-bar-lua.jpg)
+![](./img/mpv-easy-player-osd-bar-lua.jpg)
 
 >osd-bar.lua    MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示
 
