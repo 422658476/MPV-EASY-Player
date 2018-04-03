@@ -267,9 +267,9 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >open-file-dialog.lua         ----> 显示打开文件界面，需要你按下脚本中的快捷键才能使用
 
->pause-when-minimize.lua         ----> 最小化是自动暂停
+>pause-when-minimize.lua         ----> 最小化时自动暂停
 
->playlistmanager.lua         ----> 高级播放列表，代码经过些许修改，需要你按下脚本中的快捷键才能使用
+>playlistmanager.lua         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
 
 
 ### mpv可以使用的各种脚本请参考这个汇总页面
@@ -279,9 +279,25 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 ### 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(mac和linux)
 
+由于MPV-EASY Player并没有mac和linux版，上面的教程加上下方的教程，可以让你自己在mac和linux下创造出一个MPV-EASY Player for mac、MPV-EASY Player for linux，虽然操作功能方面有精简，但是在平时使用时的外观和功能大部分都是一样的。
+
+聪明的你甚至可以在windows下调整好MPV-EASY Player的功能，然后再把这些调整后的文件转移到mac或linux下使用，从而省去手动修改配置文件和查阅说明文档的烦恼，不过这样操作的时候有些地方需要小心：
+
+### 由于MPV-EASY Player默认启用了硬解，而mac和linux下MPV使用硬解的参数的值和windows下可能是不同的，如果你从windows中迁移到mac或者linux下是这个参数不修改，可能会导致播放失败，最典型的现象就是双击播放后mpv一闪而过，播放失败，mpv自动退出了。
+
+如果你遇到了这个问题，那么请查看这个参数的值：vo，这个参数存在于：
+
+>mpv-easy-data\rjno1.conf 
+
+同时rjno1.conf中的另一个参数：hwdec的值一定要确定是auto（也就是hwdec=auto，这样一来hwdec这个参数就不会成为造成播放失败的原因之一了），由于vo和hwdec的值对于硬解都起到至关重要的作用，并且相互影响，播放失败时问题的根源往往和这2个参数有关。
+
+当hwdec=auto时，这个文件中，你只需要在说明文档中查看vo=后的面的值是否是否支持你使用的系统即可，如果不兼容的话就手动改成现在系统兼容的值。
+
+如果你并不想要搞清楚这个问题，只想要mpv在mac或者linux下能够正常工作，那么也非常简单，你在windows下调整MPV-EASY Player的功能时，只需要在设置界面中把硬解切换成软解后再把这些调整后的文件转移到mac或linux下使用即可，软解对于所有系统的兼容性都是一样的。
+
 如果你已经在windows下完全掌握了之前【如果如果如何把MPV-EASY Player的2个文件夹改变到适用于mpv(windows)】中描述的2种方法，那么这些设置迁移到mac和linux也非常简单，
 
-【portable-data】【mpv-easy-data】文件夹中的内容依葫芦画瓢按照结构放到以下路径后，依旧按照上方教程修改一下mpv.conf文件即可
+【portable-data】【mpv-easy-data】文件夹中的内容依葫芦画瓢按照结构放到以下路径后，依旧按照上方教程（方法一）修改一下mpv.conf文件即可
 
 ---
 **linux**（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到，【mpv】文件夹可能需要自行创建）：
