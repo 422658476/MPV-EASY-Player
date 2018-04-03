@@ -213,7 +213,45 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ![](./img/mpv-easy-player-osc-lua.jpg)
 
->osc.lua         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc方面拥有完全的自定义，目前修改过的代码在较小尺寸还有显示bug。
+![](./img/mpv-easy-player-1.png)
+
+### 看到上面图上这些osc样式了吗？它们不仅可以存在于mpv-easy player中，你使用的mpv的osc也可以变成这样。
+
+操作步骤也非常简单，只需要：
+
+从[【mpv-easy-data/osc-style】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style)中下载所有osc-XXX.lua文件。这些lua文件都是mpv-easy player原创（修改自官方的osc.lua），每一个代表一种风格。
+
+#### 比如【osc-mpc-be-blue-box-bar-or-knob-20-60.lua】，为什么这个lua的文件名这么长？
+
+这是因为它的命名规范为【文件名-osc样式-进度条样式-osc透明度范围-osc透明度范围.lua】，也就是说这个文件名在
+
+>osc样式=box
+
+>进度条样式=bar或者knob
+
+>sc透明度=在20-60之间
+
+才会带有最好的显示效果。
+
+### 如何操作才能让例子中的【osc-mpc-be-blue-box-bar-or-knob-20-60.lua】生效呢？
+
+1、把osc-mpc-be-blue-box-bar-or-knob-20-60.lua重命名成osc.lua
+
+2、把重命名后的osc.lua复制到portable-data\scripts文件夹下，覆盖portable-data\scripts\osc.lua这个同名文件
+
+3、打开portable-data\lua-settings\osc.conf文件，修改成这样
+
+>layout=box
+
+>seekbarstyle=bar
+
+>boxalpha=45
+
+4、第二步中所说的那三样就对应第三步中的三个参数，更改好后重新运行mpv就可以看到osc的样式改变了。
+
+
+
+>osc.lua         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc方面拥有完全的自定义。
 
 **注意** 如果你想要使用mpv的原版osc界面，请删除osc.lua这个文件或者把它重命名成非lua后缀名
 
