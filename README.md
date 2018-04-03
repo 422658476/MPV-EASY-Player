@@ -191,13 +191,13 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >mpv-easy-data\rjno1.conf         ----> 主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
 
->scripts文件夹         ----> 从网上得到的mpv的lua脚本、js脚本、自己制作的lua、js脚本要放在这个文件夹中才会被mpv有效读取
+>portable-data\scripts文件夹         ----> 从网上得到的mpv的lua脚本、js脚本、自己制作的lua、js脚本要放在这个文件夹中才会被mpv有效读取
 
->lua-settings文件夹         ----> 在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
+>portable-data\lua-settings文件夹         ----> 在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
 
->lua-settings/osc.conf         ----> 这个文件可以调整mpv官方给出的所有osc设置
+>portable-data\lua-settings\osc.conf         ----> 这个文件可以调整mpv官方给出的所有osc设置
 
->lua-settings/stats.conf         ----> 这个文件可以调整查看视频详细信息界面的各个参数，已经调整为半透明
+>portable-data\lua-settings\stats.conf         ----> 这个文件可以调整查看视频详细信息界面的各个参数，已经调整为半透明
 
 ### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
