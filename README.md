@@ -212,6 +212,12 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >other.js         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。这个js脚本的已知问题和缺陷请查看内容中的注释部分
 
+![](./img/mpv-easy-player-osc-lua.jpg)
+
+>osc.lua         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc样式方面拥有完全的自定义。
+
+**注意** 如果你想要使用mpv的原版osc界面，请删除osc.lua这个文件或者把它重命名成非lua后缀名
+
 ---
 ########################下面是插播########################
 
@@ -254,13 +260,6 @@ b.让mpv把历史记录文件保存到以下路径中
 ########################插播结束########################
 
 ---
-
-
-![](./img/mpv-easy-player-osc-lua.jpg)
-
->osc.lua         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc方面拥有完全的自定义。
-
-**注意** 如果你想要使用mpv的原版osc界面，请删除osc.lua这个文件或者把它重命名成非lua后缀名
 
 >autoload.lua         ----> 自动加载为播放列表
 
