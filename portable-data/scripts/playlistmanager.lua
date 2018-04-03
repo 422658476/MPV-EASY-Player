@@ -128,8 +128,10 @@ local settings = {
   --%N = newline
   --playlist_header_0 = "键盘操作方式: [上][下]:选择或选中某项后调整选中项顺序  [p]:重新排序",
   --playlist_header_1  = "[k]:保存高级播放列表  [右]:选中/不选中  [左]:移除当前项目  [回车]:播放当前项目",
+  playlist_header_lang = "chs",
+  playlist_header_chs = "正在播放: %filename%N%N高级播放列表 - %cursor/%plen",
+  playlist_header_eng = "Playing: %filename%N%Nadvanced playlist - %cursor/%plen",
   playlist_header = "正在播放: %filename%N%N高级播放列表 - %cursor/%plen",
-
   --playlist display signs, prefix is before filename, and suffix after
   --currently playing file 
   playing_str_prefix = "▷ - ",
@@ -174,6 +176,16 @@ opts.read_options(settings, "playlistmanager")
 local utils = require("mp.utils")
 local msg = require("mp.msg")
 local assdraw = require("mp.assdraw")
+
+
+--高级播放列表添加多国语言支持
+if(settings.playlist_header_lang =="chs") then
+  settings.playlist_header = settings.playlist_header_chs
+else
+  settings.playlist_header = settings.playlist_header_eng
+end
+
+
 
 --parse filename json
 if(settings.filename_replace~="") then
