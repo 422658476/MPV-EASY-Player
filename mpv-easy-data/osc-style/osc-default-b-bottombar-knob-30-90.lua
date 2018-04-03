@@ -46,7 +46,7 @@ local user_opts = {
     timems = false,             -- display timecodes with milliseconds?
     seekranges = true,          -- display seek ranges?
     visibility = "auto",        -- only used at init to set visibility_mode(...)
-    boxmaxchars = 140,           -- title crop threshold for box layout
+    boxmaxchars = 145,           -- title crop threshold for box layout
 }
 
 -- read_options may modify hidetimeout, so save the original default value in
@@ -68,23 +68,23 @@ local osc_param = { -- calculated by osc_init()
 }
 
 local osc_styles = {
-    bigButtons = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs50\\fnmpv-osd-symbols}",
-    smallButtonsL = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs19\\fnmpv-osd-symbols}",
+    bigButtons = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs50\\fnmpv-osd-symbols}",
+    smallButtonsL = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs19\\fnmpv-osd-symbols}",
     smallButtonsLlabel = "{\\fscx105\\fscy105\\fn" .. mp.get_property("options/osd-font") .. "}",
-    smallButtonsR = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs30\\fnmpv-osd-symbols}",
-    topButtons = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs12\\fnmpv-osd-symbols}",
+    smallButtonsR = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs30\\fnmpv-osd-symbols}",
+    topButtons = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs12\\fnmpv-osd-symbols}",
 
     elementDown = "{\\1c&H999999}",
-    timecodes = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs20}",
-    vidtitle = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs20\\q2}",
-    box = "{\\rDefault\\blur0\\bord0\\1c&HF8EEDD\\3c&HFFFFFF}",
+    timecodes = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs20}",
+    vidtitle = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs20\\q2}",
+    box = "{\\rDefault\\blur0\\bord0\\1c&H585758\\3c&HFFFFFF}",
 --1c&H<XXXXXX>---改变主体颜色---格式同上
 --3c&H<XXXXXX>---改变边框颜色---格式同上 
-    topButtonsBar = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs18\\fnmpv-osd-symbols}",
-    smallButtonsBar = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs28\\fnmpv-osd-symbols}",
-    timecodesBar = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs27}",
+    topButtonsBar = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs18\\fnmpv-osd-symbols}",
+    smallButtonsBar = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs28\\fnmpv-osd-symbols}",
+    timecodesBar = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs27}",
     timePosBar = "{\\blur0\\bord".. user_opts.tooltipborder .."\\1c&HFFFFFF\\3c&H000000\\fs30}",
-    vidtitleBar = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs18\\q2}",
+    vidtitleBar = "{\\blur0\\bord0\\1c&HF5F5F5\\3c&HFFFFFF\\fs18\\q2}",
 }
 
 -- internal states, do not touch
@@ -1431,7 +1431,7 @@ else
     geo = { x = t_l, y = geo.y, an = 4,
             w = t_r, h = geo.h }
 end	
-
+	
     lo = add_layout("title")
     lo.geometry = geo
     lo.style = string.format("%s{\\clip(%f,%f,%f,%f)}",
