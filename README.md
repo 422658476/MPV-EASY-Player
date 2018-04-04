@@ -227,7 +227,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 操作步骤也非常简单，只需要：
 
-从[【mpv-easy-data/osc-style】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style)中下载所有osc-XXX.lua文件。这些lua文件都是mpv-easy player原创（修改自官方的osc.lua），每一个代表一种风格。
+从[【mpv-easy-data/osc-style】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data/osc-style)中下载所有osc-XXX.lua文件。这些lua文件都是mpv-easy player原创（修改自官方的osc.lua），每一个代表一种或者多种风格。
 
 #### 比如【osc-mpc-be-blue-box-bar-or-knob-20-60.lua】，为什么这个lua的文件名这么长？
 
