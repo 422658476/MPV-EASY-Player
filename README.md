@@ -75,7 +75,7 @@ windows下mpv支持读取的配置路径基本包含2种。你只需要选择使
 
 >>mpv.exe所在文件夹\portable_config\lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
->>mpv.exe所在文件夹\portable_config\script-opts    (如果使用mpv 0.28.2 2018-3-30后的版本)    
+>>mpv.exe所在文件夹\portable_config\script-opts    (如果使用2018-3-30后的版本)    
 
 >mpv.exe所在文件夹\portable_config\scripts
 
@@ -142,7 +142,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >>mpv.exe所在文件夹\portable_config\lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
->>mpv.exe所在文件夹\portable_config\script-opts    (如果使用mpv 0.28.2 2018-3-30后的版本)  
+>>mpv.exe所在文件夹\portable_config\script-opts    (如果使用2018-3-30后的版本)  
 
 >mpv.exe所在文件夹\data\scripts
 
@@ -208,15 +208,15 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >>portable-data\lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
->>portable-data\script-opts    (如果使用mpv 0.28.2 2018-3-30后的版本)  
+>>portable-data\script-opts    (如果使用2018-3-30后的版本)  
 
 >portable-data\lua-settings\osc.conf         ----> 这个文件可以调整mpv官方给出的所有osc设置
 
->>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
 >portable-data\lua-settings\stats.conf         ----> 这个文件可以调整查看视频详细信息界面的各个参数，已经调整为半透明
 
->>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
 ### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
@@ -267,7 +267,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 3、打开portable-data\lua-settings\osc.conf文件，修改成这样
 
->>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
 >layout=box
 
@@ -326,7 +326,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 >>~/.config/mpv/lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
->>~/.config/mpv/script-opts    (如果使用mpv 0.28.2 2018-3-30后的版本)  
+>>~/.config/mpv/script-opts    (如果使用mpv 2018-3-30后的版本)  
 
 
 ~/.config/mpv/scripts
@@ -350,7 +350,7 @@ mac没有home？no no no
 
 >>~/.config/mpv/lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
->>~/.config/mpv/script-opts    (如果使用mpv 0.28.2 2018-3-30后的版本)  
+>>~/.config/mpv/script-opts    (如果使用mpv 2018-3-30后的版本)  
 
 ~/.config/mpv/scripts
 
@@ -364,7 +364,7 @@ mpv for mac在osc样式方面的显示是有缺陷的，表现在于使用seekba
 
 ~/.config/mpv/lua-settings/osc.conf
 
->>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
 使用#号注释掉seekbarstyle这行，也就是
 
