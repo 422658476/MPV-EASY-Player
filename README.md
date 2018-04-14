@@ -179,7 +179,7 @@ b.让mpv把历史记录文件保存到以下路径中
 >D:\mpv player播放器\data
 
 4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到下面这个路径下，【mpv】文件夹不存在请自行创建
->>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
 
 >C:\Users\用户名\AppData\Roaming\mpv
