@@ -1,7 +1,3 @@
---此lua脚本由软件No1修改并提供支持
---This lua script is modified by www.rjno1.com
---此lua脚本原始版本： github.com/mpv-player/mpv/blob/master/player/lua/osc.lua
---The original version of this lua script：github.com/mpv-player/mpv/blob/master/player/lua/osc.lua
 local assdraw = require 'mp.assdraw'
 local msg = require 'mp.msg'
 local opt = require 'mp.options'

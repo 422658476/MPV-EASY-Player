@@ -684,6 +684,7 @@ function add_keybinds()
 end
 
 function remove_keybinds()
+  keybindstimer:kill()
   mp.set_osd_ass(0, 0, "")
   playlist_visible = false
   if settings.dynamic_binds then
