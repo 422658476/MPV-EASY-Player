@@ -179,6 +179,8 @@ b.让mpv把历史记录文件保存到以下路径中
 >D:\mpv player播放器\data
 
 4、复制或剪切（建议复制）【data】文件夹下的【lua-settings】、【scripts】文件夹和【mpv.conf】文件到下面这个路径下，【mpv】文件夹不存在请自行创建
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+
 
 >C:\Users\用户名\AppData\Roaming\mpv
 
@@ -210,7 +212,11 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >portable-data\lua-settings\osc.conf         ----> 这个文件可以调整mpv官方给出的所有osc设置
 
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
+
 >portable-data\lua-settings\stats.conf         ----> 这个文件可以调整查看视频详细信息界面的各个参数，已经调整为半透明
+
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
 
 ### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
@@ -260,6 +266,8 @@ b.让mpv把历史记录文件保存到以下路径中
 2、把重命名后的osc.lua复制到portable-data\scripts文件夹下，覆盖portable-data\scripts\osc.lua这个同名文件
 
 3、打开portable-data\lua-settings\osc.conf文件，修改成这样
+
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
 
 >layout=box
 
@@ -355,6 +363,8 @@ mac没有home？no no no
 mpv for mac在osc样式方面的显示是有缺陷的，表现在于使用seekbarstyle参数更改osc进度条样式后，进度条的样式依旧不变或者显示的是和说明文档中不一样的样式，所以，如果你遇到了这个问题，请打开下方这个配置文件
 
 ~/.config/mpv/lua-settings/osc.conf
+
+>>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 0.28.2 2018-3-30后的版本，lua-settings请换成script-opts
 
 使用#号注释掉seekbarstyle这行，也就是
 
