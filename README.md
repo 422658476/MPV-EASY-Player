@@ -340,6 +340,8 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 ![](./img/mpv-easy-player-mac.jpg)
 
+![](./img/mpv-easy-player-in-mac-os-x.png)
+
 【个人目录】=finder->mac->mac系统分区->用户文件夹->用户名文件夹
 
 mac没有home？no no no
