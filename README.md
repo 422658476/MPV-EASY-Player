@@ -71,7 +71,7 @@ windows下mpv支持读取的配置路径基本包含2种。你只需要选择使
 
 >mpv.exe所在文件夹\portable_config
 
->mpv.exe所在文件夹\portable_config\XXXXXXX   (根据备注的信息 XXXXXXX部分从下面2条中选一个)
+>mpv.exe所在文件夹\portable_config\XXXXXXX   (根据下方信息 从下面2条中选一个)
 
 >>mpv.exe所在文件夹\portable_config\lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
@@ -138,7 +138,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >mpv.exe所在文件夹\data
 
->mpv.exe所在文件夹\portable_config\XXXXXXX   (根据备注的信息 XXXXXXX部分从下面2条中选一个)
+>mpv.exe所在文件夹\portable_config\XXXXXXX   (根据下方信息 从下面2条中选一个)
 
 >>mpv.exe所在文件夹\portable_config\lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
@@ -202,7 +202,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >portable-data\scripts文件夹         ----> 从网上得到的mpv的lua脚本、js脚本、自己制作的lua、js脚本要放在这个文件夹中才会被mpv有效读取
 
->portable-data\XXXXXXX   (根据备注的信息 XXXXXXX部分从下面2条中选一个)         ----> 在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
+>portable-data\XXXXXXX   (根据下方信息 从下面2条中选一个)        ----> 在这个文件夹中创建和脚本名字对应的.conf文件，可以更改脚本中提供的设置，具体用法要看脚本作者对脚本的解释说明
 
 >>portable-data\lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
@@ -314,7 +314,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 ---
 **linux**（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到，【mpv】文件夹可能需要自行创建）：
 
-~/.config/mpv/XXXXXXX  (根据备注的信息 XXXXXXX部分从下面2条中选一个)
+~/.config/mpv/XXXXXXX  (根据下方信息 从下面2条中选一个)
 
 >>~/.config/mpv/lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
@@ -338,7 +338,7 @@ mac没有home？no no no
 
 使用mac系统的绝大部分人【个人目录】应该都放在了系统分区，如果你已经给mac分过区，并且使用过【设置】-【用户与群组】-【当前用户】右键菜单-【高级选项】-【个人目录】，那么可以把【个人目录】像linux一样挂载到非系统目录下，这样的好处显而易见，个人资料和设置与系统完全分离，重装系统最为干净。
 
-~/.config/mpv/XXXXXXX  (根据备注的信息 XXXXXXX部分从下面2条中选一个)
+~/.config/mpv/XXXXXXX  (根据下方信息 从下面2条中选一个)
 
 >>~/.config/mpv/lua-settings   (如果使用mpv 0.28.2 2018-3-30前的版本)
 
