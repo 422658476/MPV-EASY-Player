@@ -277,6 +277,10 @@ b.让mpv把历史记录文件保存到以下路径中
 
 4、osc样式、进度条样式、osc透明度范围就是对应layout、seekbarstyle、boxalpha这三个参数，更改好osc.conf文件后，重新运行mpv就可以看到osc的样式改变了。
 
+如果你想要自己制作这样的OSC外观样式呢？
+
+### [教程:如何制作MPV-EASY Player/MPV Player的OSC外观样式](http://www.rjno1.com/infor/diy/3019-modify-mpv-osc-style.html)
+
 ########################插播结束########################
 
 ---
