@@ -241,6 +241,8 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ![](./img/mpv-easy-player-4.png)
 
+![](./img/mpv-easy-player-4-1.png)
+
 ### 看到上面图上这些osc样式了吗？它们不仅可以存在于mpv-easy player中，你使用的mpv的osc也可以变成这样。
 
 操作步骤也非常简单，只需要：
