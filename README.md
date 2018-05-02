@@ -207,12 +207,15 @@ b.让mpv把历史记录文件保存到以下路径中
 >mpv-easy-data\rjno1.conf         ----> 主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
 
 ---
-###rjno1.conf使用注意事项：
----
+### rjno1.conf使用注意事项：
 >请注意：rjno1.conf中有一个参数：osc=xxx  #(xxx为yes或者no)。这个参数是用来控制osc（播放控制界面）的显示和隐藏的。
+
 >所以，你在使用rjno1.conf时，一定要确保rjno1.conf中的osc=yes而不是osc=no，这样mpv才会显示osc界面
+
 >如果你不明白我说的意思，那么你可以把rjno1.conf中的osc=xxx这行删除，那么mpv肯定会显示osc界面
+
 >mpv-easy player中为何要加osc=xxx这个有些危险的参数？
+
 >那是因为mpv-easy player默认使用外部osc，当rjno1.conf中不存在osc=xxx这个参数或者osc=yes时，windows启动后首次运行或者有些情况下运行mpv-easy player，mpv-easy player显示的可能会是mpv内置的osc，而不是使用外部osc，添加osc=no可以有效的解决这个错误现象
 ---
 
