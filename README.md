@@ -3,7 +3,7 @@
 ### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html) 一个易于使用,基于[MPV](https://github.com/mpv-player/mpv/)的播放器
 ![](./img/mpv-easy-player-1.png)
 
-基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合,整个视频播放器包含了很多开源代码，同时也包含了更多的闭源代码。
+基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
 
 当然，作为小半个前端，还做了很多、一些或者少量其他的事情，甚至很多都是投机取巧的实现，毕竟只靠mpv和脚本，有些功能并不能很好的整合在一起（内心：主要还是“代码能力严重欠缺”）。
 
@@ -11,11 +11,11 @@
 
 ![](./img/mpv-easy-player-borderless-gui.png)
 
-虽然MPV-EASY Player已经带有了更加美观的gui，但是这并不代表它抛弃了之前的mpv原生gui样式。
+虽然MPV-EASY Player已经带有了更加美观的gui，但是这并不代表它抛弃了之前的mpv原生gui。
 
-实际上，在使用MPV-EASY Player时，你可以在3种不同的运行模式和2种不同的gui界面之间随意的切换使用。
+实际上，在使用MPV-EASY Player时，你可以在3种不同的运行模式和2种不同的gui界面之间随意的切换使用，mpv支持的lua脚本、js脚本也是可以直接放在MPV-EASY Player中使用，也就是尽可能保持mpv的特性，做到最高的兼容度。
 
-所以这并不是一个能够跨平台使用的播放器，只能在windows下蹦跶，甚至好像很多行为都是违反各种协议的。
+整个视频播放器包含了很多开源代码，同时也包含了更多的闭源代码，并且受限于精力和能力，这并不是一个能够跨平台使用的播放器，只能在windows下蹦跶，甚至好像很多行为可能都是违反各种协议的。
 
 不过既然除了2个exe文件，MPV-EASY Player具有的其他文件已经放到了github这里，那么这些文件对于你使用原版mpv肯定是非常有用的，少许修改放入mpv中就能让mpv获得一些或者很多的提升，不管你是在windows、mac、linux下使用mpv，这些都是支持或者大部分都支持的。
 
