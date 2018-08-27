@@ -1,10 +1,10 @@
 # MPV-EASY Player
 ![](./img/mpv-logo-128.png)
 
-### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html) 一个易于使用,基于[MPV](https://github.com/mpv-player/mpv/)的播放器
+### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html) :一个易于使用,基于[MPV](https://github.com/mpv-player/mpv/)的播放器
 
 ---
-### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html)  An easy to use, [MPV](https://github.com/mpv-player/mpv/) based player
+### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html)  :An easy to use, [MPV](https://github.com/mpv-player/mpv/) based player
 
 All the content on this page is described in Chinese. 
 
