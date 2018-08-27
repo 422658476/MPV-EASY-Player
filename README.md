@@ -1,6 +1,19 @@
 # MPV-EASY Player
 ![](./img/mpv-logo-128.png)
+
 ### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html) 一个易于使用,基于[MPV](https://github.com/mpv-player/mpv/)的播放器
+
+---
+### [MPV-EASY Player](http://www.rjno1.com/mpv-easy-player.html)  An easy to use, [MPV](https://github.com/mpv-player/mpv/) based player
+
+All the content on this page is described in Chinese. 
+
+If you don't know the Chinese language, it doesn't matter. You can download it from the [release](https://github.com/422658476/MPV-EASY-Player/releases) page and try to use it. MPV-EASY Player has both Chinese and English interfaces.
+
+If you are interested in this player and you are very curious about how it works after using it, then try to read this page using Google Translate.
+
+---
+
 ![](./img/mpv-easy-player-1.png)
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
