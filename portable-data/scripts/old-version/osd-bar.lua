@@ -8,7 +8,7 @@ local osd_level_value = mp.get_property_osd("osd-level")
 
 
 if osd_bar_value ~= "no" and osd_level_value >= "1" then
---这一行是为了运行后就立刻显示osd-bar， 而不是等待osd_duration_value_second秒后才开始一直显示
+--这一行是为了运行后就立刻显示osd-bar，而不是等待osd_duration_value_second秒后才开始一直显示
 		mp.command("osd-bar show-progress")
 	osd_bar_show_forever = mp.add_periodic_timer( osd_duration_value_second, function()
 		mp.command("osd-bar show-progress")
