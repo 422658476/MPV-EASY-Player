@@ -20,7 +20,7 @@ function osdbar_show_hide_with_fullscreen(name, param)
 end
 
 if osd_bar_value ~= "no" and osd_level_value >= "1" then
---下面一行是当mpv进入全屏状态时加载function， 退出全屏状态时加载function
+--下面一行是当mpv进入全屏状态时加载function，退出全屏状态时加载function
 	mp.observe_property("fullscreen", "bool", osdbar_show_hide_with_fullscreen)
 
 end
