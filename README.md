@@ -265,7 +265,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ![](./img/mpv-easy-player-osd-bar-lua.jpg)
 
->osd-bar.lua         ----> MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示
+>osd-bar.lua         ----> MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示(全屏状态下仍旧会自动隐藏)
 
 >playlistnoplayback.lua         ----> MPV-EASY-Player原创，如果你启用了记录播放历史和进度功能，在播放播放列表时这个lua脚本可以解决播放下个文件时自动跳转到之前播放进度的问题，也就是让播放列表每次播放下个文件总是从头播放,这个脚本的局限性请查看内容中的注释部分
 
