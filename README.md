@@ -423,7 +423,7 @@ seekbarstyle=***  ---->  #seekbarstyle=***
 
 layout=***  ---->  #layout=***
 
-
+---
 ### 为什么MPV-EASY Player设置界面没有提供自定义快捷键功能？
 
 如果你已经使用过mpv（也就是MPV-EASY Player中的【MPV原生GUI】），你会发现它的osc并没有音量控制条，如果你想要改变音量，默认只能够按住非小键盘的9和0来调节，所以在MPV-EASY Player中为了改善这一点，滚轮的滚动功能被强制绑定为音量调节功能，方便日常使用。
