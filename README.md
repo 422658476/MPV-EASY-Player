@@ -10,7 +10,7 @@ All the content on this page is described in Chinese.
 
 If you don't know the Chinese language, it doesn't matter. You can download it from the [release](https://github.com/422658476/MPV-EASY-Player/releases) page and try to use it. MPV-EASY Player has both Chinese and English interfaces.
 
-If you are interested in this player and you are very curious about how it works after using it, then try to read this page using Google Translate.
+If you are interested in this player and you are very curious about how it works after using it, then try to read this page using [Google Translate](https://translate.google.com/).
 
 ---
 
