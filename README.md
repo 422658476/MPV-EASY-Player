@@ -26,7 +26,7 @@ If you are interested in this player and you are very curious about how it works
 
 虽然MPV-EASY Player已经带有了更加美观的gui，但是这并不代表它抛弃了之前的mpv原生gui。
 
-实际上，在使用MPV-EASY Player时，你可以在3种不同的运行模式和2种不同的gui界面之间随意的切换使用，mpv支持的lua脚本、js脚本也是可以直接放在MPV-EASY Player中使用，也就是尽可能保持mpv的特性，做到最高的兼容度。
+实际上，在使用MPV-EASY Player时，你可以在3种不同的运行模式和2种不同的gui界面之间随意的切换使用，随时体验最新版mpv(只需要把下载的最新版mpv存放到【MPV-EASY Player所在文件夹\mpv】路径下即可)，mpv支持的lua脚本、js脚本也是可以直接放在MPV-EASY Player中使用，也就是尽可能保持mpv的特性，做到最高的兼容度。
 
 ---
 
