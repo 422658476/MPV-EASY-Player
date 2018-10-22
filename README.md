@@ -18,6 +18,8 @@ If you are interested in this player and you are very curious about how it works
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
 
+MPV-EASY Player虽然需要安装，但它实际上是一个不折不扣的绿色软件（portable app），所谓的“安装”其实只是解压缩而已，所以重装系统后仍旧可以立刻运行使用，最多只需要重新关联文件格式而已。
+
 当然，作为小半个前端，还做了很多、一些或者少量其他的事情，甚至很多都是投机取巧的实现，毕竟只靠mpv和脚本，有些功能并不能很好的整合在一起（内心：主要还是“代码能力严重欠缺”）。
 
 不过随着不断的开发，MPV-EASY Player现在已经拥有了属于自己的完整的GUI前端，已经变成了一个完整的播放器，所以你会发现MPV-EASY Player现在默认的外观样式已经变成下方图片中那样了。
