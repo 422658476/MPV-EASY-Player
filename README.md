@@ -271,17 +271,17 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ![](./img/mpv-easy-player-osd-bar-lua.jpg)
 
->osd-bar.lua         ----> MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示(全屏状态下仍旧会自动隐藏)
+>[osd-bar.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创,配合rjno1.conf中osd开头的参数，可以美观的让进度条一直显示(全屏状态下仍旧会自动隐藏)
 
->playlistnoplayback.lua         ----> MPV-EASY-Player原创，如果你启用了记录播放历史和进度功能，在播放播放列表时这个lua脚本可以解决播放下个文件时自动跳转到之前播放进度的问题，也就是让播放列表每次播放下个文件总是从头播放,这个脚本的局限性请查看内容中的注释部分
+>[playlistnoplayback.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，如果你启用了记录播放历史和进度功能，在播放播放列表时这个lua脚本可以解决播放下个文件时自动跳转到之前播放进度的问题，也就是让播放列表每次播放下个文件总是从头播放,这个脚本的局限性请查看内容中的注释部分
 
->local-language.lua         ----> MPV-EASY-Player原创，这个脚本可以让MPV-EASY-Player和mpv显示的文字变为你最为熟悉的语言，也就是语言本地化，也可以让更多语言本地化功能从input.conf(也就是快捷键配置文件)中剥离，比如说调节音量后osd显示的文字【volume:100%】能够变成【音量:100%】，你无须在去快捷键配置文件中写show-text，也无需担心快捷键改变后show-text是否也被同步添加到新快捷键的命令后面，不管你是用命令还是用任意快捷键调整了音量，osd都会使用【音量:100%】显示音量的改变。不过这个lua脚本并没有被添加到MPV-EASY-Player的默认脚本中，因为它还存在着一些干扰和负面影响，添加到MPV-EASY-Player中有些得不偿失，不过在mpv中应该是一个非常有用的脚本，至少很多常用命令显示的文字可以改变成你喜欢的语言了。默认这个脚本中会把英文转换成简体中文显示。
+>[local-language.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，这个脚本可以让MPV-EASY-Player和mpv显示的文字变为你最为熟悉的语言，也就是语言本地化，也可以让更多语言本地化功能从input.conf(也就是快捷键配置文件)中剥离，比如说调节音量后osd显示的文字【volume:100%】能够变成【音量:100%】，你无须在去快捷键配置文件中写show-text，也无需担心快捷键改变后show-text是否也被同步添加到新快捷键的命令后面，不管你是用命令还是用任意快捷键调整了音量，osd都会使用【音量:100%】显示音量的改变。不过这个lua脚本并没有被添加到MPV-EASY-Player的默认脚本中，因为它还存在着一些干扰和负面影响，添加到MPV-EASY-Player中有些得不偿失，不过在mpv中应该是一个非常有用的脚本，至少很多常用命令显示的文字可以改变成你喜欢的语言了。默认这个脚本中会把英文转换成简体中文显示。
 
->other.js         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。这个js脚本的已知问题和缺陷请查看内容中的注释部分
+>[other.js](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。这个js脚本的已知问题和缺陷请查看内容中的注释部分
 
 ![](./img/mpv-easy-player-osc-lua.jpg)
 
->osc.lua         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc样式方面拥有完全的自定义。
+>[osc.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc样式方面拥有完全的自定义。
 
 **注意** 如果你想要使用mpv的原版osc界面，请删除osc.lua这个文件或者把它重命名成非lua后缀名，并且确保rjno1.conf中没有osc=no
 
@@ -336,15 +336,15 @@ b.让mpv把历史记录文件保存到以下路径中
 
 ---
 
->autoload.lua         ----> 自动加载为播放列表
+>[autoload.lua](https://github.com/mpv-player/mpv/tree/master/TOOLS/lua)         ----> 自动加载为播放列表
 
->ontop-playback.lua         ----> 播放时置顶显示
+>[ontop-playback.lua](https://github.com/mpv-player/mpv/tree/master/TOOLS/lua)         ----> 播放时置顶显示
 
->open-file-dialog.lua         ----> 显示打开文件界面，需要你按下脚本中的快捷键才能使用
+>[open-file-dialog.lua](https://github.com/rossy/mpv-open-file-dialog)         ----> 显示打开文件界面，需要你按下脚本中的快捷键才能使用
 
->pause-when-minimize.lua         ----> 最小化时自动暂停
+>[pause-when-minimize.lua](https://github.com/mpv-player/mpv/tree/master/TOOLS/lua)         ----> 最小化时自动暂停
 
->playlistmanager.lua         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
+>[playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
 
 
 ### mpv可以使用的各种脚本请参考这个汇总页面
