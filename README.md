@@ -433,6 +433,16 @@ seekbarstyle=***  ---->  #seekbarstyle=***
 
 layout=***  ---->  #layout=***
 
+如果添加osc.lua且layout=box时，osc没有变为修改后的样式，那么请尝试修改你添加的那个额外的osc.lua
+
+~/.config/mpv/scripts/osc.lua
+
+把文件中的代码
+
+layouts["bottombar"]改成layouts["box"] 同时 layouts["box"]改成layouts["bottombar"]，也就是进行互换。
+
+因为mpv for mac可能不会读取layout=*** 这个设置，而是直接忽略并强行使用layout=bottombar，由于修改的样式在layout=box时才会生效，mpv for mac只会强行读取layout=bottombar处的代码时，通过上方代码的互换，可以把修改后的样式代码从box样式下转移到bottombar样式下。
+
 ---
 ### 为什么MPV-EASY Player设置界面没有提供自定义快捷键功能？
 
