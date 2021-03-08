@@ -18,8 +18,6 @@ If you are interested in this player and you are very curious about how it works
 
 ### 帮助翻译MPV-EASY Player的语言文件
 
-MPV-EASY Player的界面目前只支持中文和英文。
-
 如果你喜欢这个播放器，并且有能力把它翻译成你熟悉的语言：
 
 1、[language/MpvEasyGui-language](https://github.com/422658476/MPV-EASY-Player/tree/master/language/MpvEasyGui-language)
@@ -35,9 +33,8 @@ MPV-EASY Player的界面目前只支持中文和英文。
 万分感谢。
 
 ---
-### Help translate language files of MPV-EASY Player
 
-The interface of MPV-EASY Player currently only supports Chinese and English.
+### Help translate language files of MPV-EASY Player
 
 If you like this player and have the ability to translate it into a language you are familiar with:
 
