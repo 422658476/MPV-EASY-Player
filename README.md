@@ -13,6 +13,9 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 If you are interested in this player and you are very curious about how it works after using it, then try to read this page using [Google Translate](https://translate.google.com/).
 
 ---
+
+---
+
 ### 帮助翻译MPV-EASY Player的语言文件
 
 MPV-EASY Player的界面目前只支持中文和英文。
@@ -30,8 +33,6 @@ MPV-EASY Player的界面目前只支持中文和英文。
 当然你也可以修正英文语言文件中的翻译。
 
 万分感谢。
-
----
 
 ---
 ### Help translate language files of MPV-EASY Player
