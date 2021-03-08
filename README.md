@@ -13,6 +13,46 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 If you are interested in this player and you are very curious about how it works after using it, then try to read this page using [Google Translate](https://translate.google.com/).
 
 ---
+### 帮助翻译MPV-EASY Player的语言文件
+
+MPV-EASY Player的界面目前只支持中文和英文。
+
+如果你喜欢这个播放器，并且有能力把它翻译成你熟悉的语言：
+
+1、[language/MpvEasyGui-language](https://github.com/422658476/MPV-EASY-Player/tree/master/language/MpvEasyGui-language)
+
+2、[language/MpvEasySettings-language](https://github.com/422658476/MPV-EASY-Player/tree/master/language/MpvEasySettings-language)
+
+路径下已经提供了中文和英文语言文件，你可以下载它们进行参考，并且利用这2个语言文件和qt语言家，可以翻译成其他语言。
+
+翻译结束后只需要把新的语言文件发到[issues](https://github.com/422658476/MPV-EASY-Player/issues)即可。
+
+当然你也可以修正英文语言文件中的翻译。
+
+万分感谢。
+
+---
+
+---
+### Help translate language files of MPV-EASY Player
+
+The interface of MPV-EASY Player currently only supports Chinese and English.
+
+If you like this player and have the ability to translate it into a language you are familiar with:
+
+1、[language/MpvEasyGui-language](https://github.com/422658476/MPV-EASY-Player/tree/master/language/MpvEasyGui-language)
+
+2、[language/MpvEasySettings-language](https://github.com/422658476/MPV-EASY-Player/tree/master/language/MpvEasySettings-language)
+
+Chinese and English language files have been provided under the path, you can download them for reference, and use these 2 language files and qt linguist to translate into other languages.
+
+After the translation, you only need to send the new language file to [issues](https://github.com/422658476/MPV-EASY-Player/issues).
+
+Of course you can also correct the translation in the English language file.
+
+Many thanks. 
+
+---
 
 ![](./img/mpv-easy-player-1.png)
 
