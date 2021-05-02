@@ -319,7 +319,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >[local-language.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，这个脚本可以让MPV-EASY-Player和mpv显示的文字变为你最为熟悉的语言，也就是语言本地化，也可以让更多语言本地化功能从input.conf(也就是快捷键配置文件)中剥离，比如说调节音量后osd显示的文字【volume:100%】能够变成【音量:100%】，你无须在去快捷键配置文件中写show-text，也无需担心快捷键改变后show-text是否也被同步添加到新快捷键的命令后面，不管你是用命令还是用任意快捷键调整了音量，osd都会使用【音量:100%】显示音量的改变。不过这个lua脚本并没有被添加到MPV-EASY-Player的默认脚本中，因为它还存在着一些干扰和负面影响，添加到MPV-EASY-Player中有些得不偿失，不过在mpv中应该是一个非常有用的脚本，至少很多常用命令显示的文字可以改变成你喜欢的语言了。默认这个脚本中会把英文转换成简体中文显示。
 
->[other.js](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。这个js脚本的已知问题和缺陷请查看内容中的注释部分
+>[other.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。这个js脚本的已知问题和缺陷请查看内容中的注释部分
 
 ![](./img/mpv-easy-player-osc-lua.jpg)
 
