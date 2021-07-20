@@ -10,17 +10,9 @@
         <translation>MPV-EASY设置</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;下面选项可以开关MPV-EASY Player的某些功能&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;下面选项可以开关MPV-EASY Player的某些功能&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="459"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调整后点击“确定”并重新运行MPV-EASY Player才会生效&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调整后点击“确定”并重新运行MPV-EASY Player才会生效&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>暂时取消置顶【MPV-EASY设置】窗口</source>
-        <translation type="vanished">暂时取消置顶【MPV-EASY设置】窗口</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="246"/>
@@ -36,14 +28,6 @@
         <location filename="mainwindow.ui" line="273"/>
         <source>音频</source>
         <translation>音频</translation>
-    </message>
-    <message>
-        <source>OSC</source>
-        <translation type="vanished">OSC</translation>
-    </message>
-    <message>
-        <source>OSD</source>
-        <translation type="vanished">OSD</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="300"/>
@@ -96,25 +80,10 @@
         <translation>MPV-EASY无边框GUI的背景色:</translation>
     </message>
     <message>
-        <source>默认颜色</source>
-        <oldsource>默认背景色</oldsource>
-        <translation type="vanished">默认颜色</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项只对OSC有效.&lt;br/&gt;生效时会消耗额外的cpu资源(约5%).&lt;br/&gt;如果引发性能或者稳定性问题,请勿选择此项.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项只对OSC有效.&lt;br/&gt;如果引发性能或者稳定性问题,请勿选择此项.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项只对OSC有效.&lt;br/&gt;生效时会消耗额外的cpu资源(约5%).&lt;br/&gt;如果引发性能或者稳定性问题,请勿选择此项.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="2941"/>
         <source>仿高斯模糊*</source>
         <oldsource>仿动态高斯模糊*</oldsource>
         <translation>仿高斯模糊*</translation>
-    </message>
-    <message>
-        <source>MPV-EASY无边框GUI的仿高斯模糊:</source>
-        <oldsource>仿高斯模糊:</oldsource>
-        <translation type="vanished">MPV-EASY无边框GUI的仿高斯模糊:</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2965"/>
@@ -224,11 +193,6 @@
         <translation>忽略播放进度(仅播放列表)*</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;把文件夹下的“所有文件”自动加载至播放列表.&lt;br/&gt;此功能可能在【MPV-EASY无边框GUI模式】下无法良好工作.&lt;br/&gt;激活后,播放文件夹下的任意一个文件此功能就会生效&lt;br/&gt;“所有文件”只包括支持播放的音频视频格式文件&lt;br/&gt;播放列表按照文件名排序&lt;br/&gt;【记住播放进度和播放历史】会对此功能造成干扰,【忽略播放进度(仅播放列表)】功能可以解决干扰问题&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;把文件夹下的“所有文件”自动加载至播放列表.&lt;br/&gt;激活后,播放文件夹下的任意一个文件此功能就会生效&lt;br/&gt;“所有文件”只包括支持播放的音频视频格式文件&lt;br/&gt;播放列表按照文件名排序&lt;br/&gt;【记住播放进度和播放历史】会对此功能造成干扰,【忽略播放进度(仅播放列表)】功能可以解决干扰问题&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;把文件夹下的“所有文件”自动加载至播放列表.&lt;br/&gt;此功能可能在【MPV-EASY无边框GUI模式】下无法良好工作.&lt;br/&gt;激活后,播放文件夹下的任意一个文件此功能就会生效&lt;br/&gt;“所有文件”只包括支持播放的音频视频格式文件&lt;br/&gt;播放列表按照文件名排序&lt;br/&gt;【记住播放进度和播放历史】会对此功能造成干扰,【忽略播放进度(仅播放列表)】功能可以解决干扰问题&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="1491"/>
         <source>自动加载为播放列表*</source>
         <translation>自动加载为播放列表*</translation>
@@ -257,10 +221,6 @@
         <location filename="mainwindow.ui" line="1612"/>
         <source>启动时自动重置音量至*</source>
         <translation>启动时自动重置音量至*</translation>
-    </message>
-    <message>
-        <source>%</source>
-        <translation type="vanished">%</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1692"/>
@@ -359,17 +319,9 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>OSC(A)</source>
-        <translation type="vanished">OSC(A)</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="2777"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;以下设置适用于MPV-EASY无边框GUI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;以下设置适用于MPV-EASY无边框GUI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>OSC的背景色:</source>
-        <translation type="vanished">OSC的背景色:</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2932"/>
@@ -420,33 +372,9 @@
         <translation>打开程序文件夹</translation>
     </message>
     <message>
-        <source>MPV-EASY Player</source>
-        <translation type="vanished">MPV-EASY Player</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;官网：&lt;a href=&quot;https://www.rjno1.com/mpv-easy-player/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.rjno1.com/mpv-easy-player/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;官网：&lt;a href=&quot;https://www.rjno1.com/mpv-easy-player/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.rjno1.com/mpv-easy-player/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>MPV</source>
-        <translation type="vanished">MPV</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;官网：&lt;a href=&quot;https://mpv.io&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;mpv.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;官网：&lt;a href=&quot;https://mpv.io&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;mpv.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="6579"/>
         <source>资源</source>
         <translation>资源</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV说明文档：&lt;a href=&quot;https://mpv.io/manual/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;mpv.io/manual/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV说明文档：&lt;a href=&quot;https://mpv.io/manual/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;mpv.io/manual/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可用脚本：&lt;a href=&quot;https://github.com/mpv-player/mpv/wiki/User-Scripts&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;github.com/mpv-player/mpv/wiki/User-Scripts&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可用脚本：&lt;a href=&quot;https://github.com/mpv-player/mpv/wiki/User-Scripts&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;github.com/mpv-player/mpv/wiki/User-Scripts&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="6675"/>
@@ -459,10 +387,6 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;注意:有些功能的语言切换在重新运行后才会生效&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Language:</source>
-        <translation type="obsolete">Language:</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="1870"/>
         <source>常规(2)</source>
         <translation>常规(2)</translation>
@@ -472,14 +396,6 @@
         <source>【临时设置菜单】注意事项:</source>
         <oldsource>系统托盘【临时设置菜单】注意事项:</oldsource>
         <translation>【临时设置菜单】注意事项:</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;灰色分隔线之间都是临时设置菜单.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;灰色分隔线之间都是临时设置菜单.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;临时设置立即生效,临时设置不会保存.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;临时设置立即生效,临时设置不会保存.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1924"/>
@@ -524,10 +440,6 @@
         <translation>GUI模式</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;兼容 =理论:★★★★ 目前:★★★★ 对mpv的干扰，中文路径，配置读取有高兼容度&lt;br/&gt;原生1=理论:★★★★★ 目前:★★★★☆支持中文路径,目前几乎可达到理论品质&lt;br/&gt;原生2=理论:★★★★ 目前:★★★ 放于非中文路径可达到理论品质&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;兼容 =理论:★★★★ 目前:★★★★ 对mpv的干扰，中文路径，配置读取有高兼容度&lt;br/&gt;原生1=理论:★★★★★ 目前:★★★★☆支持中文路径,目前几乎可达到理论品质&lt;br/&gt;原生2=理论:★★★★ 目前:★★★ 放于非中文路径可达到理论品质&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="1091"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV-EASY运行模式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV-EASY运行模式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -564,10 +476,6 @@
         <location filename="mainwindow.ui" line="1130"/>
         <source>原生2</source>
         <translation>原生2</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV-EASY GUI模式:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV-EASY GUI模式:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="534"/>
@@ -609,10 +517,6 @@
         <location filename="mainwindow.ui" line="1262"/>
         <source>GUI模式注意事项:</source>
         <translation>GUI模式注意事项:</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV-EASY无边框GUI下,mpv会转为后台运行,所以【MPV-EASY设置】界面中的一部分设置对于MPV-EASY无边框GUI模式不会产生任何效果,比如OSC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPV-EASY无边框GUI下,mpv会转为后台运行,所以【MPV-EASY设置】界面中的一部分设置对于MPV-EASY无边框GUI模式不会产生任何效果,比如OSC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2080"/>
@@ -710,10 +614,6 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;默认声道:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项只对OSC有效.&lt;br/&gt;生效时会消耗额外的cpu资源(约5%-10%).&lt;br/&gt;如果引发性能或者稳定性问题,请勿选择此项.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项只对OSC有效.&lt;br/&gt;生效时会消耗额外的cpu资源(约5%-10%).&lt;br/&gt;如果引发性能或者稳定性问题,请勿选择此项.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="2673"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;计量单位:百分比&lt;br/&gt;调节最大音量的顺序:&lt;br/&gt;正确的音轨-&amp;gt;100%软件音量-&amp;gt;正确的声道-&amp;gt;100%系统音量-&amp;gt;扬声器最大音量-&amp;gt;此参数&lt;br/&gt;不推荐设为100.0以上的值,除非其他调节音量的方式都尝试过&lt;br/&gt;可调节的音量值能超出100%，最高到你设定的值&lt;br/&gt;130.0时,音量最大值为正常值(100.0)的2倍&lt;br/&gt;音量调整的太高时可能会导致破音和声音失真.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;计量单位:百分比&lt;br/&gt;调节最大音量的顺序:&lt;br/&gt;正确的音轨-&amp;gt;100%软件音量-&amp;gt;正确的声道-&amp;gt;100%系统音量-&amp;gt;扬声器最大音量-&amp;gt;此参数&lt;br/&gt;不推荐设为100.0以上的值,除非其他调节音量的方式都尝试过&lt;br/&gt;可调节的音量值能超出100%，最高到你设定的值&lt;br/&gt;130.0时,音量最大值为正常值(100.0)的2倍&lt;br/&gt;音量调整的太高时可能会导致破音和声音失真.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -722,10 +622,6 @@
         <location filename="mainwindow.ui" line="2676"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可调节的音量最大值*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可调节的音量最大值*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>OSC(1)</source>
-        <translation type="vanished">OSC(1)</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2784"/>
@@ -778,10 +674,6 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调节范围:0到1(0:整个视频区域,1:仅OSC所在的视频区域)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种box样式OSC位置调整(XY轴):&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种box样式OSC位置调整(XY轴):&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="3577"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调整的值以像素为单位,bottombar向上调整,topbar向下调整&lt;br/&gt;调整值超过窗口高度会导致osc看不见,发生此情况请设置值为0或较小的值.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调整的值以像素为单位,bottombar向上调整,topbar向下调整&lt;br/&gt;调整值超过窗口高度会导致osc看不见,发生此情况请设置值为0或较小的值.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -790,10 +682,6 @@
         <location filename="mainwindow.ui" line="3580"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种bar样式OSC位置调整(Y轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种bar样式OSC位置调整(Y轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当鼠标停留在能激活OSC的区域时&lt;br/&gt;OSC界面真正隐藏前要经过:等待隐藏时间+淡出时间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当鼠标停留在能激活OSC的区域时&lt;br/&gt;OSC界面真正隐藏前要经过:等待隐藏时间+淡出时间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="3958"/>
@@ -824,10 +712,6 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;【MPV-EASY无边框GUI】的菜单中:&lt;br/&gt;黑色分隔线之间都是临时设置菜单.&lt;br/&gt;临时设置立即生效,临时设置不会保存.&lt;/p&gt;&lt;p&gt;【MPV原生GUI】的系统托盘菜单中:&lt;br/&gt;灰色分隔线之间都是临时设置菜单.&lt;br/&gt;临时设置立即生效,临时设置不会保存.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;X轴范围:-1到1(-1为最左侧,1为最右侧)&lt;/p&gt;&lt;p&gt;Y轴范围:-1到1(-1为顶部,1为底部)&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;X轴范围:-1到1(-1为最左侧,1为最右侧)&lt;/p&gt;&lt;p&gt;Y轴范围:-1到1(-1为顶部,1为底部)&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="3497"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种box样式OSC位置调整(XY轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种box样式OSC位置调整(XY轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -851,14 +735,6 @@
         <location filename="mainwindow.ui" line="3760"/>
         <source>选择</source>
         <translation>选择</translation>
-    </message>
-    <message>
-        <source>显示缓冲进度(播放非本地文件时)</source>
-        <translation type="vanished">显示缓冲进度(播放非本地文件时)</translation>
-    </message>
-    <message>
-        <source>OSC(2)</source>
-        <translation type="vanished">OSC(2)</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="3812"/>
@@ -889,10 +765,6 @@
         <location filename="mainwindow.ui" line="693"/>
         <source>浅色风格</source>
         <translation>浅色风格</translation>
-    </message>
-    <message>
-        <source>半透明效果</source>
-        <translation type="vanished">半透明效果</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="745"/>
@@ -1047,10 +919,6 @@
         <translation>文件名</translation>
     </message>
     <message>
-        <source>OSD(1)</source>
-        <translation type="vanished">OSD(1)</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="4299"/>
         <source>OSD(屏幕显示控制信息)</source>
         <translation>OSD(屏幕显示控制信息)</translation>
@@ -1144,10 +1012,6 @@
         <location filename="mainwindow.ui" line="4850"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;跳转(快进快退)时的OSD样式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;跳转(快进快退)时的OSD样式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>OSD(2)</source>
-        <translation type="vanished">OSD(2)</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="4921"/>
@@ -1443,26 +1307,9 @@
         <translation>锁定模式注意事项:</translation>
     </message>
     <message>
-        <source>1.开启锁定模式后,界面上的所有控件一直会处于隐藏状态.
-2.进入全屏状态后会自动关闭锁定模式.
-3.锁定模式下,播放器窗口是否处于焦点状态需要自行手动确认和判断.
-4.锁定模式下,控件所在区域依旧无法触发暂停、移动窗口、全屏等行为.</source>
-        <oldsource>1.开启锁定模式后,界面上的所有控件一直会处于隐藏状态.
-2.进入全屏状态后会自动关闭锁定模式.
-3.锁定模式下,播放器窗口是否处于焦点状态需要自行手动确认和判断.</oldsource>
-        <translation type="vanished">1.开启锁定模式后,界面上的所有控件一直会处于隐藏状态.
-2.进入全屏状态后会自动关闭锁定模式.
-3.锁定模式下,播放器窗口是否处于焦点状态需要自行手动确认和判断.
-4.锁定模式下,控件所在区域依旧无法触发暂停、移动窗口、全屏等行为.</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="5639"/>
         <source>其他(1)</source>
         <translation>其他(1)</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;字幕纵向位置:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;字幕纵向位置:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="5681"/>
@@ -1480,25 +1327,9 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;首选字幕语言:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.点击下方【设置默认程序】按钮,控制面板会自动打开,首次打开请耐心等待其加载完毕.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.点击下方【设置默认程序】按钮,控制面板会自动打开,首次打开请耐心等待其加载完毕.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="5897"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;文件关联步骤:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;文件关联步骤:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4.在出现的界面中勾选需要关联的文件格式,点击保存即可.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4.在出现的界面中勾选需要关联的文件格式,点击保存即可.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2.在加载完毕的控制面板中,点击左侧栏中的【MPV-EASY Player】.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2.在加载完毕的控制面板中,点击左侧栏中的【MPV-EASY Player】.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3.点击右边界面下方的【选择此程序的默认值】.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3.点击右边界面下方的【选择此程序的默认值】.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="5960"/>
@@ -1509,15 +1340,6 @@
         <location filename="mainwindow.ui" line="237"/>
         <source>模式</source>
         <translation>模式</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.【MPV-EASY无边框GUI】是一个不基于mpv的完整的GUI前端,此模式下mpv会转到后端运行,所以【MPV-EASY设置】界面中和mpv原生GUI有关的设置都会被自动禁用,也就是说,如果你想使用这些设置,请选择【mpv原生GUI】.&lt;br/&gt;2.【MPV-EASY无边框GUI】对mpv保持高度的兼容性,在此模式下依旧可以享受mpv的各种特性.比如,除了【esc】,其他快捷键会直接转发给mpv,你仍然可以使用键盘控制和使用各种lua脚本.&lt;br/&gt;3.如果你对mpv不熟悉,那么非常推荐先使用【MPV原生GUI】,了解完mpv所有强大的特性后在切换至【MPV-EASY无边框GUI】模式.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.【MPV-EASY无边框GUI】是一个不基于mpv的完整的GUI前端,此模式下mpv会转到后端运行,所以【MPV-EASY设置】界面中和mpv原生GUI有关的设置都会被自动禁用,也就是说,如果你想使用这些设置,请选择【mpv原生GUI】.&lt;br/&gt;2.【MPV-EASY无边框GUI】对mpv保持高度的兼容性,在此模式下依旧可以享受mpv的各种特性.比如,除了【esc】,其他快捷键会直接转发给mpv,你仍然可以使用键盘控制和使用各种lua脚本.&lt;br/&gt;3.如果你对mpv不熟悉,那么非常推荐先使用【MPV原生GUI】,了解完mpv所有强大的特性后在切换置【MPV-EASY无边框GUI】模式.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1.【MPV-EASY无边框GUI】是一个不基于mpv的完整的GUI前端,此模式下mpv会转到后端运行,所以【MPV-EASY设置】界面中和mpv原生GUI有关的设置都会被自动禁用,也就是说,如果你想使用这些设置,请选择【mpv原生GUI】.&lt;br/&gt;2.【MPV-EASY无边框GUI】对mpv保持高度的兼容性,在此模式下依旧可以享受mpv的各种特性.比如,除了【esc】,其他快捷键会直接转发给mpv,你仍然可以使用键盘控制和使用各种lua脚本.&lt;br/&gt;3.如果你对mpv不熟悉,那么非常推荐先使用【MPV原生GUI】,了解完mpv所有强大的特性后在切换至【MPV-EASY无边框GUI】模式.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>模式(2)</source>
-        <translation type="vanished">模式(2)</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="3454"/>
@@ -1600,10 +1422,6 @@
         <translation></translation>
     </message>
     <message>
-        <source>点击下方【关闭UAC】按钮后,重启系统即可.</source>
-        <translation type="vanished">点击下方【关闭UAC】按钮后,重启系统即可.</translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="6201"/>
         <source>【用户账户控制设置】界面:</source>
         <translation>【用户账户控制设置】界面:</translation>
@@ -1658,10 +1476,6 @@
         <location filename="mainwindow.ui" line="6876"/>
         <source>应用</source>
         <translation>应用</translation>
-    </message>
-    <message>
-        <source>menu</source>
-        <translation type="vanished">menu</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="6903"/>
