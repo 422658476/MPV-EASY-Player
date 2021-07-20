@@ -236,12 +236,12 @@
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2614"/>
         <source>2倍</source>
-        <translation>speed 3x</translation>
+        <translation>speed 2x</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2619"/>
         <source>2.5倍</source>
-        <translation>speed 3.5x</translation>
+        <translation>speed 2.5x</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2624"/>
