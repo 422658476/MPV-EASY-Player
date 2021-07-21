@@ -4,10 +4,6 @@
 <context>
     <name>qmpv_MainWindow</name>
     <message>
-        <source>qmpv_MainWindow</source>
-        <translation type="vanished">MPV-EASY Player</translation>
-    </message>
-    <message>
         <location filename="../qmpv_mainwindow.ui" line="1927"/>
         <source>打开最近播放的文件</source>
         <translation>打开最近播放的文件</translation>
@@ -256,10 +252,6 @@
         <location filename="../qmpv_mainwindow.ui" line="2629"/>
         <source>4倍</source>
         <translation>4倍</translation>
-    </message>
-    <message>
-        <source>2.4:1</source>
-        <translation type="obsolete">4倍 {2.4:1?}</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="4106"/>
