@@ -1632,7 +1632,7 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.ui" line="7750"/>
         <source>重复播放:启用</source>
-        <translation>loop file: forever</translation>
+        <translation>loop file: enabled</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7755"/>
@@ -1647,7 +1647,7 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.ui" line="7773"/>
         <source>循环播放:启用</source>
-        <translation>loop playlist: forever</translation>
+        <translation>loop playlist: enabled</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7778"/>
@@ -1682,7 +1682,7 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.ui" line="7812"/>
         <source>循环随机播放:启用</source>
-        <translation>loop playlist and shuffle: forever</translation>
+        <translation>loop playlist and shuffle: enabled</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7817"/>
@@ -1692,22 +1692,22 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.ui" line="7822"/>
         <source>0.2(1/5倍)</source>
-        <translation>0.2 speed(1/5)</translation>
+        <translation>speed 0.2x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7827"/>
         <source>0.25(1/4倍)</source>
-        <translation>0.25 speed(1/4)</translation>
+        <translation>speed 0.25x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7832"/>
         <source>0.33(1/3倍)</source>
-        <translation>0.33 speed(1/3)</translation>
+        <translation>speed 0.33x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7837"/>
         <source>0.5(1/2倍)</source>
-        <translation>0.5 speed(1/2)</translation>
+        <translation>speed 0.5x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7842"/>
@@ -1717,27 +1717,27 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.ui" line="7847"/>
         <source>1.5倍</source>
-        <translation>1.5 speed</translation>
+        <translation>speed 1.5x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7852"/>
         <source>2倍</source>
-        <translation>2 speed</translation>
+        <translation>speed 2x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7857"/>
         <source>2.5倍</source>
-        <translation>2.5 speed</translation>
+        <translation>speed 2.5x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7862"/>
         <source>3倍</source>
-        <translation>3 speed</translation>
+        <translation>speed 3x</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="7867"/>
         <source>4倍</source>
-        <translation>4 speed</translation>
+        <translation>speed 4x</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="4382"/>
@@ -1823,7 +1823,7 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.cpp" line="5392"/>
         <source>重复播放启用</source>
-        <translation>loop file: forever</translation>
+        <translation>loop file: enabled</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="5426"/>
@@ -1833,7 +1833,7 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.cpp" line="5457"/>
         <source>循环播放启用</source>
-        <translation>loop playlist: forever</translation>
+        <translation>loop playlist: enabled</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="5488"/>
@@ -1852,7 +1852,7 @@ in windows 8 and higher operating systems, if you adjust the slider in the [User
     <message>
         <location filename="mainwindow.cpp" line="5676"/>
         <source>循环随机播放启用</source>
-        <translation>loop playlist and shuffle: forever</translation>
+        <translation>loop playlist and shuffle: enabled</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="5707"/>
