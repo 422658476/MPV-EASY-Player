@@ -389,7 +389,7 @@
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="13222"/>
         <source>循环随机播放启用</source>
-        <translation>loop playlist and shuffle: forever</translation>
+        <translation>loop playlist and shuffle: enabled</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="13268"/>
