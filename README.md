@@ -32,6 +32,8 @@ If you are interested in this player and you are very curious about how it works
 
 万分感谢。
 
++ 意大利语语言文件(it.ts)：感谢[bovirus](https://github.com/bovirus)提供的意大利语翻译和对英语翻译的修正。
+
 ---
 
 ### Help translate language files of MPV-EASY Player
@@ -49,6 +51,8 @@ After the translation, you only need to send the new language file to [issues](h
 Of course you can also correct the translation in the English language file.
 
 Many thanks. 
+
++ Italian language file (it.ts): Thanks to [bovirus](https://github.com/bovirus) for the Italian translation and correction to the English translation. 
 
 ---
 
