@@ -36,7 +36,7 @@
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2280"/>
         <source>播放模式:</source>
-        <translation>Modo ripetizione:</translation>
+        <translation>Modo loop:</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2324"/>
@@ -146,12 +146,12 @@
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2759"/>
         <source>重复播放:启用</source>
-        <translation>Ripeti file: abilitato</translation>
+        <translation>Loop file: abilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2764"/>
         <source>重复播放:禁用</source>
-        <translation>Ripeti file: disabilitato</translation>
+        <translation>Loop file: disabilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2776"/>
@@ -161,47 +161,47 @@
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2781"/>
         <source>循环播放:启用</source>
-        <translation>Ripeti playlist: abilitato</translation>
+        <translation>Loop playlist: abilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2786"/>
         <source>循环播放:禁用</source>
-        <translation>Ripeti playlist: disabilitato</translation>
+        <translation>Loop playlist: disabilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2791"/>
         <source>循环播放2回</source>
-        <translation>Ripeti playlist: 2 volte</translation>
+        <translation>Loop playlist: 2 volte</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2796"/>
         <source>循环播放4回</source>
-        <translation>Ripeti playlist: 4 volte</translation>
+        <translation>Loop playlist: 4 volte</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2801"/>
         <source>循环播放6回</source>
-        <translation>Ripeti playlist: 6 volte</translation>
+        <translation>Loop playlist: 6 volte</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2806"/>
         <source>循环播放8回</source>
-        <translation>Ripeti playlist: 8 volte</translation>
+        <translation>Loop playlist: 8 volte</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2811"/>
         <source>循环播放10回</source>
-        <translation>Ripeti playlist: 10 volte</translation>
+        <translation>Loop playlist: 10 volte</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2820"/>
         <source>循环随机播放:启用</source>
-        <translation>Ripeti playlist e shuffle: abilitato</translation>
+        <translation>Loop playlist e shuffle: abilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2825"/>
         <source>循环随机播放:禁用</source>
-        <translation>Ripeti playlist e casuale: disabilitato</translation>
+        <translation>Loop playlist e shuffle: disabilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.ui" line="2830"/>
@@ -300,7 +300,7 @@
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="11559"/>
         <source>没有找到指定文件</source>
-        <translation>Impossibile trovare il file</translation>
+        <translation>Non trovo questo file</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="11653"/>
@@ -360,22 +360,22 @@
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="12825"/>
         <source>重复播放启用</source>
-        <translation>Ripeti file: abilitato</translation>
+        <translation>Loop file: abilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="12870"/>
         <source>重复播放禁用</source>
-        <translation>Ripeti file: disabilitato</translation>
+        <translation>Loop file: disabilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="12914"/>
         <source>循环播放启用</source>
-        <translation>Ripeti playlist: abilitato</translation>
+        <translation>Loop playlist: abilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="12957"/>
         <source>循环播放禁用</source>
-        <translation>Ripeti playlist: disabilitato</translation>
+        <translation>Loop playlist: disabilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="13000"/>
@@ -384,17 +384,17 @@
         <location filename="../qmpv_mainwindow.cpp" line="13133"/>
         <location filename="../qmpv_mainwindow.cpp" line="13177"/>
         <source>循环播放次数</source>
-        <translation>Volte ripetizione playlist</translation>
+        <translation>Volte loop playlist</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="13222"/>
         <source>循环随机播放启用</source>
-        <translation>Ripeti playlist e casuale: abilitato</translation>
+        <translation>Loop playlist e shuffle: abilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="13268"/>
         <source>循环随机播放禁用</source>
-        <translation>Ripeti playlist e shuffle: disabilitato</translation>
+        <translation>Loop playlist e shuffle: disabilitato</translation>
     </message>
     <message>
         <location filename="../qmpv_mainwindow.cpp" line="13314"/>
