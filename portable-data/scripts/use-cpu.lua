@@ -2,7 +2,7 @@
 --This lua script is written by www.rjno1.com
 --local msg = require("mp.msg")
 
---如果视频的宽度大于3000或者视频的高度大于2000，那么自动切换回使用cpu解码
+--视频的宽度大于3000或者视频的高度大于2000时，根据视频编码格式，自动切换使用cpu解码还是gpu解码
 function use_cpu_or_gpu(w_num,h_num)
 	local hwdec_value = mp.get_property("hwdec")
 	local hwdec_format = mp.get_property("video-format")
