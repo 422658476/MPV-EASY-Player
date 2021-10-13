@@ -60,7 +60,7 @@ Many thanks.
 
 ---
 
-![](./img/mpv-easy-player-1.png)
+![](./img/mpv-easy-player-gui-mode.png)
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
 
