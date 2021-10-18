@@ -10,7 +10,7 @@ local input_conf_dirfile = mp.get_property("input-conf")
 --返回值中只要用第1个     x = f1()   --x="a","b"被忽略    x,y = f1() --x="a",y="b"
 local other_conf_dir = utils.split_path(input_conf_dirfile)
 local other_conf_dirfile = other_conf_dir .. "other.conf"
-local conf_string = "[ini-rjno1]\r\nvolume-auto-safe="
+local conf_string = "[ini-rjno1]\nvolume-auto-safe="
 
 
 function save_all_to_conf()
