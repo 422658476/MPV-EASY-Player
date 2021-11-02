@@ -53,6 +53,7 @@ local user_opts = {
     windowcontrols = "auto",    -- whether to show window controls
     windowcontrols_alignment = "right", -- which side to show window controls on
     greenandgrumpy = false,     -- disable santa hat
+    livemarkers = true,         -- update seekbar chapter markers on duration change
 }
 
 -- read options from config and command-line
@@ -71,19 +72,19 @@ local osc_param = { -- calculated by osc_init()
 
 local osc_styles = {
 
-    rjno150Buttons = "{\\blur0\\bord0\\1c&H717171\\3c&HFFFFFF\\fs42\\fnmpv-osd-symbols}",
-    rjno140Buttons = "{\\blur0\\bord0\\1c&H717171\\3c&HFFFFFF\\fs28\\fnmpv-osd-symbols}",
-    rjno130Buttons = "{\\blur0\\bord0\\1c&H717171\\3c&HFFFFFF\\fs26\\fnmpv-osd-symbols}",
-    rjno125Buttons = "{\\blur0\\bord0\\1c&H717171\\3c&HFFFFFF\\fs25\\fnmpv-osd-symbols}",
-    rjno120Buttons = "{\\blur0\\bord0\\1c&H717171\\3c&HFFFFFF\\fs20\\fnmpv-osd-symbols}",
+    rjno150Buttons = "{\\blur0\\bord0\\1c&H4F4F4F\\3c&HFFFFFF\\fs42\\fnmpv-osd-symbols}",
+    rjno140Buttons = "{\\blur0\\bord0\\1c&H4F4F4F\\3c&HFFFFFF\\fs28\\fnmpv-osd-symbols}",
+    rjno130Buttons = "{\\blur0\\bord0\\1c&H4F4F4F\\3c&HFFFFFF\\fs26\\fnmpv-osd-symbols}",
+    rjno125Buttons = "{\\blur0\\bord0\\1c&H4F4F4F\\3c&HFFFFFF\\fs25\\fnmpv-osd-symbols}",
+    rjno120Buttons = "{\\blur0\\bord0\\1c&H4F4F4F\\3c&HFFFFFF\\fs20\\fnmpv-osd-symbols}",
     rjno116Buttons = "{\\blur0\\bord0\\1c&H4D4C4D\\3c&HFFFFFF\\fs16\\fnmpv-osd-symbols}",
     rjno1box = "{\\rDefault\\blur0\\bord0\\1c&HF0F0F0\\3c&HF0F0F0}",	
     rjno1timecodes = "{\\blur0\\bord0\\1c&HF89922\\3c&HFFFFFF\\fs13}",
     rjno1timePosBar = "{\\blur0\\bord".. user_opts.tooltipborder .."\\1c&HFFFFFF\\3c&H000000\\fs18}",
     rjno1vidtitleBar = "{\\blur0\\bord0\\1c&HB8B8B8\\3c&HFFFFFF\\fs13\\q2}",
 
-    rjno1wcButtons = "{\\1c&H717171\\fs24\\fnmpv-osd-symbols}",
-    rjno1wcTitle = "{\\1c&H717171\\fs18\\q2}",
+    rjno1wcButtons = "{\\1c&H4F4F4F\\fs24\\fnmpv-osd-symbols}",
+    rjno1wcTitle = "{\\1c&H4F4F4F\\fs18\\q2}",
     rjno1wcBar = "{\\1c&HFFFFFF}",
 	
     bigButtons = "{\\blur0\\bord0\\1c&HFFFFFF\\3c&HFFFFFF\\fs50\\fnmpv-osd-symbols}",
@@ -122,6 +123,7 @@ local state = {
     tc_ms = user_opts.timems,               -- Should the timecodes display their time with milliseconds
     mp_screen_sizeX, mp_screen_sizeY,       -- last screen-resolution, to detect resolution changes to issue reINITs
     initREQ = false,                        -- is a re-init request pending?
+    marginsREQ = false,                     -- is a margins update pending?
     last_mouseX, last_mouseY,               -- last mouse position, to detect significant mouse movement
     mouse_in_window = false,
     message_text,
@@ -150,6 +152,12 @@ local is_december = os.date("*t").month == 12
 --
 -- Helperfunctions
 --
+
+function kill_animation()
+    state.anistart = nil
+    state.animation = nil
+    state.anitype =  nil
+end
 
 function set_osd(res_x, res_y, text)
     if state.osd.res_x == res_x and
@@ -612,7 +620,37 @@ end
 -- Element Rendering
 --
 
+-- returns nil or a chapter element from the native property chapter-list
+function get_chapter(possec)
+    local cl = mp.get_property_native("chapter-list", {})
+    local ch = nil
+
+    -- chapters might not be sorted by time. find nearest-before/at possec
+    for n=1, #cl do
+        if possec >= cl[n].time and (not ch or cl[n].time > ch.time) then
+            ch = cl[n]
+        end
+    end
+    return ch
+end
+
 function render_elements(master_ass)
+
+    -- when the slider is dragged or hovered and we have a target chapter name
+    -- then we use it instead of the normal title. we calculate it before the
+    -- render iterations because the title may be rendered before the slider.
+    state.forced_title = nil
+    local se, ae = state.slider_element, elements[state.active_element]
+    if se and (ae == se or (not ae and mouse_hit(se))) then
+        local dur = mp.get_property_number("duration", 0)
+        if dur > 0 then
+            local possec = get_slider_value(se) * dur / 100 -- of mouse pos
+            local ch = get_chapter(possec)
+            if ch and ch.title and ch.title ~= "" then
+                state.forced_title = "Chapter: " .. ch.title
+            end
+        end
+    end
 
     for n=1, #elements do
         local element = elements[n]
@@ -1740,6 +1778,7 @@ function update_options(list)
     validate_user_opts()
     request_tick()
     visibility_mode(user_opts.visibility, true)
+    update_duration_watch()
     request_init()
 end
 
@@ -1791,7 +1830,8 @@ function osc_init()
     ne = new_element("title", "button")
 
     ne.content = function ()
-        local title = mp.command_native({"expand-text", user_opts.title})
+        local title = state.forced_title or
+                      mp.command_native({"expand-text", user_opts.title})
         -- escape ASS, and strip newlines and trailing slashes
         title = title:gsub("\\n", " "):gsub("\\$", ""):gsub("{","\\{")
         return not (title == "") and title or "mpv"
@@ -1968,6 +2008,7 @@ function osc_init()
     ne = new_element("seekbar", "slider")
 
     ne.enabled = not (mp.get_property("percent-pos") == nil)
+    state.slider_element = ne.enabled and ne or nil  -- used for forced_title
     ne.slider.markerF = function ()
         local duration = mp.get_property_number("duration", nil)
         if not (duration == nil) then
@@ -2152,7 +2193,10 @@ function update_margins()
     local margins = osc_param.video_margins
 
     -- Don't use margins if it's visible only temporarily.
-    if (not state.osc_visible) or (get_hidetimeout() >= 0) then
+    if (not state.osc_visible) or (get_hidetimeout() >= 0) or
+       (state.fullscreen and not user_opts.showfullscreen) or
+       (not state.fullscreen and not user_opts.showwindowed)
+    then
         margins = {l = 0, r = 0, t = 0, b = 0}
     end
 
@@ -2289,6 +2333,7 @@ end
 
 function render_wipe()
     msg.trace("render_wipe()")
+    state.osd.data = "" -- allows set_osd to immediately update on enable
     state.osd:remove()
 end
 
@@ -2309,7 +2354,14 @@ function render()
     end
 
     -- init management
-    if state.initREQ then
+    if state.active_element then
+        -- mouse is held down on some element - keep ticking and igore initReq
+        -- till it's released, or else the mouse-up (click) will misbehave or
+        -- get ignored. that's because osc_init() recreates the osc elements,
+        -- but mouse handling depends on the elements staying unmodified
+        -- between mouse-down and mouse-up (using the index active_element).
+        request_tick()
+    elseif state.initREQ then
         osc_init()
         state.initREQ = false
 
@@ -2346,14 +2398,10 @@ function render()
             if (state.anitype == "out") then
                 osc_visible(false)
             end
-            state.anistart = nil
-            state.animation = nil
-            state.anitype =  nil
+            kill_animation()
         end
     else
-        state.anistart = nil
-        state.animation = nil
-        state.anitype =  nil
+        kill_animation()
     end
 
     --mouse show/hide area
@@ -2525,8 +2573,10 @@ function process_event(source, what)
         if element_has_action(elements[n], action) then
             elements[n].eventresponder[action](elements[n])
         end
-        request_tick()
     end
+
+    -- ensure rendering after any (mouse) event - icons could change etc
+    request_tick()
 end
 
 
@@ -2557,6 +2607,11 @@ local santa_hat_lines = {
 
 -- called by mpv on every frame
 function tick()
+    if state.marginsREQ == true then
+        update_margins()
+        state.marginsREQ = false
+    end
+
     if (not state.enabled) then return end
 
     if (state.idle) then
@@ -2601,13 +2656,23 @@ function tick()
         render()
     else
         -- Flush OSD
-        set_osd(osc_param.playresy, osc_param.playresy, "")
+        render_wipe()
     end
 
     state.tick_last_time = mp.get_time()
 
     if state.anitype ~= nil then
-        request_tick()
+        -- state.anistart can be nil - animation should now start, or it can
+        -- be a timestamp when it started. state.idle has no animation.
+        if not state.idle and
+           (not state.anistart or
+            mp.get_time() < 1 + state.anistart + user_opts.fadeduration/1000)
+        then
+            -- animating or starting, or still within 1s past the deadline
+            request_tick()
+        else
+            kill_animation()
+        end
     end
 end
 
@@ -2635,12 +2700,39 @@ function enable_osc(enable)
     end
 end
 
+-- duration is observed for the sole purpose of updating chapter markers
+-- positions. live streams with chapters are very rare, and the update is also
+-- expensive (with request_init), so it's only observed when we have chapters
+-- and the user didn't disable the livemarkers option (update_duration_watch).
+function on_duration() request_init() end
+
+local duration_watched = false
+function update_duration_watch()
+    local want_watch = user_opts.livemarkers and
+                       (mp.get_property_number("chapters", 0) or 0) > 0 and
+                       true or false  -- ensure it's a boolean
+
+    if (want_watch ~= duration_watched) then
+        if want_watch then
+            mp.observe_property("duration", nil, on_duration)
+        else
+            mp.unobserve_property(on_duration)
+        end
+        duration_watched = want_watch
+    end
+end
+
 validate_user_opts()
+update_duration_watch()
 
 mp.register_event("shutdown", shutdown)
 mp.register_event("start-file", request_init)
 mp.observe_property("track-list", nil, request_init)
 mp.observe_property("playlist", nil, request_init)
+mp.observe_property("chapter-list", nil, function()
+    update_duration_watch()
+    request_init()
+end)
 
 mp.register_script_message("osc-message", show_message)
 mp.register_script_message("osc-chapterlist", function(dur)
@@ -2660,6 +2752,7 @@ end)
 mp.observe_property("fullscreen", "bool",
     function(name, val)
         state.fullscreen = val
+        state.marginsREQ = true
         request_init_resize()
     end
 )
@@ -2775,6 +2868,7 @@ function visibility_mode(mode, no_osd)
     end
 
     user_opts.visibility = mode
+    utils.shared_script_property_set("osc-visibility", mode)
 
     if not no_osd and tonumber(mp.get_property("osd-level")) >= 1 then
         mp.osd_message("OSC visibility: " .. mode)
