@@ -5,8 +5,8 @@
     <name>MainWindow</name>
     <message>
         <location filename="mainwindow.ui" line="35"/>
-        <location filename="mainwindow.ui" line="6949"/>
-        <location filename="mainwindow.ui" line="7263"/>
+        <location filename="mainwindow.ui" line="6952"/>
+        <location filename="mainwindow.ui" line="7266"/>
         <source>MPV-EASY设置</source>
         <translation>MPV-EASY Settings</translation>
     </message>
@@ -32,7 +32,7 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="261"/>
-        <location filename="mainwindow.ui" line="5048"/>
+        <location filename="mainwindow.ui" line="5051"/>
         <source>快捷键</source>
         <translation>Shortcut</translation>
     </message>
@@ -43,14 +43,14 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="279"/>
-        <location filename="mainwindow.ui" line="5854"/>
+        <location filename="mainwindow.ui" line="5857"/>
         <source>文件关联</source>
         <translation>File Association</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="288"/>
-        <location filename="mainwindow.ui" line="6140"/>
-        <location filename="mainwindow.ui" line="6407"/>
+        <location filename="mainwindow.ui" line="6143"/>
+        <location filename="mainwindow.ui" line="6410"/>
         <source>关闭UAC</source>
         <translation>Disable UAC</translation>
     </message>
@@ -75,24 +75,24 @@
         <translation>The background color of the MPV-EASY borderless GUI:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2940"/>
+        <location filename="mainwindow.ui" line="2943"/>
         <source>仿高斯模糊*</source>
         <oldsource>仿动态高斯模糊*</oldsource>
         <translation>imitating gaussian blur*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2964"/>
+        <location filename="mainwindow.ui" line="2967"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;帧率越高，仿高斯模糊的背景变化和视频画面的同步率越高，生效时cpu使用量也更多，但效率也越高。&lt;br/&gt;例如：&lt;br/&gt;帧率为24时，cpu使用率约为3%，而帧率为60时，cpu使用率仅约6%。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;帧率越高，仿高斯模糊的背景变化和视频画面的同步率越高，生效时cpu使用量也更多，但效率也越高。&lt;br/&gt;例如：&lt;br/&gt;帧率为24时，cpu使用率约为5%，而帧率为48时，cpu使用率仅约7%。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;the higher the FPS,gaussian blurry background changes are more synchronized with the video picture,CPU usage is also more when it takes effect,but the efficiency is also higher.&lt;br/&gt;For example:&lt;br/&gt;when FPS is 24,the CPU usage is about 3%,when FPS is 60,the CPU usage is only about 6%.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2967"/>
+        <location filename="mainwindow.ui" line="2970"/>
         <source>帧率*:</source>
         <translation>FPS*:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3032"/>
+        <location filename="mainwindow.ui" line="3035"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调节范围:120到255&lt;br/&gt;值越大,仿高斯模糊效果越明显,但逼真度也可能越低.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>调节范围:120到255
 值越大,仿高斯模糊效果越明显,但逼真度也可能越低.
@@ -100,7 +100,7 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;adjustment range: 120 to 255&lt;br/&gt;the larger the value, the more obvious the effect of the imitating gaussian blur,but the degree of fidelity may also be lower.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3035"/>
+        <location filename="mainwindow.ui" line="3038"/>
         <source>效果*:</source>
         <translation>effect*:</translation>
     </message>
@@ -496,155 +496,150 @@
         <translation>move window when click and moving mouse pointer*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2404"/>
-        <source>画面宽度撑满显示器时显示左右边框</source>
-        <translation>display border when screen width reaches the monitor</translation>
-    </message>
-    <message>
-        <location filename="mainwindow.ui" line="2413"/>
+        <location filename="mainwindow.ui" line="2406"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;播放倍速:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;playback speed(unit: times)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2494"/>
+        <location filename="mainwindow.ui" line="2487"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;no #自动合适(所有情况下)&lt;br/&gt;yes #永远实际大小&lt;br/&gt;downscale-big #自动合适(画面大于窗口大小时)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;no # automatically suitable (in all cases) &lt;br/&gt;yes #forever actual size&lt;br/&gt;downscale-big #automatically suitable (when the screen is larger than the window size)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2497"/>
+        <location filename="mainwindow.ui" line="2490"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;画面不与窗口一同缩放*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;disable scaling of the video*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2541"/>
+        <location filename="mainwindow.ui" line="2534"/>
         <source>窗口靠近边缘时自动吸附</source>
         <translation>snap the player window to screen edges</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2548"/>
+        <location filename="mainwindow.ui" line="2541"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;勾选后建议同时改动以下设置项:&lt;br/&gt;启用【视频】-【鼠标按住画面移动能更改窗口位置】&lt;br/&gt;启用【快捷键】-【禁用鼠标左键的播放暂停功能】&lt;br/&gt;禁用【快捷键】-【禁用单击鼠标滚轮关闭播放窗口功能】&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;after checking, it is recommended to change the following settings at the same time:&lt;br/&gt;enable [video]-[move window when click and moving mouse pointer]&lt;br/&gt;enable the [shortcut]-[disable play pause function of left mouse button]&lt;br/&gt;disable [shortcuts] - [disable close app window function of click mouse wheel]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2551"/>
+        <location filename="mainwindow.ui" line="2544"/>
         <source>视频播放界面不显示边框和标题栏*</source>
         <translation>play video without window border and decorations*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2598"/>
+        <location filename="mainwindow.ui" line="2591"/>
         <source>音频(1)</source>
         <translation>Audio(1)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2606"/>
+        <location filename="mainwindow.ui" line="2599"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;默认声道:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;audio channel:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2672"/>
+        <location filename="mainwindow.ui" line="2665"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;计量单位:百分比&lt;br/&gt;调节最大音量的顺序:&lt;br/&gt;正确的音轨-&amp;gt;100%软件音量-&amp;gt;正确的声道-&amp;gt;100%系统音量-&amp;gt;扬声器最大音量-&amp;gt;此参数&lt;br/&gt;不推荐设为100.0以上的值,除非其他调节音量的方式都尝试过&lt;br/&gt;可调节的音量值能超出100%，最高到你设定的值&lt;br/&gt;130.0时,音量最大值为正常值(100.0)的2倍&lt;br/&gt;音量调整的太高时可能会导致破音和声音失真.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;unit of measure: percent&lt;br/&gt;to adjust the order of the maximum volume:&lt;br/&gt;the correct track -&gt; 100%% software volume -&gt; the correct channel -&gt; 100%% system volume -&gt; the speaker maximum volume -&gt; this parameter &lt;br/&gt; not recommended for values above 100.0, unless other methods of adjusting the volume have been tried&lt;br/&gt;the adjustable volume value can exceed 100%%, up to the value you set &lt;br/&gt;130.0, the volume maximum is normal (100.0) 2x&lt;br/&gt;when the volume is adjusted too high, it may cause broken sound and distortion.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2675"/>
+        <location filename="mainwindow.ui" line="2668"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;可调节的音量最大值*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;set the maximum volume*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2783"/>
-        <location filename="mainwindow.ui" line="3133"/>
+        <location filename="mainwindow.ui" line="2776"/>
+        <location filename="mainwindow.ui" line="3136"/>
         <source>OSC(播放控制界面)</source>
         <translation>on screen controller (short: OSC)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2789"/>
-        <location filename="mainwindow.ui" line="3139"/>
+        <location filename="mainwindow.ui" line="2782"/>
+        <location filename="mainwindow.ui" line="3142"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;显示并能控制暂停、进度等功能的整块区域.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;a gui integrated to offer mouse-controllability&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3160"/>
+        <location filename="mainwindow.ui" line="3163"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;never:不显示OSC&lt;br/&gt;auto:按需自动显示OSC&lt;br/&gt;always:总是显示OSC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;never: do not display OSC&lt;br/&gt;auto: automatically display OSC&lt;br/&gt;always as required: always display OSC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3163"/>
+        <location filename="mainwindow.ui" line="3166"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC显示模式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC display mode*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2801"/>
-        <location filename="mainwindow.ui" line="3212"/>
+        <location filename="mainwindow.ui" line="2794"/>
+        <location filename="mainwindow.ui" line="3215"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC样式:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC style:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2868"/>
-        <location filename="mainwindow.ui" line="3266"/>
+        <location filename="mainwindow.ui" line="2871"/>
+        <location filename="mainwindow.ui" line="3269"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;进度条样式:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;seekbar style:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3364"/>
+        <location filename="mainwindow.ui" line="3367"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC界面放大倍数:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;scale factor of the OSC when windowed:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3407"/>
+        <location filename="mainwindow.ui" line="3410"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;全屏时OSC界面放大倍数:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;scale factor of the OSC when fullscreen:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3450"/>
+        <location filename="mainwindow.ui" line="3453"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调节范围:0到1(0:整个视频区域,1:仅OSC所在的视频区域)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;鼠标在多大区域移动不会激活OSC:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;adjustment range: 0 to 1 (0: entire video area, 1: only OSC video area)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3576"/>
+        <location filename="mainwindow.ui" line="3579"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调整的值以像素为单位,bottombar向上调整,topbar向下调整&lt;br/&gt;调整值超过窗口高度会导致osc看不见,发生此情况请设置值为0或较小的值.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;the adjusted value is in pixels. bottombar adjusts upwards. topbar adjusts downwards. &lt;br/&gt; adjusting the value beyond the height of the window causes OSC to be invisible. if this happens, set the value to 0 or less.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3579"/>
+        <location filename="mainwindow.ui" line="3582"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种bar样式OSC位置调整(Y轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;margin from bottom (bottombar)or top(topbar)*&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3969"/>
+        <location filename="mainwindow.ui" line="3972"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;多少毫秒后自动隐藏OSC界面*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;duration of OSC before hiding(until:ms)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4012"/>
+        <location filename="mainwindow.ui" line="4015"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;值为999999999时,可以变相让OSC界面总是显示&lt;br/&gt;此选项同时也会作用于【***毫秒后自动隐藏OSC界面】&lt;br/&gt;OSC界面真正隐藏前要经过:等待隐藏时间+淡出时间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;a value of 999999999 can be disguised so that the OSC interface is always displayed.&lt;br/&gt; this option also applies to the automatic hiding of the OSC interface after *** milliseconds.&lt;br/&gt;the OSC interface must be hidden before it is actually hidden: waiting for [duration of OSC before hiding] + [duration of fade out in ms]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4015"/>
+        <location filename="mainwindow.ui" line="4018"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC界面隐藏前淡出时间(毫秒)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;duration of fade out in ms*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3677"/>
-        <location filename="mainwindow.ui" line="3687"/>
-        <location filename="mainwindow.ui" line="3904"/>
+        <location filename="mainwindow.ui" line="3680"/>
+        <location filename="mainwindow.ui" line="3690"/>
+        <location filename="mainwindow.ui" line="3907"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调节范围:0到255(0:不透明,255:透明)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC透明度:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;adjustment range: 0 to 255 (0: opaque, 255: transparent)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6590"/>
+        <location filename="mainwindow.ui" line="6593"/>
         <source>资源</source>
         <translation>Resources</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6686"/>
+        <location filename="mainwindow.ui" line="6689"/>
         <source>MPV-EASY Player使用以下技术构建</source>
         <translation>MPV-EASY Player is built using the following technologies</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6816"/>
+        <location filename="mainwindow.ui" line="6819"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;注意:有些功能的语言切换在重新运行后才会生效&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;note: language switching of some functions does not take effect until the program is re-run&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -654,42 +649,42 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;[MPV-EASY borderless GUI] menu:&lt;br/&gt;unsaved settings between the black separators.&lt;br/&gt;unsaved settings take effect immediately.&lt;/p&gt;&lt;p&gt;[MPV native GUI] system tray menu:&lt;br/&gt;unsaved settings between the gray separators.&lt;br/&gt;unsaved settings take effect immediately.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3496"/>
+        <location filename="mainwindow.ui" line="3499"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2种box样式OSC位置调整(XY轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2 box style OSC position adjustments (XY axes)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3680"/>
+        <location filename="mainwindow.ui" line="3683"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC透明度*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;alpha of OSC:*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3745"/>
+        <location filename="mainwindow.ui" line="3748"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;外部OSC样式文件存放路径:data\mpv-easy-data\osc-style(选择其他路径下的lua文件不会生效)&lt;br/&gt;勾选此参数且下方输入框为空时使用默认外部OSC样式,推荐设置:【osc样式:box】、【进度条样式:bar】、【osc透明度:45】&lt;br/&gt;mpv原版osc.lua文件内容请参考 github.com/mpv-player/mpv/blob/master/player/lua/osc.lua  外部OSC样式文件都是从这个文件修改而来&lt;br/&gt;例如:osc-***-bottombar-knob-100-180.lua 这个文件的命名使用【名字-osc样式-进度条样式-osc透明度.lua】组合而成&lt;br/&gt;意思是这个外部osc在【osc样式:bottombar】、【进度条样式:knob】、【osc透明度在:100-180之间】才会获得最佳效果&lt;br/&gt;修改osc-style文件夹中的OSC样式文件(.lua)后,需要再次使用【选择】功能,点击确定,重新运行后才会生效&lt;br/&gt;外部OSC文件是MPV内置OSC的一个拷贝,2者共享同一份OSC设置,所以此界面中的设置对外部OSC一样有效&lt;br/&gt;如果你熟悉lua脚本和ASS,那么通过修改osc.lua可以创造出属于自己的OSC外观样式、布局&lt;br/&gt;最低限度也可以修改那些没有给出的设置,比如修改OSC背景色&lt;br/&gt;开启并调整osc设置后可以体验软件No1调整后的多种全新样式&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;external OSC style file storage path: data\mpv-easy-data\osc-style (select lua file under other path will not take effect)&lt;br/&gt;check this parameter and use the default external OSC style when the input box is blank. settings: [OSC style:box], [seekbar style:bar], [alpha of OSC:45]&lt;br/&gt;mpv original osc.lua file content please refer to github.com/mpv-player/mpv/blob/master/player/lua/osc.lua external OSC style files are modified from this file&lt;br/&gt;for example: OSC-***-bottombar-knob-100-180.lua this file is named using the [name-OSC style-seekbar style-alpha of OSC.lua] combined into &lt;br/&gt; means that the external OSC will get the best results in the [OSC style:bottombar], [seekbar style:knob], and [alpha of OSC: 100-180]&lt;br/&gt; after modifying the OSC style file (.lua) in the OSC-style folder, you need to use the select function again, click ok, and it will not take effect until you re-run it.&lt;br/&gt;the external OSC file is a copy of the mpv&apos;s built-in OSC, and 2 are shared. same OSC settings, so settings in this interface are as valid for external OSC&lt;br/&gt;if you are familiar with lua scripts and ass, then by modifying OSC.lua can create their own OSC appearance style, layout &lt;br/&gt;minimum can also modify those not given settings, such as modifying the OSC background color &lt;br/&gt; open and adjust the OSC settings can experience the software no1 adjusted new styles&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3748"/>
+        <location filename="mainwindow.ui" line="3751"/>
         <source>使用非默认OSC外观样式*:</source>
         <translation>use non-default OSC style file*:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3771"/>
+        <location filename="mainwindow.ui" line="3774"/>
         <source>选择</source>
         <translation>choose</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3823"/>
+        <location filename="mainwindow.ui" line="3826"/>
         <source>缓冲进度(播放非本地文件时显示)</source>
         <translation>seekable ranges on the seekbar(displayed when playing non-local files)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3831"/>
+        <location filename="mainwindow.ui" line="3834"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;none:隐藏缓冲进度.&lt;br/&gt;slider:进度条样式为【bar】时不适用.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;none:hide seekable ranges.&lt;br/&gt;slider: does not work when seekbar style is [bar].&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3834"/>
+        <location filename="mainwindow.ui" line="3837"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;缓冲进度样式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;seekable ranges style*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -720,540 +715,540 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;automatically load all files under the folder into the playlist.&lt;br/&gt;after activation, any file under the folder will play this function will take effect&lt;br/&gt;&quot;all files&quot;include only audio/video format files that support playback&lt;br/&gt; playlists are sorted by file name&lt;br/&gt; [save playback position and history] will interfere with this function, [do not save playback position(playlist only)] function can solve interference problems&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3890"/>
+        <location filename="mainwindow.ui" line="3893"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项生效条件:&lt;br/&gt;1.进度条样式为bar.&lt;br/&gt;2.缓冲进度样式为bar.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;effective conditions for this option:&lt;br/&gt;1.seekbar style is [bar].&lt;br/&gt;2.seekable ranges style is [bar].&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3893"/>
+        <location filename="mainwindow.ui" line="3896"/>
         <source>缓冲进度和进度条分开显示*</source>
         <translation>seekable ranges and seekbar are displayed separately*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3907"/>
+        <location filename="mainwindow.ui" line="3910"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;缓冲进度透明度*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;alpha of seekable ranges*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3966"/>
+        <location filename="mainwindow.ui" line="3969"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当鼠标停留在能激活OSC的区域时,OSC界面真正隐藏前要经过的时间:&lt;br/&gt;【MPV-EASY无边框GUI】:等待隐藏时间&lt;br/&gt;【MPV原生GUI】:等待隐藏时间+淡出时间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;when the mouse stays in the area that can activate the OSC,the time it takes for the OSC interface to really hide:&lt;br/&gt;[MPV-EASY borderless GUI]:waiting for [duration of OSC before hiding]&lt;br/&gt;[MPV native GUI]:waiting for [duration of OSC before hiding] + [duration of fade out in ms]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4055"/>
+        <location filename="mainwindow.ui" line="4058"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSC和画面一起缩放:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;scale the OSC with the video:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4062"/>
-        <location filename="mainwindow.ui" line="4976"/>
+        <location filename="mainwindow.ui" line="4065"/>
+        <location filename="mainwindow.ui" line="4979"/>
         <source>是</source>
         <translation>yes</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4072"/>
-        <location filename="mainwindow.ui" line="4986"/>
+        <location filename="mainwindow.ui" line="4075"/>
+        <location filename="mainwindow.ui" line="4989"/>
         <source>否</source>
         <translation>no</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4099"/>
+        <location filename="mainwindow.ui" line="4102"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;进度条显示视频文件的:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;progress bar shows video file&apos;s:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4106"/>
+        <location filename="mainwindow.ui" line="4109"/>
         <source>剩余时长</source>
         <translation>time remaining</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4116"/>
+        <location filename="mainwindow.ui" line="4119"/>
         <source>总时长</source>
         <translation>total time</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4144"/>
+        <location filename="mainwindow.ui" line="4147"/>
         <source>OSC添加可以显示的信息:</source>
         <translation>add information that can be displayed in OSC:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4150"/>
+        <location filename="mainwindow.ui" line="4153"/>
         <source>硬解</source>
         <translation>hardware decoding</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4157"/>
+        <location filename="mainwindow.ui" line="4160"/>
         <source>帧数</source>
         <translation>file&apos;s video frames</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4164"/>
-        <location filename="mainwindow.ui" line="5304"/>
+        <location filename="mainwindow.ui" line="4167"/>
+        <location filename="mainwindow.ui" line="5307"/>
         <source>音轨</source>
         <translation>audio tracks</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4171"/>
+        <location filename="mainwindow.ui" line="4174"/>
         <source>大小</source>
         <translation>file size</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4178"/>
-        <location filename="mainwindow.cpp" line="4284"/>
+        <location filename="mainwindow.ui" line="4181"/>
+        <location filename="mainwindow.cpp" line="4287"/>
         <source>音量</source>
         <translation>volume</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4185"/>
-        <location filename="mainwindow.ui" line="5294"/>
+        <location filename="mainwindow.ui" line="4188"/>
+        <location filename="mainwindow.ui" line="5297"/>
         <source>字幕</source>
         <translation>subtitle tracks</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4192"/>
+        <location filename="mainwindow.ui" line="4195"/>
         <source>置顶</source>
         <translation>ontop detection</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4199"/>
+        <location filename="mainwindow.ui" line="4202"/>
         <source>实例</source>
         <translation>multi-progress</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4206"/>
+        <location filename="mainwindow.ui" line="4209"/>
         <source>进度</source>
         <translation>playback and history</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4213"/>
+        <location filename="mainwindow.ui" line="4216"/>
         <source>字幕缩放</source>
         <translation>subtitle scale</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4220"/>
+        <location filename="mainwindow.ui" line="4223"/>
         <source>播放倍速</source>
         <translation>playback speed</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4227"/>
+        <location filename="mainwindow.ui" line="4230"/>
         <source>MPV版本</source>
         <translation>mpv version</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4234"/>
+        <location filename="mainwindow.ui" line="4237"/>
         <source>分辨率</source>
         <translation>file&apos;s resolution</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4241"/>
+        <location filename="mainwindow.ui" line="4244"/>
         <source>声道</source>
         <translation>file&apos;s audio channel</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4248"/>
+        <location filename="mainwindow.ui" line="4251"/>
         <source>文件名</source>
         <translation>file name</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4310"/>
+        <location filename="mainwindow.ui" line="4313"/>
         <source>OSD(屏幕显示控制信息)</source>
         <translation>on screen display (short: OSD)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4322"/>
+        <location filename="mainwindow.ui" line="4325"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;画面中使用文字、图形短暂显示目前播放进度、音量等信息的区块(无控制功能).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;画面种使用文字、图形短暂显示目前播放进度、音量等信息的区块(无控制功能).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;use text and graphics to display playback progress, volume, etc. (no control function)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4338"/>
+        <location filename="mainwindow.ui" line="4341"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;勾选+【OSD文字显示的内容】不同的值,可以使OSD获得以下效果&lt;br/&gt;勾选+【0】=进度条和文字都不显示&lt;br/&gt;勾选+【1】=仅使用进度条显示进度&lt;br/&gt;勾选+【2】或【3】=进度条与文字和百分比一起显示进度&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;checking +[OSD startup mode] with different values can make the OSD get the following effects&lt;br/&gt; check +[0]=no progress bar and text are displayed&lt;br/&gt; tick+[1]=use only progress bar to display progress&lt;br/&gt; tick + [2] or [3] = progress bar shows progress along with text and percentage&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4341"/>
+        <location filename="mainwindow.ui" line="4344"/>
         <source>显示OSD进度条*</source>
         <oldsource>显示OSC进度条*</oldsource>
         <translatorcomment>display OSD bar*</translatorcomment>
         <translation>display OSD bar*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4356"/>
+        <location filename="mainwindow.ui" line="4359"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD进度条宽度(%)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;width of the OSD bar(%)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4445"/>
+        <location filename="mainwindow.ui" line="4448"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD进度条粗细:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;height of the OSD bar:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4491"/>
+        <location filename="mainwindow.ui" line="4494"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调节范围:-1到1&lt;br/&gt;(1=底部,0.5=默认,0=中间,-1=顶部)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;移动滑块时显示的并非最终值,仅作为精细调节时的参考&lt;br/&gt;OSD进度条位置请以滑动结束后的计算结果为准&lt;br/&gt;计算结果中: 1=底部,0.5=默认,0=中间,-1=顶部&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjustment range: -1 to 1&lt;br/&gt;(1=bottom, 0.5=default, 0=middle, -1=top)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4494"/>
+        <location filename="mainwindow.ui" line="4497"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD进度条位置(Y轴)*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;position of the OSD bar*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4595"/>
+        <location filename="mainwindow.ui" line="4598"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD字体大小:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD font size:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4622"/>
+        <location filename="mainwindow.ui" line="4625"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD文字信息位置(XY轴):&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD&apos;s xy axis position:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4690"/>
+        <location filename="mainwindow.ui" line="4693"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD文字信息和左右窗口边框之间的距离:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;left and right screen margin for the OSD:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4724"/>
+        <location filename="mainwindow.ui" line="4727"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD文字信息和上下窗口边框之间的距离:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;top and bottom screen margin for the OSD:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4758"/>
+        <location filename="mainwindow.ui" line="4761"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0 #仅字幕&lt;br/&gt;1 #音量+定位&lt;br/&gt;2 #音量+定位+计时器&lt;br/&gt;3 #音量+定位+计时器+总时间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0 #subtitle&lt;br/&gt;1 #volume+position&lt;br/&gt;2#volume+position+timer&lt;br/&gt;3#volume+position+timer+total time&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4761"/>
+        <location filename="mainwindow.ui" line="4764"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD文字显示的内容*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;specifies the OSD startup mode*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4828"/>
+        <location filename="mainwindow.ui" line="4831"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;勾选【显示OSD进度条】且【OSD文字显示的内容】值不为0时生效&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;check [display OSD bar] and the value of [specifies the OSD startup mode] is not 0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4831"/>
+        <location filename="mainwindow.ui" line="4834"/>
         <source>总是显示OSD进度条(非全屏时)*</source>
         <oldsource>总是显示OSD进度条(不自动隐藏)*</oldsource>
         <translation>OSD bar is always displayed(when not full screen)*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4858"/>
+        <location filename="mainwindow.ui" line="4861"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;注意:【总是显示OSD进度条(不自动隐藏)】【显示OSD进度条】【OSD文字显示的内容】的值会影响此参数且优先级更高&lt;br/&gt;比如:勾选【总是显示OSD进度条(不自动隐藏)】+msg=跳转时显示OSD文字和进度条&lt;br/&gt;no:跳转时什么都不显示&lt;br/&gt;bar:仅显示进度条&lt;br/&gt;msg:仅显示文字&lt;br/&gt;msg-bar:进度条和文字都显示&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;note: [OSD bar is always displayed] [display OSD bar] [specifies the OSD startup mode] value will affect this parameter and higher priority &lt;br/&gt; for example: check [OSD bar is always displayed] +msg=OSD text and progress bar when jumping&lt;br/&gt;no: nothing is displayed during jump&lt;br/&gt;bar: only progress bar is displayed&lt;br/&gt;msg: text only is displayed&lt;br/&gt;msg-bar: progress bar both text and text are displayed&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4861"/>
+        <location filename="mainwindow.ui" line="4864"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;跳转(快进快退)时的OSD样式*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;displayed on the OSD during seeks*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4932"/>
+        <location filename="mainwindow.ui" line="4935"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;计量单位:像素&lt;br/&gt;值为0时将不显示阴影&lt;br/&gt;注意:启用阴影可以极大改善白色画面下OSD文字的可阅读性,&lt;br/&gt;但同时也会影响OSD进度条(较粗时)的美观性.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;unit of measure:pixel&lt;br/&gt; no shadow will be displayed if the value is 0 &lt;br/&gt; note: enabling shadows can greatly improve the readability of OSD text on white screens,&lt;br/&gt;but it will also affect the OSD bar (when thicker) aesthetics.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4935"/>
+        <location filename="mainwindow.ui" line="4938"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD文字和进度条的阴影粗细*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;size of the OSD font border*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="4969"/>
+        <location filename="mainwindow.ui" line="4972"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OSD和画面一起缩放?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;whether to scale the OSD with the window size:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5054"/>
+        <location filename="mainwindow.ui" line="5057"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当启用【鼠标按住画面移动能更改窗口位置】功能时,&lt;br/&gt;激活这个设置可以避免拖放后视频自动暂停的问题.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When activating the [move window when click and moving mouse pointer*] function, activate this setting to prevent video pauses after drag and drop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5057"/>
+        <location filename="mainwindow.ui" line="5060"/>
         <source>禁用鼠标左键的播放暂停功能*</source>
         <translation>disable play pause function of left mouse button*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5064"/>
+        <location filename="mainwindow.ui" line="5067"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;默认【勾选】,但【视频播放界面不显示边框和标题栏】启用时,&lt;br/&gt;建议【不勾选】这个设置从而可以方便的关闭窗口.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, [Check] is selected, but when [play video without window border and decorations] is enabled, &lt;br/&gt;it is recommended that this setting is not checked so that the window can be conveniently closed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5067"/>
+        <location filename="mainwindow.ui" line="5070"/>
         <source>禁用单击鼠标滚轮关闭播放窗口功能*</source>
         <translation>disable close app function of click mouse wheel*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5179"/>
-        <location filename="mainwindow.ui" line="5424"/>
-        <location filename="mainwindow.ui" line="5556"/>
+        <location filename="mainwindow.ui" line="5182"/>
+        <location filename="mainwindow.ui" line="5427"/>
+        <location filename="mainwindow.ui" line="5559"/>
         <source>行为</source>
         <translation>action</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5184"/>
-        <location filename="mainwindow.ui" line="5561"/>
+        <location filename="mainwindow.ui" line="5187"/>
+        <location filename="mainwindow.ui" line="5564"/>
         <source>鼠标</source>
         <translation>mouse</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5189"/>
+        <location filename="mainwindow.ui" line="5192"/>
         <source>键盘</source>
         <translation>keyboard</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5194"/>
-        <location filename="mainwindow.ui" line="5429"/>
-        <location filename="mainwindow.ui" line="5566"/>
+        <location filename="mainwindow.ui" line="5197"/>
+        <location filename="mainwindow.ui" line="5432"/>
+        <location filename="mainwindow.ui" line="5569"/>
         <source>提示</source>
         <translation>tips</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5199"/>
+        <location filename="mainwindow.ui" line="5202"/>
         <source>播放暂停</source>
         <translation>play / pause</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5204"/>
+        <location filename="mainwindow.ui" line="5207"/>
         <source>左键/右键单击</source>
         <translation>left or right mouse button: click</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5209"/>
+        <location filename="mainwindow.ui" line="5212"/>
         <source>空格</source>
         <translation>space</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5214"/>
+        <location filename="mainwindow.ui" line="5217"/>
         <source>右键行为仅【MPV原生GUI】模式下有效</source>
         <translation>right-click behavior is valid only in [MPV Native GUI] mode</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5219"/>
+        <location filename="mainwindow.ui" line="5222"/>
         <source>快进后退</source>
         <translation>seek</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5224"/>
+        <location filename="mainwindow.ui" line="5227"/>
         <source>上</source>
         <translation>up</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5229"/>
+        <location filename="mainwindow.ui" line="5232"/>
         <source>快进60秒</source>
         <translation>+ 1 minute(s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5234"/>
+        <location filename="mainwindow.ui" line="5237"/>
         <source>下</source>
         <translation>down</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5239"/>
+        <location filename="mainwindow.ui" line="5242"/>
         <source>后退60秒</source>
         <translation>- 1 minute(s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5244"/>
+        <location filename="mainwindow.ui" line="5247"/>
         <source>右</source>
         <translation>right</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5249"/>
+        <location filename="mainwindow.ui" line="5252"/>
         <source>快进10秒</source>
         <translation>+ 10 second(s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5254"/>
+        <location filename="mainwindow.ui" line="5257"/>
         <source>左</source>
         <translation>left</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5259"/>
+        <location filename="mainwindow.ui" line="5262"/>
         <source>后退10秒</source>
         <translation>- 10 second(s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5264"/>
+        <location filename="mainwindow.ui" line="5267"/>
         <source>全屏播放</source>
         <translation>fullscreen playback</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5269"/>
+        <location filename="mainwindow.ui" line="5272"/>
         <source>左键双击</source>
         <translation>left mouse button:double click</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5274"/>
+        <location filename="mainwindow.ui" line="5277"/>
         <source>回车</source>
         <translation>enter</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5279"/>
+        <location filename="mainwindow.ui" line="5282"/>
         <source>全屏/退出全屏</source>
         <translation>full screen and exit full screen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5284"/>
+        <location filename="mainwindow.ui" line="5287"/>
         <source>ESC</source>
         <translation>ESC</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5506"/>
+        <location filename="mainwindow.ui" line="5509"/>
         <source>快捷键:锁定模式</source>
         <translation>Shortcut:lock mode</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5571"/>
+        <location filename="mainwindow.ui" line="5574"/>
         <source>开启/关闭</source>
         <translation>on/off</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5576"/>
+        <location filename="mainwindow.ui" line="5579"/>
         <source>右键单击</source>
         <translation>right-click</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5581"/>
+        <location filename="mainwindow.ui" line="5584"/>
         <source>仅非全屏的【MPV-EASY无边框GUI】模式下有效</source>
         <oldsource>仅【MPV-EASY无边框GUI】模式下有效</oldsource>
         <translation>only valid in non-full-screen [MPV-EASY Borderless GUI] mode</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5589"/>
+        <location filename="mainwindow.ui" line="5592"/>
         <source>锁定模式注意事项:</source>
         <translation>lock mode considerations:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5658"/>
+        <location filename="mainwindow.ui" line="5661"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;调节范围:0到100.(0:顶部,100:底部)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjustment range: 0 to 100. (0: top, 100: bottom)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5661"/>
+        <location filename="mainwindow.ui" line="5664"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;字幕纵向位置*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;subtitle vertical position*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5289"/>
+        <location filename="mainwindow.ui" line="5292"/>
         <source>退出全屏</source>
         <translation>exit full screen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5299"/>
+        <location filename="mainwindow.ui" line="5302"/>
         <source>Ctrl+F</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5309"/>
+        <location filename="mainwindow.ui" line="5312"/>
         <source>Ctrl+G</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5314"/>
+        <location filename="mainwindow.ui" line="5317"/>
         <source>音量调整</source>
         <translation>volume change</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5319"/>
-        <location filename="mainwindow.ui" line="5334"/>
+        <location filename="mainwindow.ui" line="5322"/>
+        <location filename="mainwindow.ui" line="5337"/>
         <source>滚轮</source>
         <translation>mouse wheel</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5324"/>
+        <location filename="mainwindow.ui" line="5327"/>
         <source>非小键盘0</source>
         <translation>non-numeric keyboard: 0</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5329"/>
+        <location filename="mainwindow.ui" line="5332"/>
         <source>加大音量</source>
         <translation>increase</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5339"/>
+        <location filename="mainwindow.ui" line="5342"/>
         <source>非小键盘9</source>
         <oldsource>非小键盘1</oldsource>
         <translation>non-numeric keyboard: 9</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5344"/>
+        <location filename="mainwindow.ui" line="5347"/>
         <source>减小音量</source>
         <translation>decrease</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5353"/>
+        <location filename="mainwindow.ui" line="5356"/>
         <source>快捷键:播放列表</source>
         <translation>Shortcut:playlist</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5434"/>
+        <location filename="mainwindow.ui" line="5437"/>
         <source>播放列表形式播放</source>
         <translation>playlist play</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5439"/>
+        <location filename="mainwindow.ui" line="5442"/>
         <source>添加：把多个文件拖放进界面</source>
         <translation>add:drag and drop multiple files into interface</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5444"/>
+        <location filename="mainwindow.ui" line="5447"/>
         <source>添加：(临时设置菜单中)使用【打开文件...】后多选</source>
         <translation>add:use [open file...] menu item</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5449"/>
+        <location filename="mainwindow.ui" line="5452"/>
         <source>普通播放列表：右键点击切换箭头显示列表</source>
         <translation>display: right-click toggle arrows</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5454"/>
+        <location filename="mainwindow.ui" line="5457"/>
         <source>高级播放列表：临时设置菜单中点击【显示高级播放列表】</source>
         <translation>display:use [show advanced playlist] menu item</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5459"/>
+        <location filename="mainwindow.ui" line="5462"/>
         <source>高级播放列表</source>
         <translation>advanced playlist play</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5464"/>
+        <location filename="mainwindow.ui" line="5467"/>
         <source>键盘(高级播放列表显示时)：</source>
         <translation>keyboard(advanced playlist is displayed):</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5469"/>
+        <location filename="mainwindow.ui" line="5472"/>
         <source>上 | 下 ：选择或选中后调整顺序</source>
         <translation>up | down: select or change order after select</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5474"/>
+        <location filename="mainwindow.ui" line="5477"/>
         <source>右：选中/取消选中</source>
         <translation>right: select current item</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5479"/>
+        <location filename="mainwindow.ui" line="5482"/>
         <source>左：移除当前选项</source>
         <translation>left: remove current item</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5484"/>
+        <location filename="mainwindow.ui" line="5487"/>
         <source>回车：播放当前项目</source>
         <translation>enter: play the current item</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5489"/>
+        <location filename="mainwindow.ui" line="5492"/>
         <source>p：重新排序</source>
         <translation>p: reorder</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5494"/>
+        <location filename="mainwindow.ui" line="5497"/>
         <source>k：保存高级播放列表</source>
         <translation>k: save advanced playlist</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5595"/>
+        <location filename="mainwindow.ui" line="5598"/>
         <source>1.开启锁定模式后,界面上的所有控件一直会处于隐藏状态.
 2.进入全屏状态后会自动关闭锁定模式.
 3.锁定模式下,播放器窗口是否处于焦点状态需要自行手动确认和判断.</source>
@@ -1262,32 +1257,32 @@
 3. in the lock mode, whether the player window is in focus requires manual confirmation and judgment.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5650"/>
+        <location filename="mainwindow.ui" line="5653"/>
         <source>其他(1)</source>
         <translation>Other(1)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5692"/>
+        <location filename="mainwindow.ui" line="5695"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;字幕字体默认缩放倍数:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;factor for text subtitle font size:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5732"/>
+        <location filename="mainwindow.ui" line="5735"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;首选音频语言:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;preferred audio language:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5759"/>
+        <location filename="mainwindow.ui" line="5762"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;首选字幕语言:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;preferred subtitles language:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5908"/>
+        <location filename="mainwindow.ui" line="5911"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;文件关联步骤:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;file association steps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5971"/>
+        <location filename="mainwindow.ui" line="5974"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请勿更改【MPV-EASY Player.exe】的名字，否则关联会失败.&lt;br/&gt;软件更换路径后请重新关联.&lt;br/&gt;使用【确定】【应用】按钮不会触发文件关联.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;do not change the name of [mpv-easy player.exe], otherwise the association will fail.&lt;br/&gt;please re-associate the software after replacing the path.&lt;br/&gt;using the [ok] [apply] button will not trigger the file association.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1297,101 +1292,101 @@
         <translation>Mode</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3453"/>
+        <location filename="mainwindow.ui" line="3456"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;鼠标在多大区域移动能激活OSC*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;move mouse over the area to activate the OSC*:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3493"/>
+        <location filename="mainwindow.ui" line="3496"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;X轴范围:-1到1(-1为最左侧,1为最右侧)&lt;br/&gt;Y轴范围:-1到1(-1为顶部,1为底部)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;X axis range: -1 to 1 (-1 is the leftmost and 1 is the rightmost)&lt;br/&gt;Y-axis range: -1 to 1 (-1 for the top and 1 for the bottom)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5974"/>
+        <location filename="mainwindow.ui" line="5977"/>
         <source>设置默认程序*</source>
         <translation>set default program*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6375"/>
+        <location filename="mainwindow.ui" line="6378"/>
         <source>关闭UAC步骤:</source>
         <translation>Disable UAC steps:</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="297"/>
-        <location filename="mainwindow.ui" line="6453"/>
+        <location filename="mainwindow.ui" line="6456"/>
         <source>关于</source>
         <translation>About</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2776"/>
+        <location filename="mainwindow.ui" line="2769"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;以下设置适用于MPV-EASY无边框GUI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;the following settings are for MPV-EASY borderless GUI&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2931"/>
+        <location filename="mainwindow.ui" line="2934"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;生效时会消耗额外的cpu资源(约3%-6%).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;生效时会消耗额外的cpu资源(约3%-6%).&lt;br/&gt;如果引发性能或者稳定性问题,请勿选择此项.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;additional cpu resources (about 3%-6%) are consumed when this take effect.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2917"/>
+        <location filename="mainwindow.ui" line="2920"/>
         <source>OSC的仿高斯模糊:</source>
         <translation>Imitating gaussian blur of OSC:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3318"/>
+        <location filename="mainwindow.ui" line="3321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;进度条滑块大小:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;size ratio of the seek handle:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5789"/>
+        <location filename="mainwindow.ui" line="5792"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当输出驱动为direct3d时,勾选此项可以避免在手动调整窗口尺寸时看到控件闪烁.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;when the output driver is direct3d, check this option to avoid seeing the widget flicker when manually resizing the window.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5792"/>
+        <location filename="mainwindow.ui" line="5795"/>
         <source>调整窗口大小时立刻隐藏主要控件*</source>
         <translation>hide the main widget immediately when resizing the window*</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5872"/>
+        <location filename="mainwindow.ui" line="5875"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3.点击下方【设置默认程序】按钮,控制面板会自动打开,首次打开请耐心等待其加载完毕.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3.click on [set default program] button below and control panel will open automatically.please wait for the first time to load.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5882"/>
+        <location filename="mainwindow.ui" line="5885"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;6.在出现的界面中勾选需要关联的文件格式,点击保存即可.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;6.check the file format that needs to be associated in the interface that appears and click save.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5892"/>
+        <location filename="mainwindow.ui" line="5895"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4.在加载完毕的控制面板中,点击左侧栏中的【MPV-EASY Player】.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4.in the loaded control panel, click &quot;mpv-easy player&quot; in the left column.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="5996"/>
+        <location filename="mainwindow.ui" line="5999"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;5.点击右边界面下方的【选择此程序的默认值】.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;5.click on the &quot;choose defaults for this program&quot; at the bottom of the right interface.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6035"/>
+        <location filename="mainwindow.ui" line="6038"/>
         <source>已关闭UAC时可跳过这些步骤</source>
         <translation>these steps can be skipped when UAC is turned off</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6047"/>
-        <location filename="mainwindow.ui" line="6149"/>
+        <location filename="mainwindow.ui" line="6050"/>
+        <location filename="mainwindow.ui" line="6152"/>
         <source>1.点击下方按钮,windows文件资源管理器会自动打开到程序所在文件夹.</source>
         <translation>1.click the button below, windows file explorer will automatically open to the folder where the program is located.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6078"/>
-        <location filename="mainwindow.ui" line="6184"/>
+        <location filename="mainwindow.ui" line="6081"/>
+        <location filename="mainwindow.ui" line="6187"/>
         <source>打开程序文件夹</source>
         <translation>open program folder</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6242"/>
+        <location filename="mainwindow.ui" line="6245"/>
         <source>注意:
 在windows 8及更高版本的操作系统中,如果在【用户账户控制设置】界面调整过滑块并点击过【确定】按钮,UAC极有可能被再次自动开启,想要再次关闭UAC请重复上方步骤.</source>
         <oldsource>注意:
@@ -1400,509 +1395,509 @@
 in windows 8 and higher operating systems, if you adjust the slider in the [User Account Control Settings] interface and click the [OK] button, UAC is most likely to be automatically turned on again,to turn off UAC again, repeat the above steps.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6100"/>
-        <location filename="mainwindow.ui" line="6159"/>
+        <location filename="mainwindow.ui" line="6103"/>
+        <location filename="mainwindow.ui" line="6162"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2.关闭所有和MPV-EASY Player有关的程序和进程(包括此程序),找到并运行程序所在文件夹下的MpvEasyAdmin.exe,MPV-EASY设置界面会再次打开.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;为了让所有功能都能正常工作(比如文件关联),MPV-EASY Player选择使用管理员权限运行.这种情况下,系统默认开启的UAC会导致每次运行时都会跳出警告窗口，也会造成无法使用拖放的方式打开文件的问题.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2.close all programs and processes related to MPV-EASY Player (including this program), find and run MpvEasyAdmin.exe in the folder where the program is located, and MPV-EASY Settings interface will open again.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6328"/>
+        <location filename="mainwindow.ui" line="6331"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;为什么要关闭UAC*&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;why disable UAC*&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6212"/>
+        <location filename="mainwindow.ui" line="6215"/>
         <source>【用户账户控制设置】界面:</source>
         <translation>[User Account Control Settings] interface:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6219"/>
+        <location filename="mainwindow.ui" line="6222"/>
         <source>打开</source>
         <translation>open</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6303"/>
+        <location filename="mainwindow.ui" line="6306"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当程序为了让所有功能都能正常工作(比如文件关联),选择使用管理员权限运行.这种情况下,系统默认开启的UAC会导致每次运行时都会跳出警告窗口，也会造成无法使用拖放的方式打开文件的问题.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;when the program chooses to run with administrator privileges in order for all functions to work properly (such as file association). in this case, the UAC that is enabled by default on the windows system will cause a warning window to pop up before running the program, which will also can&apos;t open files using drag and drop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6382"/>
+        <location filename="mainwindow.ui" line="6385"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3.点击下方【关闭UAC】按钮后,重启系统即可.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3.click the [Disable UAC] button below,restart the system..&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6467"/>
-        <location filename="mainwindow.ui" line="6526"/>
+        <location filename="mainwindow.ui" line="6470"/>
+        <location filename="mainwindow.ui" line="6529"/>
         <source>官网：</source>
         <translation>home:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6598"/>
+        <location filename="mainwindow.ui" line="6601"/>
         <source>MPV说明文档：</source>
         <translation>Manual:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6635"/>
+        <location filename="mainwindow.ui" line="6638"/>
         <source>可用脚本：</source>
         <translation>User Scripts:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6785"/>
+        <location filename="mainwindow.ui" line="6788"/>
         <source>!!重置!!</source>
         <translation>!!reset!!</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6878"/>
+        <location filename="mainwindow.ui" line="6881"/>
         <source>确定</source>
         <translation>ok</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6885"/>
+        <location filename="mainwindow.ui" line="6888"/>
         <source>取消</source>
         <translation>cancel</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="6892"/>
+        <location filename="mainwindow.ui" line="6895"/>
         <source>应用</source>
         <translation>apply</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7111"/>
+        <location filename="mainwindow.ui" line="7114"/>
         <source>打开最近播放的文件</source>
         <translation>open recently played file</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7126"/>
+        <location filename="mainwindow.ui" line="7129"/>
         <source>调整视频宽高比:</source>
         <translation>video aspect ratio:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7148"/>
+        <location filename="mainwindow.ui" line="7151"/>
         <source>视频画面旋转与缩放:</source>
         <translation>video rotate and panscan:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7167"/>
+        <location filename="mainwindow.ui" line="7170"/>
         <source>视频画面大小:</source>
         <translation>video size:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7184"/>
+        <location filename="mainwindow.ui" line="7187"/>
         <source>字幕字体缩放:</source>
         <translation>subtitles size:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7196"/>
+        <location filename="mainwindow.ui" line="7199"/>
         <source>播放模式:</source>
         <translation>loop mode:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7219"/>
+        <location filename="mainwindow.ui" line="7222"/>
         <source>播放倍速:</source>
         <translation>playback speed:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7272"/>
         <location filename="mainwindow.ui" line="7275"/>
+        <location filename="mainwindow.ui" line="7278"/>
         <source>音量100%</source>
         <translation>volume 100%</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7284"/>
         <location filename="mainwindow.ui" line="7287"/>
+        <location filename="mainwindow.ui" line="7290"/>
         <source>打开文件...</source>
         <translation>open file...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7296"/>
         <location filename="mainwindow.ui" line="7299"/>
+        <location filename="mainwindow.ui" line="7302"/>
         <source>显示高级播放列表</source>
         <translation>show advanced playlist</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7308"/>
+        <location filename="mainwindow.ui" line="7311"/>
         <source>[切换] 画面置顶</source>
         <translation>[cycle] stay on top</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7317"/>
         <location filename="mainwindow.ui" line="7320"/>
+        <location filename="mainwindow.ui" line="7323"/>
         <source>[切换] 音轨</source>
         <translation>[cycle] audio track</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7329"/>
         <location filename="mainwindow.ui" line="7332"/>
+        <location filename="mainwindow.ui" line="7335"/>
         <source>[切换] 字幕</source>
         <translation>[cycle] subtitle track</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7341"/>
         <location filename="mainwindow.ui" line="7344"/>
+        <location filename="mainwindow.ui" line="7347"/>
         <source>[切换] 显示文件信息</source>
         <translation>[cycle] file information</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7353"/>
+        <location filename="mainwindow.ui" line="7356"/>
         <source>退出</source>
         <translation>quit</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7417"/>
         <location filename="mainwindow.ui" line="7420"/>
+        <location filename="mainwindow.ui" line="7423"/>
         <source>刷新</source>
         <translation>[refresh]</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7425"/>
+        <location filename="mainwindow.ui" line="7428"/>
         <source>默认宽高比</source>
         <translation>default</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7554"/>
+        <location filename="mainwindow.ui" line="7557"/>
         <source>视频画面旋转:</source>
         <translation>video rotate:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7559"/>
+        <location filename="mainwindow.ui" line="7562"/>
         <source>不旋转</source>
         <translation>rotate by 0 degrees</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7568"/>
+        <location filename="mainwindow.ui" line="7571"/>
         <source>90度</source>
         <translation>rotate by 90 degrees</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7577"/>
+        <location filename="mainwindow.ui" line="7580"/>
         <source>180度</source>
         <translation>rotate by 180 degrees</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7586"/>
+        <location filename="mainwindow.ui" line="7589"/>
         <source>270度</source>
         <translation>rotate by 270 degrees</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7594"/>
+        <location filename="mainwindow.ui" line="7597"/>
         <source>视频画面缩放:</source>
         <translation>video panscan:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7602"/>
+        <location filename="mainwindow.ui" line="7605"/>
         <source>画面不与窗口一同缩放【no】时生效</source>
         <translation>disable scaling of the video = &quot;no&quot;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7611"/>
+        <location filename="mainwindow.ui" line="7614"/>
         <source>画面适合显示器宽度(上下黑边)</source>
         <translation>display with black bands</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7620"/>
+        <location filename="mainwindow.ui" line="7623"/>
         <source>画面适合显示器高度(左右裁切)</source>
         <translation>display without black bands</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7628"/>
+        <location filename="mainwindow.ui" line="7631"/>
         <source>尺寸以屏幕大小为限</source>
         <translation>limited to the size of screen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7714"/>
+        <location filename="mainwindow.ui" line="7717"/>
         <source>字体+</source>
         <translation>size +</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7723"/>
+        <location filename="mainwindow.ui" line="7726"/>
         <source>不缩放</source>
         <translation>reset</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7732"/>
+        <location filename="mainwindow.ui" line="7735"/>
         <source>字体-</source>
         <translation>size -</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7745"/>
+        <location filename="mainwindow.ui" line="7747"/>
         <source>针对当前文件:</source>
         <translation>for file:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7750"/>
+        <location filename="mainwindow.ui" line="7752"/>
         <source>重复播放:启用</source>
         <translation>loop file: enabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7755"/>
+        <location filename="mainwindow.ui" line="7757"/>
         <source>重复播放:禁用</source>
         <translation>loop file: disabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7768"/>
+        <location filename="mainwindow.ui" line="7769"/>
         <source>针对播放列表:</source>
         <translation>for playlist:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7773"/>
+        <location filename="mainwindow.ui" line="7774"/>
         <source>循环播放:启用</source>
         <translation>loop playlist: enabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7778"/>
+        <location filename="mainwindow.ui" line="7779"/>
         <source>循环播放:禁用</source>
         <translation>loop playlist: disabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7783"/>
+        <location filename="mainwindow.ui" line="7784"/>
         <source>循环播放2回</source>
         <translation>loop playlist: 2 times</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7788"/>
+        <location filename="mainwindow.ui" line="7789"/>
         <source>循环播放4回</source>
         <translation>loop playlist: 4 times</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7793"/>
+        <location filename="mainwindow.ui" line="7794"/>
         <source>循环播放6回</source>
         <translation>loop playlist: 6 times</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7798"/>
+        <location filename="mainwindow.ui" line="7799"/>
         <source>循环播放8回</source>
         <translation>loop playlist: 8 times</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7803"/>
+        <location filename="mainwindow.ui" line="7804"/>
         <source>循环播放10回</source>
         <translation>loop playlist: 10 times</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7812"/>
+        <location filename="mainwindow.ui" line="7813"/>
         <source>循环随机播放:启用</source>
         <translation>loop playlist and shuffle: enabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7817"/>
+        <location filename="mainwindow.ui" line="7818"/>
         <source>循环随机播放:禁用</source>
         <translation>loop playlist and shuffle: disabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7822"/>
+        <location filename="mainwindow.ui" line="7823"/>
         <source>0.2(1/5倍)</source>
         <translation>speed 0.2x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7827"/>
+        <location filename="mainwindow.ui" line="7828"/>
         <source>0.25(1/4倍)</source>
         <translation>speed 0.25x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7832"/>
+        <location filename="mainwindow.ui" line="7833"/>
         <source>0.33(1/3倍)</source>
         <translation>speed 0.33x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7837"/>
+        <location filename="mainwindow.ui" line="7838"/>
         <source>0.5(1/2倍)</source>
         <translation>speed 0.5x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7842"/>
+        <location filename="mainwindow.ui" line="7843"/>
         <source>1(正常播放速度)</source>
         <translation>normal speed</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7847"/>
+        <location filename="mainwindow.ui" line="7848"/>
         <source>1.5倍</source>
         <translation>speed 1.5x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7852"/>
+        <location filename="mainwindow.ui" line="7853"/>
         <source>2倍</source>
         <translation>speed 2x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7857"/>
+        <location filename="mainwindow.ui" line="7858"/>
         <source>2.5倍</source>
         <translation>speed 2.5x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7862"/>
+        <location filename="mainwindow.ui" line="7863"/>
         <source>3倍</source>
         <translation>speed 3x</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="7867"/>
+        <location filename="mainwindow.ui" line="7868"/>
         <source>4倍</source>
         <translation>speed 4x</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="4382"/>
+        <location filename="mainwindow.cpp" line="4385"/>
         <source>音轨切换为：</source>
         <translation>audio:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="4416"/>
+        <location filename="mainwindow.cpp" line="4419"/>
         <source>字幕切换为：</source>
         <translation>subtitle:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="4468"/>
-        <location filename="mainwindow.cpp" line="4504"/>
-        <location filename="mainwindow.cpp" line="4537"/>
-        <location filename="mainwindow.cpp" line="4569"/>
-        <location filename="mainwindow.cpp" line="4601"/>
-        <location filename="mainwindow.cpp" line="4633"/>
-        <location filename="mainwindow.cpp" line="4666"/>
-        <location filename="mainwindow.cpp" line="4697"/>
-        <location filename="mainwindow.cpp" line="4729"/>
-        <location filename="mainwindow.cpp" line="4761"/>
-        <location filename="mainwindow.cpp" line="4792"/>
-        <location filename="mainwindow.cpp" line="4824"/>
-        <location filename="mainwindow.cpp" line="4855"/>
+        <location filename="mainwindow.cpp" line="4471"/>
+        <location filename="mainwindow.cpp" line="4507"/>
+        <location filename="mainwindow.cpp" line="4540"/>
+        <location filename="mainwindow.cpp" line="4572"/>
+        <location filename="mainwindow.cpp" line="4604"/>
+        <location filename="mainwindow.cpp" line="4636"/>
+        <location filename="mainwindow.cpp" line="4669"/>
+        <location filename="mainwindow.cpp" line="4700"/>
+        <location filename="mainwindow.cpp" line="4732"/>
+        <location filename="mainwindow.cpp" line="4764"/>
+        <location filename="mainwindow.cpp" line="4795"/>
+        <location filename="mainwindow.cpp" line="4827"/>
+        <location filename="mainwindow.cpp" line="4858"/>
         <source>画面宽高比例</source>
         <translation>video aspect ratio=</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="4469"/>
+        <location filename="mainwindow.cpp" line="4472"/>
         <source>默认</source>
         <translation>default</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="4886"/>
-        <location filename="mainwindow.cpp" line="4919"/>
-        <location filename="mainwindow.cpp" line="4950"/>
-        <location filename="mainwindow.cpp" line="4981"/>
+        <location filename="mainwindow.cpp" line="4889"/>
+        <location filename="mainwindow.cpp" line="4922"/>
+        <location filename="mainwindow.cpp" line="4953"/>
+        <location filename="mainwindow.cpp" line="4984"/>
         <source>画面旋转角度</source>
         <translation>video rotate</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5013"/>
+        <location filename="mainwindow.cpp" line="5016"/>
         <source>画面适合显示器宽度：上下黑边</source>
         <translation>display with black bands</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5045"/>
+        <location filename="mainwindow.cpp" line="5048"/>
         <source>画面适合显示器高度：左右裁切</source>
         <translation>display without black bands</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5077"/>
-        <location filename="mainwindow.cpp" line="5110"/>
-        <location filename="mainwindow.cpp" line="5141"/>
-        <location filename="mainwindow.cpp" line="5172"/>
-        <location filename="mainwindow.cpp" line="5202"/>
-        <location filename="mainwindow.cpp" line="5233"/>
-        <location filename="mainwindow.cpp" line="5265"/>
+        <location filename="mainwindow.cpp" line="5080"/>
+        <location filename="mainwindow.cpp" line="5113"/>
+        <location filename="mainwindow.cpp" line="5144"/>
+        <location filename="mainwindow.cpp" line="5175"/>
+        <location filename="mainwindow.cpp" line="5205"/>
+        <location filename="mainwindow.cpp" line="5236"/>
+        <location filename="mainwindow.cpp" line="5268"/>
         <source>视频画面大小倍数</source>
         <translation>video size:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="4350"/>
+        <location filename="mainwindow.cpp" line="4353"/>
         <source>置顶:</source>
         <translation>stay on top:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5296"/>
+        <location filename="mainwindow.cpp" line="5299"/>
         <source>字体变大</source>
         <translation>size +</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5327"/>
+        <location filename="mainwindow.cpp" line="5330"/>
         <source>字体默认大小</source>
         <translation>reset</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5360"/>
+        <location filename="mainwindow.cpp" line="5363"/>
         <source>字体变小</source>
         <translation>size -</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5392"/>
+        <location filename="mainwindow.cpp" line="5395"/>
         <source>重复播放启用</source>
         <translation>loop file: enabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5426"/>
+        <location filename="mainwindow.cpp" line="5429"/>
         <source>重复播放禁用</source>
         <translation>loop file: disabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5457"/>
+        <location filename="mainwindow.cpp" line="5460"/>
         <source>循环播放启用</source>
         <translation>loop playlist: enabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5488"/>
+        <location filename="mainwindow.cpp" line="5491"/>
         <source>循环播放禁用</source>
         <translation>loop playlist: disabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5520"/>
-        <location filename="mainwindow.cpp" line="5552"/>
-        <location filename="mainwindow.cpp" line="5583"/>
-        <location filename="mainwindow.cpp" line="5614"/>
-        <location filename="mainwindow.cpp" line="5645"/>
+        <location filename="mainwindow.cpp" line="5523"/>
+        <location filename="mainwindow.cpp" line="5555"/>
+        <location filename="mainwindow.cpp" line="5586"/>
+        <location filename="mainwindow.cpp" line="5617"/>
+        <location filename="mainwindow.cpp" line="5648"/>
         <source>循环播放次数</source>
         <translation>loop playlist times</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5676"/>
+        <location filename="mainwindow.cpp" line="5679"/>
         <source>循环随机播放启用</source>
         <translation>loop playlist and shuffle: enabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5707"/>
+        <location filename="mainwindow.cpp" line="5710"/>
         <source>循环随机播放禁用</source>
         <translation>loop playlist and shuffle: disabled</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="5739"/>
-        <location filename="mainwindow.cpp" line="5771"/>
-        <location filename="mainwindow.cpp" line="5802"/>
-        <location filename="mainwindow.cpp" line="5833"/>
-        <location filename="mainwindow.cpp" line="5863"/>
-        <location filename="mainwindow.cpp" line="5894"/>
-        <location filename="mainwindow.cpp" line="5924"/>
-        <location filename="mainwindow.cpp" line="5953"/>
-        <location filename="mainwindow.cpp" line="5983"/>
-        <location filename="mainwindow.cpp" line="6013"/>
+        <location filename="mainwindow.cpp" line="5742"/>
+        <location filename="mainwindow.cpp" line="5774"/>
+        <location filename="mainwindow.cpp" line="5805"/>
+        <location filename="mainwindow.cpp" line="5836"/>
+        <location filename="mainwindow.cpp" line="5866"/>
+        <location filename="mainwindow.cpp" line="5897"/>
+        <location filename="mainwindow.cpp" line="5927"/>
+        <location filename="mainwindow.cpp" line="5956"/>
+        <location filename="mainwindow.cpp" line="5986"/>
+        <location filename="mainwindow.cpp" line="6016"/>
         <source>播放倍速为</source>
         <translation>speed:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="6055"/>
+        <location filename="mainwindow.cpp" line="6058"/>
         <source>选择高级播放列表文件的保存路径</source>
         <translation>Select the save path of the advanced playlist file</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="6078"/>
+        <location filename="mainwindow.cpp" line="6081"/>
         <source>选择OSC样式文件</source>
         <translation>Select OSC style file</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="6078"/>
+        <location filename="mainwindow.cpp" line="6081"/>
         <source>OSC样式文件(*.lua)</source>
         <translation>OSC style file(*.lua)</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="6739"/>
-        <location filename="mainwindow.cpp" line="6915"/>
-        <location filename="mainwindow.cpp" line="7085"/>
-        <location filename="mainwindow.cpp" line="7254"/>
-        <location filename="mainwindow.cpp" line="7423"/>
+        <location filename="mainwindow.cpp" line="6742"/>
+        <location filename="mainwindow.cpp" line="6918"/>
+        <location filename="mainwindow.cpp" line="7088"/>
+        <location filename="mainwindow.cpp" line="7257"/>
+        <location filename="mainwindow.cpp" line="7426"/>
         <source>播放失败</source>
         <translation>playback failed</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="6740"/>
-        <location filename="mainwindow.cpp" line="6916"/>
-        <location filename="mainwindow.cpp" line="7086"/>
-        <location filename="mainwindow.cpp" line="7255"/>
-        <location filename="mainwindow.cpp" line="7424"/>
+        <location filename="mainwindow.cpp" line="6743"/>
+        <location filename="mainwindow.cpp" line="6919"/>
+        <location filename="mainwindow.cpp" line="7089"/>
+        <location filename="mainwindow.cpp" line="7258"/>
+        <location filename="mainwindow.cpp" line="7427"/>
         <source>没有找到指定文件</source>
         <translation>do not find this file</translation>
     </message>
