@@ -60,6 +60,47 @@ Many thanks.
 
 ---
 
+### 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
+
+1.【MPV-EASY Player\data\portable-data】文件夹对应mpv的：
+
+>【%appdata%\mpv】配置文件夹,也就是【C:\Users\用户名\AppData\Roaming\mpv】
+
+>或者【mpv\portable_config】配置文件夹
+
+>mpv的脚本文件请放入【MPV-EASY Player\data\portable-data\scripts】文件夹（子文件夹的结构和mpv的相同）
+
+2.如果你要手动修改mpv中存在于【%appdata%\mpv\mpv.conf】文件中设置：
+
+>MPV-EASY Player中这些设置已经被转移到【mpv-easy player\data\mpv-easy-data\rjno1.conf】，请修改这个文件即可。
+
+3.mpv中用于修改快捷键的input.conf文件：
+
+>MPV-EASY Player中这个文件存放于【MPV-EASY Player\data\mpv-easy-data\input.conf】
+
+### The following content is summarized (if you don't want to read the complicated content below, you only need to remember the following three points):
+
+1. [MPV-EASY Player\data\portable-data] folder corresponding to mpv:
+
+>[%appdata%\mpv] configuration folder, which is [C:\Users\user name\AppData\Roaming\mpv]
+
+> Or [mpv\portable_config] configuration folder
+
+>Please put the mpv script file into the [MPV-EASY Player\data\portable-data\scripts] folder (the structure of the subfolder is the same as that of mpv)
+
+2. If you want to manually modify the settings in the mpv file [%appdata%\mpv\mpv.conf]:
+
+>These settings in MPV-EASY Player have been transferred to [mpv-easy player\data\mpv-easy-data\rjno1.conf], please modify this file.
+
+3. The input.conf file used to modify shortcut keys in mpv:
+
+>This file in MPV-EASY Player is stored in [MPV-EASY Player\data\mpv-easy-data\input.conf] 
+
+
+
+---
+
+
 ![](./img/mpv-easy-player-gui-mode.png)
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
