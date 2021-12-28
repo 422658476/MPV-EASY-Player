@@ -60,6 +60,8 @@ Many thanks.
 
 ---
 
+![](./img/mpv-easy-player-gui-mode.png)
+
 ### 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
 
 1.【MPV-EASY Player\data\portable-data】文件夹对应mpv的：
@@ -99,9 +101,6 @@ Many thanks.
 
 
 ---
-
-
-![](./img/mpv-easy-player-gui-mode.png)
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
 
