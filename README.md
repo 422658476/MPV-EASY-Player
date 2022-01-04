@@ -110,11 +110,7 @@ MPV-EASY Player虽然需要安装，但它实际上是一个不折不扣的绿�
 
 不过随着不断的开发，MPV-EASY Player现在已经拥有了属于自己的完整的GUI前端，已经变成了一个完整的播放器，所以你会发现MPV-EASY Player现在默认的外观样式已经变成下方图片中那样了。
 
-![](./img/mpv-easy-player-borderless-gui.png)
-
-![](./img/mpv-easy-player-playing.jpg)
-
-![](./img/mpv-easy-player-5.png)
+![](./img/mpv-easy-player-6-github.jpg)
 
 虽然MPV-EASY Player已经带有了更加美观的gui，但是这并不代表它抛弃了之前的mpv原生gui。
 
