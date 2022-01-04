@@ -60,7 +60,7 @@ Many thanks.
 
 ---
 
-![](./img/mpv-easy-player-gui-mode.png)
+![](./img/mpv-easy-player-gui-mode-github.jpg)
 
 ### 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
 
