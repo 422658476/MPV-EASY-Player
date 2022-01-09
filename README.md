@@ -14,6 +14,8 @@ If you are interested in this player and you are very curious about how it works
 
 ---
 
+![](./img/mpv-easy-player-gui-mode-github.jpg)
+
 ---
 
 ### 帮助翻译MPV-EASY Player的语言文件
@@ -59,8 +61,6 @@ Many thanks.
 + Italian language file (**it-mpveasygui.ts** and **it-mpveasysettings.ts**): Thanks to [bovirus](https://github.com/bovirus) for the Italian translation and correction to the English translation. 
 
 ---
-
-![](./img/mpv-easy-player-gui-mode-github.jpg)
 
 ### 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
 
