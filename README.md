@@ -65,37 +65,37 @@ Many thanks.
 
 1.【MPV-EASY Player\data\portable-data】文件夹对应mpv的：
 
->【%appdata%\mpv】配置文件夹,也就是【C:\Users\用户名\AppData\Roaming\mpv】
+- 【%appdata%\mpv】配置文件夹,也就是【C:\Users\用户名\AppData\Roaming\mpv】
 
->或者【mpv\portable_config】配置文件夹
+- 或者【mpv\portable_config】配置文件夹
 
->mpv的脚本文件请放入【MPV-EASY Player\data\portable-data\scripts】文件夹（子文件夹的结构和mpv的相同）
+- mpv的脚本文件请放入【MPV-EASY Player\data\portable-data\scripts】文件夹（子文件夹的结构和mpv的相同）
 
 2.如果你要手动修改mpv中存在于【%appdata%\mpv\mpv.conf】文件中设置：
 
->MPV-EASY Player中这些设置已经被转移到【mpv-easy player\data\mpv-easy-data\rjno1.conf】，请修改这个文件即可。
+- MPV-EASY Player中这些设置已经被转移到【mpv-easy player\data\mpv-easy-data\rjno1.conf】，请修改这个文件即可。
 
 3.mpv中用于修改快捷键的input.conf文件：
 
->MPV-EASY Player中这个文件存放于【MPV-EASY Player\data\mpv-easy-data\input.conf】
+- MPV-EASY Player中这个文件存放于【MPV-EASY Player\data\mpv-easy-data\input.conf】
 
 ### The following content is summarized (if you don't want to read the complicated content below, you only need to remember the following three points):
 
-1. [MPV-EASY Player\data\portable-data] folder corresponding to mpv:
+1.[MPV-EASY Player\data\portable-data] folder corresponding to mpv:
 
->[%appdata%\mpv] configuration folder, which is [C:\Users\user name\AppData\Roaming\mpv]
+- [%appdata%\mpv] configuration folder, which is [C:\Users\user name\AppData\Roaming\mpv]
 
-> Or [mpv\portable_config] configuration folder
+-  Or [mpv\portable_config] configuration folder
 
->Please put the mpv script file into the [MPV-EASY Player\data\portable-data\scripts] folder (the structure of the subfolder is the same as that of mpv)
+- Please put the mpv script file into the [MPV-EASY Player\data\portable-data\scripts] folder (the structure of the subfolder is the same as that of mpv)
 
-2. If you want to manually modify the settings in the mpv file [%appdata%\mpv\mpv.conf]:
+2.If you want to manually modify the settings in the mpv file [%appdata%\mpv\mpv.conf]:
 
->These settings in MPV-EASY Player have been transferred to [mpv-easy player\data\mpv-easy-data\rjno1.conf], please modify this file.
+- These settings in MPV-EASY Player have been transferred to [mpv-easy player\data\mpv-easy-data\rjno1.conf], please modify this file.
 
-3. The input.conf file used to modify shortcut keys in mpv:
+3.The input.conf file used to modify shortcut keys in mpv:
 
->This file in MPV-EASY Player is stored in [MPV-EASY Player\data\mpv-easy-data\input.conf] 
+- This file in MPV-EASY Player is stored in [MPV-EASY Player\data\mpv-easy-data\input.conf] 
 
 
 
