@@ -438,6 +438,13 @@ b.让mpv把历史记录文件保存到以下路径中
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
+### mpv的快捷键配置文件input.conf中每个按键要如何书写才能被正确识别
+
+最正确的方式是参照下方mpv源代码文件中【static const struct key_name key_names[] = {】之后的行即可。
+
+https://github.com/mpv-player/mpv/blob/master/input/keycodes.c
+
+比如【空格】要写成【SPACE】，小键盘上的【5】要写成【KP5】
 
 ### 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(mac和linux)
 
