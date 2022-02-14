@@ -99,6 +99,11 @@ Many thanks.
 
 
 
+### mpv可以使用的各种脚本请参考这个汇总页面(Please refer to this summary page for the various scripts that mpv can use)
+
+https://github.com/mpv-player/mpv/wiki/User-Scripts
+
+
 ---
 
 基本上MPV-EASY Player就是在对MPV的manual.pdf（说明文档）充分阅读和理解的情况下，对MPV、mpv配置、lua脚本(包含github他人分享的)、js脚本进行的拼装和组合。
@@ -432,11 +437,6 @@ b.让mpv把历史记录文件保存到以下路径中
 >[pause-when-minimize.lua](https://github.com/mpv-player/mpv/tree/master/TOOLS/lua)         ----> 最小化时自动暂停
 
 >[playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
-
-
-### mpv可以使用的各种脚本请参考这个汇总页面
-
-https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 ### mpv的快捷键配置文件input.conf中每个按键要如何书写才能被正确识别
 
