@@ -165,7 +165,7 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 或许下面所说的文件存放路径、结构、调用方式和你之前所认为的、理所当然的方式有很多出入，甚至可能是多此一举的，但这些功夫都是为中文路径的支持，以及把尽可能少的文件存放到c盘纯英文路径下做的努力，好让大部分数据都保存在非C盘，防止配置文件的丢失和软件的丢失，并且也能够尽可能减少需要复制到c盘的细小文件的数量，从而可以节省时间从而带来更快的启动速度。
 
-## 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(windows)
+## 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(windows)[【点击跳转到这段说明下方】](#mpv%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E4%BD%BF%E7%94%A8%E5%8C%85%E6%8B%AC%E5%8F%82%E6%95%B0%E6%9B%B4%E6%94%B9lua%E8%84%9A%E6%9C%ACjs%E8%84%9A%E6%9C%AC%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E9%94%AE)
 
 windows下mpv支持读取的配置路径基本包含2种。你只需要选择使用其中一种即可。
 
@@ -307,6 +307,8 @@ b.让mpv把历史记录文件保存到以下路径中
 
 5、每次修改完【data】文件夹中的数据后，重新执行第四步的操作后在运行mpv.exe，修改的内容才会生效；重装系统导致【C:\Users\用户名\AppData\Roaming\mpv】下的数据丢失，也只需要重新执行第四步即可正常.
 
+---
+
 ## MPV播放器的使用（包括参数更改、lua脚本、js脚本、自定义快捷键）
 
 当你通过以上步骤知道如何在windows下灵活的正常使用mpv后，就可以开始对mpv进行各种自定义了，当然自定义基于你对manual.pdf（说明文档）中内容的了解程度而定，越熟悉越能使其强大，如果你并不关心manual.pdf（说明文档），那么也无所谓，因为【portable-data】【mpv-easy-data】文件夹中的已经添加的设置足够强大
@@ -317,18 +319,15 @@ b.让mpv把历史记录文件保存到以下路径中
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
----
-### 如果你的mpv需要一些最基本的默认参数，那么可以直接复制[rjno1.conf](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf)中的参数，然后在进行修改
----
+-**如果你的mpv需要一些最基本的默认参数，那么可以直接复制[rjno1.conf](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf)中的参数，然后在进行修改**
 
-### 对mpv进行各种自定义主要修改哪些文件和文件夹
+## 对mpv进行各种自定义主要修改哪些文件和文件夹
 
 >mpv-easy-data\input.conf         ----> 主要用来自定义快捷键，文件中已经包含了充分的示例，也已经有了少量修改的快捷键
 
 >mpv-easy-data\rjno1.conf         ----> 主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
 
----
-### rjno1.conf使用注意事项：
+## rjno1.conf使用注意事项：
 >请注意：rjno1.conf中有一个参数：osc=xxx  #(xxx为yes或者no)。这个参数是用来控制osc（播放控制界面）的显示和隐藏的。
 
 >所以，你在使用rjno1.conf时，一定要确保rjno1.conf中的osc=yes而不是osc=no，这样mpv才会显示osc界面
@@ -356,7 +355,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 >>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
-### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
+## [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
 【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键、注释、脚本下载页面的说明才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的注释进行改进和bug修正
 
@@ -423,7 +422,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 如果你想要自己制作这样的OSC外观样式呢？
 
-### [教程:如何制作MPV-EASY Player/MPV Player的OSC外观样式](http://www.rjno1.com/infor/diy/3019-modify-mpv-osc-style.html)
+## [教程:如何制作MPV-EASY Player/MPV Player的OSC外观样式](http://www.rjno1.com/infor/diy/3019-modify-mpv-osc-style.html)
 
 ########################插播结束########################
 
@@ -438,6 +437,8 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 >[pause-when-minimize.lua](https://github.com/mpv-player/mpv/tree/master/TOOLS/lua)         ----> 最小化时自动暂停
 
 >[playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
+
+---
 
 ## 快捷键
 
