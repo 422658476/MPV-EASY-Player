@@ -143,6 +143,8 @@ MPV-EASY Player虽然需要安装，但它实际上是一个不折不扣的绿�
 
 为了尽量浪费你宝贵的时间啊。
 
+---
+
 ## 如何获得MPV的manual.pdf（说明文档）
 
 https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档，也可以下载到pdf版，或者在你下载的mpv压缩包中也是包含这个manual.pdf的。
