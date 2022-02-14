@@ -139,17 +139,17 @@ MPV-EASY Player虽然需要安装，但它实际上是一个不折不扣的绿�
 
 又是当然：世事无绝对，以上这些随着时间、事情的发展、人思想的转变、技术的进步都有可能落伍、错误，所以以上这些你甚至可以忽略不用看。
 
-### 那我为什么要写以上这些？还放在最前面？
+## 那我为什么要写以上这些？还放在最前面？
 
 为了尽量浪费你宝贵的时间啊。
 
-### 如何获得MPV的manual.pdf（说明文档）
+## 如何获得MPV的manual.pdf（说明文档）
 
 https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档，也可以下载到pdf版，或者在你下载的mpv压缩包中也是包含这个manual.pdf的。
 
 查看说明文档当然是重中之重，你可以知道哪些文件要放在什么路径下才会生效，什么参数才能激活什么功能，**十万个mpv的为什么**尽在其中。不过文档是英文的，看的时候用个翻译软件吧。
 
-### [【portable-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data)[【mpv-easy-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data)2个文件夹的益处
+## [【portable-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data)[【mpv-easy-data】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data)2个文件夹的益处
 
 请注意：【icons】【img】【 tutorial】等文件夹你不需要查看，对你有用的只有【portable-data】和【mpv-easy-data】文件夹
 
@@ -157,7 +157,7 @@ https://mpv.io/manual/ 在这个网页中你可以看到html版的说明文档�
 
 这样一来，不管你在什么平台下使用mpv，即使MPV-EASY Player出现bug、版本不更新、不兼容最新版mpv，都可以靠自己获得一个更加强大，更加顺手，甚至属于你自己的mpv player，当然也可以让你更快发现MPV-EASY Player中的bug，以及加入新的功能。
 
-### MPV-EASY Player和mpv文件夹结构的异同
+## MPV-EASY Player和mpv文件夹结构的异同
 
 既然MPV-EASY Player源自于mpv，那么2者的文件夹结构其实是非常类似的，所以把前者的设置、文件迁移到后者也非常简单。
 
