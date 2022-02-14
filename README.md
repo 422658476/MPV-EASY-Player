@@ -121,7 +121,7 @@ MPV-EASY Player虽然需要安装，但它实际上是一个不折不扣的绿�
 
 实际上，在使用MPV-EASY Player时，你可以在4种不同的运行模式和2种不同的gui界面之间随意的切换使用，随时体验最新版mpv(只需要把下载的最新版mpv存放到【MPV-EASY Player所在文件夹\mpv】路径下即可)，mpv支持的lua脚本、js脚本也是可以直接放在MPV-EASY Player中使用，也就是尽可能保持mpv的特性，做到最高的兼容度。
 
-- **整个视频播放器包含了很多开源代码，同时也包含了更多的闭源代码，并且受限于精力和能力，这并不是一个能够跨平台使用的播放器，只能在windows下蹦跶，甚至好像很多行为可能都是违反各种协议的。**
+### 整个视频播放器包含了很多开源代码，同时也包含了更多的闭源代码，并且受限于精力和能力，这并不是一个能够跨平台使用的播放器，只能在windows下蹦跶，甚至好像很多行为可能都是违反各种协议的。
 
 不过既然除了4个exe文件，MPV-EASY Player具有的其他文件已经放到了github这里，那么这些文件对于你使用原版mpv肯定是非常有用的，少许修改放入mpv中就能让mpv获得一些或者很多的提升，不管你是在windows、mac、linux下使用mpv，这些都是支持或者大部分都支持的。
 
@@ -135,7 +135,7 @@ MPV-EASY Player虽然需要安装，但它实际上是一个不折不扣的绿�
 
 又是当然：世事无绝对，以上这些随着时间、事情的发展、人思想的转变、技术的进步都有可能落伍、错误，所以以上这些你甚至可以忽略不用看。
 
-## 那我为什么要写以上这些？还放在最前面？
+### 那我为什么要写以上这些？还放在最前面？
 
 为了尽量浪费你宝贵的时间啊。
 
@@ -315,19 +315,19 @@ b.让mpv把历史记录文件保存到以下路径中
 
 注意：如果默认参数不能够让mpv正常工作的话，那就说明mpv在版本升级的时候进行了某些参数的更改，你需要对比新旧版本manual.pdf文档，或者查看更新日志找出差别。
 
-## mpv可以使用的各种脚本请参考这个汇总页面
+### mpv可以使用的各种脚本请参考这个汇总页面
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 - **如果你的mpv需要一些最基本的默认参数，那么可以直接复制[rjno1.conf](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf)中的参数，然后在进行修改**
 
-## 对mpv进行各种自定义主要修改哪些文件和文件夹
+### 对mpv进行各种自定义主要修改哪些文件和文件夹
 
 >mpv-easy-data\input.conf         ----> 主要用来自定义快捷键，文件中已经包含了充分的示例，也已经有了少量修改的快捷键
 
 >mpv-easy-data\rjno1.conf         ----> 主要调整mpv的设置参数，这些设置本来是放在mpv.conf中的，现在已经转为存放在rjno1.conf中，因此mpv.conf无需变动也不建议变动，看到mpv.conf中profile="ini-rjno1"与rjno1.conf中的[ini-rjno1]了吗，其中的**ini-rjno1**可以更改，但要保持一致
 
-## rjno1.conf使用注意事项：
+### rjno1.conf使用注意事项：
 >请注意：rjno1.conf中有一个参数：osc=xxx  #(xxx为yes或者no)。这个参数是用来控制osc（播放控制界面）的显示和隐藏的。
 
 >所以，你在使用rjno1.conf时，一定要确保rjno1.conf中的osc=yes而不是osc=no，这样mpv才会显示osc界面
@@ -355,7 +355,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 >>上方适用于mpv 0.28.2 2018-3-30前的版本，如果使用mpv 2018-3-30后的版本，lua-settings请换成script-opts
 
-## [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
+### [【portable-data/scripts】](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 文件夹中提供的lua脚本和js脚本已经进行了哪些方面的增强
 
 【portable-data】中的脚本文件大部分都可以从github中找到，有些已经进行了些许修改，有些需要你查看脚本中的快捷键、注释、脚本下载页面的说明才能调用，小部分则是MPV-EASY-Player中原创的脚本，你也可以根据脚本中的注释进行改进和bug修正
 
