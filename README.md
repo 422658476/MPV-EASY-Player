@@ -94,14 +94,11 @@ Many thanks.
 
 - This file in MPV-EASY Player is stored in [MPV-EASY Player\data\mpv-easy-data\input.conf] 
 
----
-
-
-## mpv可以使用的各种脚本请参考这个汇总页面
+### mpv可以使用的各种脚本请参考这个汇总页面
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
-## Please refer to this summary page for the various scripts that mpv can use
+### Please refer to this summary page for the various scripts that mpv can use
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
