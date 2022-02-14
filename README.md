@@ -319,7 +319,7 @@ b.让mpv把历史记录文件保存到以下路径中
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
--**如果你的mpv需要一些最基本的默认参数，那么可以直接复制[rjno1.conf](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf)中的参数，然后在进行修改**
+- **如果你的mpv需要一些最基本的默认参数，那么可以直接复制[rjno1.conf](https://github.com/422658476/MPV-EASY-Player/blob/master/mpv-easy-data/rjno1.conf)中的参数，然后在进行修改**
 
 ## 对mpv进行各种自定义主要修改哪些文件和文件夹
 
