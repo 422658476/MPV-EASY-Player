@@ -438,6 +438,8 @@ b.让mpv把历史记录文件保存到以下路径中
 
 >[playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
 
+## 快捷键
+
 ### mpv的快捷键配置文件input.conf中每个按键要如何书写才能被正确识别
 
 最正确的方式是参照下方mpv源代码文件中【static const struct key_name key_names[] = {】之后的行即可。
