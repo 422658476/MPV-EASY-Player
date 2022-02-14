@@ -2,7 +2,7 @@
 ![](./img/mpv-logo-128.png)
 
 ### [MPV-EASY Player](https://www.rjno1.com/mpv-easy-player/) : 一个基于[MPV](https://github.com/mpv-player/mpv/),易于使用,现代化的视频播放器
----
+
 ### [MPV-EASY Player](https://www.rjno1.com/mpv-easy-player/)  : An easy to use, modern video player based on [MPV](https://github.com/mpv-player/mpv/)
 
 All the content on this page is described in Chinese. 
@@ -11,13 +11,12 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 
 If you are interested in this player and you are very curious about how it works after using it, then try to read this page using [Google Translate](https://translate.google.com/).
 
----
 
 ![](./img/mpv-easy-player-gui-mode-github.jpg)
 
 ---
 
-### 帮助翻译MPV-EASY Player的语言文件
+## 帮助翻译MPV-EASY Player的语言文件
 
 如果你喜欢这个播放器，并且有能力把它翻译成你熟悉的语言：
 
@@ -37,9 +36,7 @@ If you are interested in this player and you are very curious about how it works
 
 + 意大利语语言文件(**it-mpveasygui.ts**和**it-mpveasysettings.ts**)：感谢[bovirus](https://github.com/bovirus)提供的意大利语翻译和对英语翻译的修正。
 
----
-
-### Help translate language files of MPV-EASY Player
+## Help translate language files of MPV-EASY Player
 
 If you like this player and have the ability to translate it into a language you are familiar with:
 
@@ -61,7 +58,7 @@ Many thanks.
 
 ---
 
-### 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
+## 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
 
 1.【MPV-EASY Player\data\portable-data】文件夹对应mpv的：
 
@@ -79,7 +76,7 @@ Many thanks.
 
 - MPV-EASY Player中这个文件存放于【MPV-EASY Player\data\mpv-easy-data\input.conf】
 
-### The following content is summarized (if you don't want to read the complicated content below, you only need to remember the following three points):
+## The following content is summarized (if you don't want to read the complicated content below, you only need to remember the following three points):
 
 1.[MPV-EASY Player\data\portable-data] folder corresponding to mpv:
 
@@ -97,12 +94,16 @@ Many thanks.
 
 - This file in MPV-EASY Player is stored in [MPV-EASY Player\data\mpv-easy-data\input.conf] 
 
+---
 
 
-### mpv可以使用的各种脚本请参考这个汇总页面(Please refer to this summary page for the various scripts that mpv can use)
+## mpv可以使用的各种脚本请参考这个汇总页面
 
 https://github.com/mpv-player/mpv/wiki/User-Scripts
 
+## Please refer to this summary page for the various scripts that mpv can use
+
+https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 ---
 
