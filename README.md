@@ -465,13 +465,13 @@ input.conf能够自定义所有的快捷键，但在mpv中并不仅仅只是这�
 作为一个播放器，mpv的日常使用往往并不需要你自定义快捷键，MPV-EASY Player中预设和修改的小部分快捷键已经足够你日常使用，也已经足够的方便，如果你想要自定义某些快捷键，根据上面这些信息，相信我，手动修改input.conf和脚本中的快捷键是一个更加明智和更加简单的选择。
 
 ---
-### 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(mac和linux)
+## 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(mac和linux)
 
 由于MPV-EASY Player并没有mac和linux版，上面的教程加上下方的教程，可以让你自己在mac和linux下创造出一个MPV-EASY Player for mac、MPV-EASY Player for linux，虽然操作功能方面有精简，但是在平时使用时的外观和功能大部分都是一样的。
 
 聪明的你甚至已经想到，可以在windows下调整好MPV-EASY Player的功能，然后再把这些调整后的文件转移到mac或linux下使用，从而省去手动修改配置文件和查阅说明文档的烦恼，不过这样操作的时候有些地方需要小心：
 
-### 由于MPV-EASY Player默认启用了硬解，而mac和linux下MPV使用硬解的参数的值和windows下可能是不同的，如果你从windows中迁移到mac或者linux下时这个参数不修改，可能会导致播放失败，最典型的现象就是双击播放后mpv一闪而过，播放失败，mpv自动退出了。
+#### 由于MPV-EASY Player默认启用了硬解，而mac和linux下MPV使用硬解的参数的值和windows下可能是不同的，如果你从windows中迁移到mac或者linux下时这个参数不修改，可能会导致播放失败，最典型的现象就是双击播放后mpv一闪而过，播放失败，mpv自动退出了。
 
 如果你遇到了这个问题，那么请查看这个参数的值：vo，这个参数存在于：
 
@@ -487,7 +487,8 @@ input.conf能够自定义所有的快捷键，但在mpv中并不仅仅只是这�
 
 【portable-data】【mpv-easy-data】文件夹中的内容依葫芦画瓢按照结构放到以下路径后，依旧按照上方教程（方法一）修改一下mpv.conf文件即可
 
----
+## linux
+
 **linux**（下方的~代表的是linux下的home分区，.config是一个隐藏文件夹，需要文件管理器开启【显示隐藏文件】才能看到，【mpv】文件夹可能需要自行创建）：
 
 ~/.config/mpv/XXXXXXX  (根据下方信息 从下面2条中选一个)
@@ -503,7 +504,8 @@ input.conf能够自定义所有的快捷键，但在mpv中并不仅仅只是这�
 
 ~/.config/mpv/mpv-easy-data
 
----
+## mac
+
 **mac**（下方的~代表的是mac下的【个人目录】也就是home文件夹，.config是一个隐藏文件夹，需要【个人目录】下Command+Shift+G后输入.config后进入，【mpv】文件夹可能需要自行创建）：
 
 ![](./img/mpv-easy-player-mac.jpg)
