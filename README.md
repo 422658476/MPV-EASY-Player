@@ -1,6 +1,6 @@
 # MPV-EASY Player
 
-### ![](./img/mpv-logo-128.png)  【Page language : [`中文`](https://github.com/422658476/MPV-EASY-Player)  [`English`](https://github-com.translate.goog/422658476/MPV-EASY-Player?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp)】
+### ![](./img/mpv-logo-128.png)  🌐 Page language : [`中文`](https://github.com/422658476/MPV-EASY-Player)  [`English`](https://github-com.translate.goog/422658476/MPV-EASY-Player?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp)
 
 ### [MPV-EASY Player](https://www.rjno1.com/mpv-easy-player/) : 一个基于[MPV](https://github.com/mpv-player/mpv/),易于使用,现代化的视频播放器
 
