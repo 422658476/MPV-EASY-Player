@@ -15,7 +15,7 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 ---
 ## Please browse all content below from the wiki page【请从wiki页面浏览下方的所有内容】
 
-https://github.com/422658476/MPV-EASY-Player/wiki
+## https://github.com/422658476/MPV-EASY-Player/wiki
 
 #### 【0】Introduction of MPV EASY Player【MPV EASY Player的简介】
 
