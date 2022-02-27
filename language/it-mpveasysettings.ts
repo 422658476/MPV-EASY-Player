@@ -1196,7 +1196,6 @@ accedi ed esegui set volume 88
 esci dalla finestra della riga di comando
 
 Avviso:
-
 in modalità GUI nativa mpv, se sono abilitate più istanze
 1. non cambiare finestra durante l&apos;esecuzione
 2. ti consigliamo di disattivare la funzione superiore adesiva.</translation>
