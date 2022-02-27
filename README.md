@@ -43,7 +43,3 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 ![](https://github.com/422658476/MPV-EASY-Player/blob/master/img/mpv-easy-player-4-1.png)
 
 ![](https://github.com/422658476/MPV-EASY-Player/blob/master/img/mpv-easy-player-2.jpg)
-
-![](https://github.com/422658476/MPV-EASY-Player/blob/master/img/mpv-easy-player-3.gif)
-
-
