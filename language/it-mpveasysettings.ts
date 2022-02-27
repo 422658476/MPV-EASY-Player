@@ -1152,7 +1152,7 @@ ctrl+shift+d
 MPV原生GUI模式下,如果启用多实例
 1.执行过程中请勿切换窗口
 2.建议关闭置顶功能.</source>
-        <translation type="unfinished">percorso archiviazione file dati: data\mpv-easy-data\menu.conf
+        <translation>percorso archiviazione file dati: data\mpv-easy-data\menu.conf
 
 per inviare una serie di scorciatoie a mpv  usa una voce di menu invece della tastiera.
 ogni tasto di scelta rapida in una serie di tasti di scelta rapida viene inviato separatamente a un breve intervallo.
@@ -1192,7 +1192,7 @@ tasto di scelta rapida:
 ` s e t space v o l u m e space 8 8 enter esc
 
 apre una finestra della riga di comando
-entrare ed eseguire: set volume 88
+accedi ed esegui set volume 88
 esci dalla finestra della riga di comando
 
 Avviso:
