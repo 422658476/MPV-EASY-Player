@@ -705,7 +705,7 @@ larghezza minima: 640px.</translation>
     <message>
         <location filename="../mainwindow.ui" line="3151"/>
         <source>进度条拖动时实时更新进度</source>
-        <translation>avanzamento aggiornamento in tempo reale quando la barra di avanzamento viene trascinata</translation>
+        <translation>Aggiornamento in tempo reale quando la barra avanzamento viene trascinata</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项生效条件:&lt;br/&gt;1.进度条样式为bar.&lt;br/&gt;2.缓冲进度样式为bar.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
