@@ -36,7 +36,11 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 
 - #### [【8】MPV EASY Player for mac and linux【在mac和linux下使用MPV EASY Player】](https://github.com/422658476/MPV-EASY-Player/wiki/%E3%80%908%E3%80%91MPV-EASY-Player-for-mac-and-linux%E3%80%90%E5%9C%A8mac%E5%92%8Clinux%E4%B8%8B%E4%BD%BF%E7%94%A8MPV-EASY-Player%E3%80%91)
 
----
+***
+
+**整个视频播放器包含了很多开源代码，同时也包含了更多的闭源代码，并且受限于精力和能力，这并不是一个能够跨平台使用的播放器，只能在windows下蹦跶，甚至好像很多行为可能都是违反各种协议的。**
+
+***
 
 ![](https://github.com/422658476/MPV-EASY-Player/raw/master/img/mpv-easy-player-6-github.jpg)
 
