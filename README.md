@@ -42,7 +42,7 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 
 ---
 
-**[浏览我的另一个完整的开源项目:【banana detect adblock】](https://github.com/422658476/banana-detect-adblock)**
+**浏览我的另一个完整的开源项目:[【banana detect adblock】](https://github.com/422658476/banana-detect-adblock)**
 
 ***
 
