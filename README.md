@@ -40,6 +40,10 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 
 **整个视频播放器包含了很多开源代码，同时也包含了更多的闭源代码，并且受限于精力和能力，这并不是一个能够跨平台使用的播放器，只能在windows下蹦跶，甚至好像很多行为可能都是违反各种协议的。**
 
+---
+
+**[浏览我的另一个完整的开源项目:【banana detect adblock】](https://github.com/422658476/banana-detect-adblock)**
+
 ***
 
 ![](https://github.com/422658476/MPV-EASY-Player/raw/master/img/mpv-easy-player-6-github.jpg)
