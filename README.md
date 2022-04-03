@@ -443,11 +443,11 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 下载最新版的anime4k： https://github.com/bloc97/Anime4K/releases
 
-点击释出版本页面上的【Installation Instructions for GLSL/MPV (v*.xx)】链接，按照它的说明操作。
+点击释出版本页面上的【Installation Instructions for GLSL/MPV (vX.XX)】链接，按照它的说明操作。
 
 第一步：
 
-Anime4K_v4.x.zip中所有***.glsl文件放入：
+Anime4K_vX.X.zip中所有***.glsl文件放入：
 
 【MPV-EASY Player\data\portable-data\shaders】文件夹（这个文件夹请自行创建）
 
@@ -455,7 +455,7 @@ Anime4K_v4.x.zip中所有***.glsl文件放入：
 
 打开【MPV-EASY Player\data\mpv-easy-data\input.conf】文件
 
-打开【Installation Instructions for GLSL/MPV (v4.xx)】链接，根据自己显卡性能的强弱填入页面上给出的不同组快捷键：
+打开【Installation Instructions for GLSL/MPV (vX.XX)】链接，根据自己显卡性能的强弱填入页面上给出的不同组快捷键：
 
 CTRL+1 no-osd ******
 
