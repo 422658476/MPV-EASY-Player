@@ -443,7 +443,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 下载最新版的anime4k： https://github.com/bloc97/Anime4K/releases
 
-点击释出版本页面上的【Installation Instructions for GLSL/MPV (v4.xx)】链接，按照它的说明操作。
+点击释出版本页面上的【Installation Instructions for GLSL/MPV (v*.xx)】链接，按照它的说明操作。
 
 第一步：
 
