@@ -439,6 +439,50 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 ---
 
+**使用anime4k**
+
+下载最新版的anime4k： https://github.com/bloc97/Anime4K/releases
+
+点击释出版本页面上的【Installation Instructions for GLSL/MPV (v4.xx)】链接，按照它的说明操作。
+
+第一步：
+
+Anime4K_v4.x.zip中所有***.glsl文件放入：
+
+【MPV-EASY Player\data\portable-data\shaders】文件夹（这个文件夹请自行创建）
+
+第二步：
+
+打开【MPV-EASY Player\data\mpv-easy-data\input.conf】文件
+
+打开【Installation Instructions for GLSL/MPV (v4.xx)】链接，根据自己显卡性能的强弱填入页面上给出的不同组快捷键：
+
+CTRL+1 no-osd ******
+
+CTRL+2 no-osd ******
+
+CTRL+3 no-osd ******
+
+*
+
+*
+
+*
+
+CTRL+0 no-osd change-list glsl-shaders clr “”
+
+第三步：
+
+打开任务管理器，开启监控gpu使用率功能。
+
+使用MPV-EASY Player运行一个动画视频，点击【CTRL+1】到【CTRL+6】任意一个快捷键开启不同设置的anime4k。
+
+这个时候比较任务管理器中mpv进程gpu使用率的变化，如果gpu使用率比不开启时增长了很多，说明开始生效了，或者直接目视比较画质。
+
+使用【CTRL+0】关闭anime4k
+
+---
+
 ## 快捷键
 
 ### mpv的快捷键配置文件input.conf中每个按键要如何书写才能被正确识别
