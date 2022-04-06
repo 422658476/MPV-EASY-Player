@@ -382,7 +382,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 音量:100% 硬解:d3d11va 置顶:no 音轨: (1) 字幕:no 分辨率:1920x1080 声道……
 ```
 
-osc.conf中添加下面这行，这行因为太复杂太容易错是直接传输给mpv的，默认没有写在文件中。
+osc.conf中添加下面这行：
 
 ```
 title=音量:${volume}% 硬解:${hwdec-current} 置顶:${ontop} 音轨:${audio} 字幕:${sub} 文件分辨率:${width}x${height} 声道:${audio-params/hr-channels} 帧数:${container-fps}
