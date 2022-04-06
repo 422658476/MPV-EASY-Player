@@ -376,6 +376,20 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 **注意** 如果你想要使用mpv的原版osc界面，请删除osc.lua这个文件或者把它重命名成非lua后缀名，并且确保rjno1.conf中没有osc=no
 
+**如何在mpv的osc中显示：**
+
+```
+音量:100% 硬解:d3d11va 置顶:no 音轨: (1) 字幕:no 分辨率:1920x1080 声道……
+```
+
+osc.conf中添加下面这行，这行因为太复杂太容易错是直接传输给mpv的，默认没有写在文件中。
+
+```
+title=音量:${volume}% 硬解:${hwdec-current} 置顶:${ontop} 音轨:${audio} 字幕:${sub} 文件分辨率:${width}x${height} 声道:${audio-params/hr-channels} 帧数:${container-fps}
+```
+
+通过查看mpv的说明文档你还可以添加其他的，但请注意不要添加太多，添加太多会超出osc右侧边界，mpv-easy player中请勿添加，直接使用设置界面调整。
+
 ---
 ########################下面是插播########################
 
