@@ -495,6 +495,10 @@ CTRL+0 no-osd change-list glsl-shaders clr “”
 
 使用【CTRL+0】关闭anime4k
 
+第四步：
+
+如果你不想要每次使用都按下这些快捷键，或者不想要记忆这些快捷键，那么请使用MPV-EASY Player设置中的【自定义菜单】功能，点击菜单项就能帮你启用指定功能。
+
 ---
 
 ## 快捷键
