@@ -527,6 +527,8 @@ input.conf能够自定义所有的快捷键，但在mpv中并不仅仅只是这�
 
 同时MPV-EASY Player对于快捷键也没有进行“重复造轮子”（也就是对快捷键进行套娃），对于mpv快捷键的使用记忆完全可以直接套用到MPV-EASY Player中，并且如果你想要从记忆大量的快捷键中解脱出来，请使用【自定义菜单】功能，它能帮你存储和发送你填写在input.conf或者脚本中的单个快捷键或者一组快捷键，通过点击一个菜单项就可以实现按下一个或者多个快捷键的相同结果。
 
+![](./img/mpv-easy-player-auto-input.png)
+
 ---
 ## 如何把MPV-EASY Player的2个文件夹改变到适用于mpv(mac和linux)
 
