@@ -469,7 +469,7 @@ Anime4K_vX.X.zip中所有***.glsl文件放入：
 
 打开【MPV-EASY Player\data\mpv-easy-data\input.conf】文件
 
-打开【Installation Instructions for GLSL/MPV (vX.XX)】链接，根据自己显卡性能的强弱填入页面上给出的不同组快捷键：
+打开 https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Windows.md ，根据自己显卡性能的强弱填入页面上给出的不同组快捷键：
 
 CTRL+1 no-osd ******
 
