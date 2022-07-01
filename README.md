@@ -68,7 +68,7 @@ Many thanks.
 
 - mpv的脚本文件请放入【MPV-EASY Player\data\portable-data\scripts】文件夹（子文件夹的结构和mpv的相同）
 
-2.如果你要手动修改mpv中存在于【%appdata%\mpv\mpv.conf】文件中设置：
+2.如果你要手动修改mpv中存在于【%appdata%\mpv\mpv.conf】或者【mpv\portable_config\mpv.conf】文件中设置：
 
 - MPV-EASY Player中这些设置已经被转移到【mpv-easy player\data\mpv-easy-data\rjno1.conf】，请修改这个文件即可。
 
@@ -86,7 +86,7 @@ Many thanks.
 
 - Please put the mpv script file into the [MPV-EASY Player\data\portable-data\scripts] folder (the structure of the subfolder is the same as that of mpv)
 
-2.If you want to manually modify the settings in the mpv file [%appdata%\mpv\mpv.conf]:
+2.If you want to manually modify the settings in the [%appdata%\mpv\mpv.conf] or [mpv\portable_config\mpv.conf] file in mpv:
 
 - These settings in MPV-EASY Player have been transferred to [mpv-easy player\data\mpv-easy-data\rjno1.conf], please modify this file.
 
