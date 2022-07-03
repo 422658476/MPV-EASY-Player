@@ -17,7 +17,9 @@ function save_all_to_conf()
 
 volume_value = mp.get_property("volume")
 --floor() 方法执行的是向下取整计算，它返回的是小于或等于函数参数 比如20.0000-> 20
+--file://.//data//mpv-easy-data//other.conf也可
 volume_value_fix = math.floor(volume_value)
+--mp.command("show-text xx"..volume_value_fix.."==")
 --w	打开只写文件，若文件存在则文件长度清为0，即该文件内容会消失。若文件不存在则建立该文件。
 file = io.open(other_conf_dirfile, "w")
 -- 在文件最后一行添加
