@@ -509,6 +509,10 @@ CTRL+0 no-osd change-list glsl-shaders clr “”
 
 3.双击这个播放列表文件即可开始播放，打开【高级播放列表】则可以在所有视频链接之间进行跳转等操作。
 
+例子：播放各地的电视台(iptv)：
+
+打开 https://github.com/iptv-org/iptv/tree/master/streams ，找到cn.m3u(也就是中国大陆的电视台)，复制其中的内容，也就是所有的电视台的在线视频地址，就可以看电视了。
+
 ---
 ## 快捷键
 
