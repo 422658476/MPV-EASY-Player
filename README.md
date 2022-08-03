@@ -511,7 +511,7 @@ CTRL+0 no-osd change-list glsl-shaders clr “”
 
 例子：播放各地的电视台(iptv)：
 
-打开 https://github.com/iptv-org/iptv/tree/master/streams ，找到cn.m3u(也就是中国大陆的电视台)，复制其中的内容，也就是所有的电视台的在线视频地址，就可以看电视了。
+打开 https://github.com/iptv-org/iptv/tree/master/streams ，找到cn.m3u(也就是中国大陆的电视台)，复制其中的内容，也就是所有的电视台的在线视频地址，保存到txt中并把文件后缀名改为m3u,双击这个m3u文件就可以看电视了。
 
 ---
 ## 快捷键
