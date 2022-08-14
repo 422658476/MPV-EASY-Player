@@ -514,6 +514,15 @@ CTRL+0 no-osd change-list glsl-shaders clr “”
 打开 https://github.com/iptv-org/iptv/tree/master/streams ，找到cn.m3u(也就是中国大陆的电视台)，复制其中的内容，也就是所有的电视台的在线视频地址，保存到txt中并把文件后缀名改为m3u,双击这个m3u文件就可以看电视了。
 
 ---
+
+### 颜色渐变进度条示例：
+
+MPV-EASY Player设置界面虽然带有取色、调色板、几十种可选颜色等功能，但如果你还是不知道哪2种颜色能够获得漂亮的渐变进度条，那么可以参考下面的这些示例。
+
+![](./img/slider-demo.png)
+
+---
+
 ## 快捷键
 
 ### mpv的快捷键配置文件input.conf中每个按键要如何书写才能被正确识别
