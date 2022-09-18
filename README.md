@@ -519,7 +519,7 @@ CTRL+0 no-osd change-list glsl-shaders clr “”
 
 MPV-EASY Player设置界面虽然带有取色、调色板、几十种可选颜色等功能，但如果你还是不知道哪2种颜色能够获得漂亮的渐变进度条，那么可以参考下面的这些示例。
 
-![](./img/slider-demo.png)
+![](./img/slider-demo-20220918.png)
 
 ---
 
