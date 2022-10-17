@@ -523,6 +523,34 @@ MPV-EASY Player设置界面虽然带有取色、调色板、几十种可选颜�
 
 ---
 
+### 给设置界面的设置给与选项中不包含的值
+
+比如：设置界面的【输出驱动】只包含：gpu和direct3d这2个可选值。【输出驱动】对应的是【mpv-easy player\data\mpv-easy-data\rjno1.conf】中的【vo=xxx】这一行。
+
+如果想要把gpu-next设置为【输出驱动】的值，在设置界面是无法办到的，想要解决这个问题十分简单：
+
+使用文本编辑器打开【mpv-easy player\data\mpv-easy-data\rjno1.conf】
+
+找到profile=gpu-hq这行，比如改成：
+
+profile=“gpu-hq,ini-custom”
+
+之后【mpv-easy player\data\mpv-easy-data\rjno1.conf】中在
+
+[ini-rjno1-playlist]
+no-resume-playback=
+
+这个的下方输入：
+
+[ini-custom]
+vo=gpu-next
+
+那么[ini-custom]中的vo=gpu-next这行就会覆盖上方[ini-rjno1]下已经存在的【vo=xxx】。
+
+当然你可以把更多自定义的设置添加到[ini-custom]下 ，只需要注意这些设置的值会覆盖[ini-rjno1]中已经存在的相同设置的值。
+
+---
+
 ## 快捷键
 
 ### mpv的快捷键配置文件input.conf中每个按键要如何书写才能被正确识别
