@@ -533,17 +533,24 @@ MPV-EASY Player设置界面虽然带有取色、调色板、几十种可选颜�
 
 找到profile=gpu-hq这行，比如改成：
 
+```
 profile=“gpu-hq,ini-custom”
+```
 
 之后【mpv-easy player\data\mpv-easy-data\rjno1.conf】中在
 
+
+```
 [ini-rjno1-playlist]
 no-resume-playback=
+```
 
 这个的下方输入：
 
+```
 [ini-custom]
 vo=gpu-next
+```
 
 那么[ini-custom]中的vo=gpu-next这行就会覆盖上方[ini-rjno1]下已经存在的【vo=xxx】。
 
