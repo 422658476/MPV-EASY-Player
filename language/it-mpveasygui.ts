@@ -254,165 +254,165 @@
         <translation>Velocità 4x</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="5037"/>
+        <location filename="../qmpv_mainwindow.cpp" line="5209"/>
         <source>音轨切换为：</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="5090"/>
+        <location filename="../qmpv_mainwindow.cpp" line="5262"/>
         <source>字幕切换为：</source>
         <translation>Sottotitoli:</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="5517"/>
-        <location filename="../qmpv_mainwindow.cpp" line="9539"/>
+        <location filename="../qmpv_mainwindow.cpp" line="5689"/>
+        <location filename="../qmpv_mainwindow.cpp" line="9784"/>
         <source>锁定模式:关</source>
         <translation>Modo bloccato: OFF</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="5612"/>
-        <location filename="../qmpv_mainwindow.cpp" line="15908"/>
+        <location filename="../qmpv_mainwindow.cpp" line="5784"/>
+        <location filename="../qmpv_mainwindow.cpp" line="16323"/>
         <source>锁定模式:开</source>
         <translation>Modo bloccato: ON</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="9241"/>
-        <location filename="../qmpv_mainwindow.cpp" line="9338"/>
-        <location filename="../qmpv_mainwindow.cpp" line="9402"/>
+        <location filename="../qmpv_mainwindow.cpp" line="9482"/>
+        <location filename="../qmpv_mainwindow.cpp" line="9579"/>
+        <location filename="../qmpv_mainwindow.cpp" line="9643"/>
         <source>音量:</source>
         <translation>Volume:</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="10943"/>
+        <location filename="../qmpv_mainwindow.cpp" line="11192"/>
         <source>选择单个或多个文件</source>
         <translation>Seleziona file singoli o multipli</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="10943"/>
+        <location filename="../qmpv_mainwindow.cpp" line="11192"/>
         <source>*(*.*)</source>
         <translation>*(*.*)</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="12598"/>
+        <location filename="../qmpv_mainwindow.cpp" line="12958"/>
         <source>播放失败</source>
         <translation>Riproduzione fallita</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="12599"/>
+        <location filename="../qmpv_mainwindow.cpp" line="12959"/>
         <source>没有找到指定文件</source>
         <translation>Impossibile trovare il file</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="12693"/>
-        <location filename="../qmpv_mainwindow.cpp" line="12750"/>
-        <location filename="../qmpv_mainwindow.cpp" line="12807"/>
-        <location filename="../qmpv_mainwindow.cpp" line="12862"/>
-        <location filename="../qmpv_mainwindow.cpp" line="12917"/>
-        <location filename="../qmpv_mainwindow.cpp" line="12972"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13026"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13081"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13137"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13192"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13247"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13303"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13360"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13053"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13110"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13167"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13222"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13277"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13332"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13386"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13441"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13497"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13552"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13607"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13663"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13720"/>
         <source>画面宽高比例</source>
         <translation>Proprozioni video=</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="12694"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13054"/>
         <source>默认</source>
         <translation>Predefinito</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13374"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13415"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13456"/>
-        <location filename="../qmpv_mainwindow.cpp" line="13495"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13734"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13775"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13816"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13855"/>
         <source>画面旋转角度</source>
         <translation>Rotazione video</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13533"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13893"/>
         <source>画面适合显示器宽度：上下黑边</source>
         <translation>Visualizza con bande nere</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13571"/>
+        <location filename="../qmpv_mainwindow.cpp" line="13931"/>
         <source>画面适合显示器高度：左右裁切</source>
         <translation>Visualizza senza bande nere</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13748"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14108"/>
         <source>字体变大</source>
         <translation>Aumenta dimensione</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13786"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14146"/>
         <source>字体默认大小</source>
         <translation>Ripristina dimensione</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13825"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14185"/>
         <source>字体变小</source>
         <translation>Diminuisci dimensione</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13865"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14225"/>
         <source>重复播放启用</source>
         <translation>Ripeti file: abilitato</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13910"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14270"/>
         <source>重复播放禁用</source>
         <translation>Ripeti file: disabilitato</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13954"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14314"/>
         <source>循环播放启用</source>
         <translation>Ripeti playlist: abilitato</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="13997"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14357"/>
         <source>循环播放禁用</source>
         <translation>Ripeti playlist: disabilitato</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="14040"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14084"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14128"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14173"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14217"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14400"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14444"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14488"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14533"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14577"/>
         <source>循环播放次数</source>
         <translation>Volte ripetizione playlist</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="14262"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14622"/>
         <source>循环随机播放启用</source>
         <translation>Ripeti playlist e casuale: abilitato</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="14308"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14668"/>
         <source>循环随机播放禁用</source>
         <translation>Ripeti playlist e shuffle: disabilitato</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="14354"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14393"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14432"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14471"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14510"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14549"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14588"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14627"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14665"/>
-        <location filename="../qmpv_mainwindow.cpp" line="14704"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14714"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14753"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14792"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14831"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14870"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14909"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14948"/>
+        <location filename="../qmpv_mainwindow.cpp" line="14987"/>
+        <location filename="../qmpv_mainwindow.cpp" line="15025"/>
+        <location filename="../qmpv_mainwindow.cpp" line="15064"/>
         <source>播放倍速为</source>
         <translation>Velocità:</translation>
     </message>
     <message>
-        <location filename="../qmpv_mainwindow.cpp" line="16866"/>
-        <location filename="../qmpv_mainwindow.cpp" line="16879"/>
+        <location filename="../qmpv_mainwindow.cpp" line="17520"/>
+        <location filename="../qmpv_mainwindow.cpp" line="17533"/>
         <source>硬解</source>
         <translation>Decodifica hardware</translation>
     </message>
