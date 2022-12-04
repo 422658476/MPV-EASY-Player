@@ -564,7 +564,7 @@ profile=“gpu-hq,ini-custom”
 no-resume-playback=
 ```
 
-这个的下方输入：
+这个的下方输入([来源](https://github.com/422658476/MPV-EASY-Player/issues/51))：
 
 ```
 [ini-custom]
@@ -587,7 +587,7 @@ d3d11-output-format=rgb10_a2
 blend-subtitles=no
 ```
 
-|上方各行意义 来源:[[1]](https://github.com/422658476/MPV-EASY-Player/issues/51) / [[2]](https://github.com/422658476/MPV-EASY-Player/issues/59) | ### 兼容杜比视界 ###|
+|上方各行意义 ([来源](https://github.com/422658476/MPV-EASY-Player/issues/59)) | ### 兼容杜比视界 ###|
 | ----------- | ----------- |
 | vo=gpu-next		 |  	#调用最新渲染器libplacebo |
 | gpu-context=d3d11	 | 	#实时渲染引擎 |
