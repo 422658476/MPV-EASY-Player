@@ -575,6 +575,27 @@ vo=gpu-next
 
 当然你可以把更多自定义的设置添加到[ini-custom]下 ，只需要注意这些设置的值会覆盖[ini-rjno1]中已经存在的相同设置的值。
 
+比如：
+
+```
+[ini-custom]
+vo=gpu-next
+gpu-context=d3d11
+d3d11-output-csp=pq
+vf="format:dolbyvision=yes"
+d3d11-output-format=rgb10_a2
+blend-subtitles=no
+```
+
+|上方各行意义（[来源](https://github.com/422658476/MPV-EASY-Player/issues/59)） | ###兼容杜比视界 Start ###|
+| ----------- | ----------- |
+| vo=gpu-next		 |  	#调用最新渲染器libplacebo |
+| gpu-context=d3d11	 | 	#实时渲染引擎 |
+| d3d11-output-csp=pq	 | 	#老版本 HDR播放必备，仅Win10提供的 API 可激活 |
+| vf="format:dolbyvision=yes"  | 	#杜比视界滤镜 |
+| d3d11-output-format=rgb10_a2	 |  #rgb10_a2 rgba16f rgba32f |
+| blend-subtitles=no	 | 	#HDR视频外挂字幕必备 |
+
 ---
 
 ## 快捷键
