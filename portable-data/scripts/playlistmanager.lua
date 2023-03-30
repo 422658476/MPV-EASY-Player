@@ -238,7 +238,14 @@ local settings = {
 	saved_msg_text_chs = "播放列表已保存到：",
 	saved_msg_text = saved_msg_text_chs,
 	
+	--为key_shuffleplaylist = "CTRL+p" 和 key_reverseplaylist = "CTRL+r"的提醒文字添加多国语言支持(1/4)
+	playlist_reversed_msg_text_eng = "Playlist reversed",
+	playlist_reversed_msg_text_chs = "播放列表顺序颠倒",
+	playlist_reversed_msg_text = playlist_reversed_msg_text_chs,
 	
+	playlist_shuffled_msg_text_eng = "Playlist shuffled",
+	playlist_shuffled_msg_text_chs = "播放列表随机排序",
+	playlist_shuffled_msg_text = playlist_shuffled_msg_text_chs,
 	
   --Playlist file templates
   --%pos = position of file with leading zeros
@@ -315,6 +322,16 @@ else
 	settings.saved_msg_text = settings.saved_msg_text_eng
 end
 
+--为key_shuffleplaylist = "CTRL+p" 和 key_reverseplaylist = "CTRL+r"的提醒文字添加多国语言支持(2/4)
+if(settings.playlist_header_lang =="chs") then
+	settings.playlist_reversed_msg_text = settings.playlist_reversed_msg_text_chs
+	settings.playlist_shuffled_msg_text = settings.playlist_shuffled_msg_text_chs
+else
+	settings.playlist_reversed_msg_text = settings.playlist_reversed_msg_text_eng
+	settings.playlist_shuffled_msg_text = settings.playlist_shuffled_msg_text_eng
+end
+	
+	
 	
 --global variables
 local playlist_visible = false
@@ -1210,7 +1227,9 @@ function reverseplaylist()
   if playlist_visible then
     showplaylist()
   elseif settings.display_osd_feedback then
-    mp.osd_message("Playlist reversed")
+--为key_shuffleplaylist = "CTRL+p" 和 key_reverseplaylist = "CTRL+r"的提醒文字添加多国语言支持(3/4)
+    --mp.osd_message("Playlist reversed")
+	mp.osd_message(""..settings.playlist_reversed_msg_text.."")
   end
 end
 
@@ -1236,7 +1255,9 @@ function shuffleplaylist()
   if playlist_visible then
     showplaylist()
   elseif settings.display_osd_feedback then
-    mp.osd_message("Playlist shuffled")
+ --为key_shuffleplaylist = "CTRL+p" 和 key_reverseplaylist = "CTRL+r"的提醒文字添加多国语言支持(4/4)
+    --mp.osd_message("Playlist shuffled")
+	mp.osd_message(""..settings.playlist_shuffled_msg_text.."")
   end
 end
 
