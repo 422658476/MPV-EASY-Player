@@ -449,7 +449,7 @@ title=音量:${volume}% 硬解:${hwdec-current} 置顶:${ontop} 音轨:${audio} 
 
 >[pause-when-minimize.lua](https://github.com/mpv-player/mpv/tree/master/TOOLS/lua)         ----> 最小化时自动暂停
 
->[playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中的快捷键才能使用
+>[playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)         ----> 高级播放列表，为了外观样式和多国语言的支持代码经过些许修改，需要你按下脚本中调整过的快捷键才能使用，如果你想要知道这个高级播放列表的所有功能和用法，可能需要通过链接浏览它的主页
 
 ---
 
