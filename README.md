@@ -548,6 +548,12 @@ MPV-EASY Player设置界面虽然带有取色、调色板、几十种可选颜�
 
 ---
 
+### MPV-EASY Player的视频画面不够锐利？
+
+请参考：[来源](https://github.com/422658476/MPV-EASY-Player/discussions/71#discussioncomment-6639309)
+
+---
+
 ### 给设置界面的设置给与选项中不包含的值
 
 比如：设置界面的【输出驱动】只包含：gpu和direct3d这2个可选值。【输出驱动】对应的是【mpv-easy player\data\mpv-easy-data\rjno1.conf】中的【vo=xxx】这一行。
