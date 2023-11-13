@@ -570,7 +570,7 @@ show-text ${tscale}
 
 >结果显示在显示音量的地方
 
-调整和注意事项：
+调整和注意事项1：
 
 请参考：[来源](https://github.com/422658476/MPV-EASY-Player/discussions/71#discussioncomment-6639309)
 
