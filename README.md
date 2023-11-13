@@ -578,6 +578,12 @@ show-text ${scale}
 
 当设置中【输出驱动】使用不同的值（gpu、direct3d）时，相同情况下，即使获取和显示的当前使用的过滤器相同，画面实际效果也可能不同（可能是mpv的bug）。
 
+可用脚本：
+
+>[+change-dscale.lua](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/%2Bchange-dscale.lua)         ----> 改变缩小图像时使用的过滤器
+
+>[+change-scale.lua](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/%2Bchange-scale.lua)         ----> 改变缩放图像时使用的过滤器
+
 ---
 
 ### 使用【自定义菜单】对视频画面进行锐化
