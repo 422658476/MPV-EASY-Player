@@ -580,9 +580,9 @@ show-text ${scale}
 
 可用脚本：
 
->[+change-dscale.lua](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/%2Bchange-dscale.lua)         ----> 改变缩小图像时使用的过滤器
+>[+change-dscale.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> 改变缩小图像时使用的过滤器
 
->[+change-scale.lua](https://github.com/422658476/MPV-EASY-Player/blob/master/portable-data/scripts/%2Bchange-scale.lua)         ----> 改变缩放图像时使用的过滤器
+>[+change-scale.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> 改变缩放图像时使用的过滤器
 
 ---
 
