@@ -607,7 +607,7 @@ show-text ${scale}
 找到profile=gpu-hq这行，比如改成：
 
 ```
-profile=“gpu-hq,ini-custom”
+profile="gpu-hq,ini-custom"
 ```
 
 之后【mpv-easy player\data\mpv-easy-data\rjno1.conf】中在
