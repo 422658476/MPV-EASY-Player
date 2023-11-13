@@ -574,6 +574,10 @@ show-text ${tscale}
 
 请参考：[来源](https://github.com/422658476/MPV-EASY-Player/discussions/71#discussioncomment-6639309)
 
+注意事项2：
+
+当设置中【输出驱动】使用不同的值（gpu、direct3d）时，相同情况下，即使查询到的使用的过滤器相同，也可能会有不同的显示效果，可能是因为dscale的值没有覆盖tscale的值导致的(可能是mpv的bug)。
+
 ---
 
 ### 使用【自定义菜单】对视频画面进行锐化
