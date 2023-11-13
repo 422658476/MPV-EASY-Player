@@ -560,13 +560,13 @@ show-text ${dscale}
 
 >结果显示在显示音量的地方
 
-查询mpv可以使用的过滤器[来源](https://mpv.io/manual/stable/#options-tscale)，请按下【`】，开启命令控制台，输入：
+查询mpv可以使用的过滤器(放大图像尺寸)[来源](https://mpv.io/manual/stable/#options-scale)，请按下【`】，开启命令控制台，输入：
 
-set tscale help
+set scale help
 
-查询mpv当前使用的过滤器(仅缩小图像尺寸)，请按下【`】，开启命令控制台，输入：
+查询mpv当前使用的过滤器(放大图像尺寸)，请按下【`】，开启命令控制台，输入：
 
-show-text ${tscale}
+show-text ${scale}
 
 >结果显示在显示音量的地方
 
