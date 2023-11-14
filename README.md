@@ -370,6 +370,8 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 >[other.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts) 或者[other.js](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts/old-version-20210502)         ----> MPV-EASY-Player原创，用来自动保存音量，使得下次播放都使用上次调整过的音量，不过这个脚本要在mpv中正常使用需要你进行修改。这个lua或者js脚本的已知问题和缺陷请查看内容中的注释部分
 
+>[+change-gpu-api.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，把vo切换为gpu，把gpu-api切换到openel
+
 ![](./img/mpv-easy-player-osc-lua.jpg)
 
 >[osc.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player修改自[官方原版](https://github.com/mpv-player/mpv/tree/master/player/lua) ，如果你了解lua脚本，可以让你在osc样式方面拥有完全的自定义。
