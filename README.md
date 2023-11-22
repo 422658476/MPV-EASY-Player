@@ -664,13 +664,19 @@ blend-subtitles=no
 
 a、输出驱动想要设置为gpu（vo=gpu）时，rjno1.conf的[ini-rjno1]中添加:
 
+```
 d3d11-flip=no
+```
 
 这样半透明就不会变灰，而且没有性能问题。
 
 b、输出驱动改为direct3D（vo=direct3D）即可。但direct3D下，scale dscale的过滤器会无效，但是好处是gpu显卡的使用率可能会降到1/3（比如50%->18%）。
 
-c、输出驱动想要设置为gpu（vo=gpu）时，rjno1.conf的[ini-rjno1]中添加gpu-api=opengl
+c、输出驱动想要设置为gpu（vo=gpu）时，rjno1.conf的[ini-rjno1]中添加
+
+```
+gpu-api=opengl
+```
 
 不过这样处理器使用量会增加（比如3%->10%），此时gpu使用率和gpu-api=auto（也就是使用d3d11）时一致（比如50%），但画面可能卡顿。
 
