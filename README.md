@@ -604,12 +604,14 @@ show-text ${scale}
 
 如果想要把gpu-next设置为【输出驱动】的值，在设置界面是无法办到的，想要解决这个问题十分简单：
 
+>注意：如果使用的是mpv 0.36.0及更旧的版本，下方【high-quality】字样需要改为旧的书写方式【gpu-hq】
+
 使用文本编辑器打开【mpv-easy player\data\mpv-easy-data\rjno1.conf】
 
-找到profile=gpu-hq这行，比如改成：
+找到profile=high-quality这行，比如改成：
 
 ```
-profile="gpu-hq,ini-custom"
+profile="high-quality,ini-custom"
 ```
 
 之后【mpv-easy player\data\mpv-easy-data\rjno1.conf】中在
