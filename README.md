@@ -658,7 +658,7 @@ blend-subtitles=no
 
 ### 视频画面上方半透明控件的背景色异常（变灰）
 
-![](./img/color-error.png)
+![](./img/color-error-20240410.png)
 
 解决方法有三种，任选其一：
 
