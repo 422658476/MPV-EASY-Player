@@ -682,7 +682,7 @@ gpu-api=opengl
 
 ---
 
-### 高分辨率（HiDPI）显示器下界面文字太小([来源](https://github.com/422658476/MPV-EASY-Player/issues/90))
+### 高分辨率（HiDPI）显示器下界面文字太小？([来源](https://github.com/422658476/MPV-EASY-Player/issues/90))
 
 尝试注销系统或者重启系统一次
 
