@@ -660,6 +660,8 @@ blend-subtitles=no
 
 ![](./img/color-error-20240410.png)
 
+用更改mpv设置的方式来解决这个问题之前，建议先尝试更新显卡驱动，通常驱动可以一劳永逸的解决这个问题。
+
 解决方法有三种，任选其一：
 
 a、输出驱动想要设置为gpu（vo=gpu）时，rjno1.conf的[ini-rjno1]中添加:
