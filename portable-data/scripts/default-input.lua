@@ -106,6 +106,8 @@ mp.add_key_binding("5", "default_gamma_down",  function() mp.command("add gamma 
 mp.add_key_binding("8", "default_saturation_up",  function() mp.command("add saturation 1;"..settings.default_saturation_value) end, "repeatable")
 mp.add_key_binding("7", "default_saturation_down",  function() mp.command("add saturation -1;"..settings.default_saturation_value) end, "repeatable")
 
+--全屏
+mp.add_key_binding("enter", "default_fullscreen",  function() mp.command("cycle fullscreen") end)
 
 
 
