@@ -955,7 +955,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4624"/>
-        <location filename="../mainwindow.cpp" line="5171"/>
+        <location filename="../mainwindow.cpp" line="5188"/>
         <source>音量</source>
         <translation>音量</translation>
     </message>
@@ -1363,9 +1363,8 @@
         <translation>开启/关闭</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="5963"/>
         <source>右键单击</source>
-        <translation>右键单击</translation>
+        <translation type="vanished">右键单击</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="5968"/>
@@ -2560,6 +2559,11 @@ msg-bar:进度条和文字都显示</translation>
 建议【不勾选】这个设置从而可以方便的关闭窗口.</translation>
     </message>
     <message>
+        <location filename="../mainwindow.ui" line="5963"/>
+        <source>右键双击</source>
+        <translation>右键双击</translation>
+    </message>
+    <message>
         <location filename="../mainwindow.ui" line="6456"/>
         <source>调节范围:0到100.(0:顶部,100:底部)</source>
         <translation>调节范围:0到100.(0:顶部,100:底部)</translation>
@@ -2891,12 +2895,12 @@ msg-bar:进度条和文字都显示</translation>
         <translation>4倍</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5303"/>
+        <location filename="../mainwindow.cpp" line="5320"/>
         <source>字幕切换为：</source>
         <translation>字幕切换为：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5269"/>
+        <location filename="../mainwindow.cpp" line="5286"/>
         <source>音轨切换为：</source>
         <translation>音轨切换为：</translation>
     </message>
@@ -2905,161 +2909,161 @@ msg-bar:进度条和文字都显示</translation>
         <translation type="obsolete">取色器</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5237"/>
+        <location filename="../mainwindow.cpp" line="5254"/>
         <source>置顶:</source>
         <translation>置顶:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5355"/>
-        <location filename="../mainwindow.cpp" line="5391"/>
-        <location filename="../mainwindow.cpp" line="5424"/>
-        <location filename="../mainwindow.cpp" line="5456"/>
-        <location filename="../mainwindow.cpp" line="5488"/>
-        <location filename="../mainwindow.cpp" line="5520"/>
-        <location filename="../mainwindow.cpp" line="5553"/>
-        <location filename="../mainwindow.cpp" line="5584"/>
-        <location filename="../mainwindow.cpp" line="5616"/>
-        <location filename="../mainwindow.cpp" line="5648"/>
-        <location filename="../mainwindow.cpp" line="5679"/>
-        <location filename="../mainwindow.cpp" line="5711"/>
-        <location filename="../mainwindow.cpp" line="5742"/>
+        <location filename="../mainwindow.cpp" line="5372"/>
+        <location filename="../mainwindow.cpp" line="5408"/>
+        <location filename="../mainwindow.cpp" line="5441"/>
+        <location filename="../mainwindow.cpp" line="5473"/>
+        <location filename="../mainwindow.cpp" line="5505"/>
+        <location filename="../mainwindow.cpp" line="5537"/>
+        <location filename="../mainwindow.cpp" line="5570"/>
+        <location filename="../mainwindow.cpp" line="5601"/>
+        <location filename="../mainwindow.cpp" line="5633"/>
+        <location filename="../mainwindow.cpp" line="5665"/>
+        <location filename="../mainwindow.cpp" line="5696"/>
+        <location filename="../mainwindow.cpp" line="5728"/>
+        <location filename="../mainwindow.cpp" line="5759"/>
         <source>画面宽高比例</source>
         <translation>画面宽高比例</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5356"/>
+        <location filename="../mainwindow.cpp" line="5373"/>
         <source>默认</source>
         <translation>默认</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5773"/>
-        <location filename="../mainwindow.cpp" line="5806"/>
-        <location filename="../mainwindow.cpp" line="5837"/>
-        <location filename="../mainwindow.cpp" line="5868"/>
+        <location filename="../mainwindow.cpp" line="5790"/>
+        <location filename="../mainwindow.cpp" line="5823"/>
+        <location filename="../mainwindow.cpp" line="5854"/>
+        <location filename="../mainwindow.cpp" line="5885"/>
         <source>画面旋转角度</source>
         <translation>画面旋转角度</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5900"/>
+        <location filename="../mainwindow.cpp" line="5917"/>
         <source>画面适合显示器宽度：上下黑边</source>
         <translation>画面适合显示器宽度：上下黑边</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5932"/>
+        <location filename="../mainwindow.cpp" line="5949"/>
         <source>画面适合显示器高度：左右裁切</source>
         <translation>画面适合显示器高度：左右裁切</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5964"/>
-        <location filename="../mainwindow.cpp" line="5997"/>
-        <location filename="../mainwindow.cpp" line="6028"/>
-        <location filename="../mainwindow.cpp" line="6059"/>
-        <location filename="../mainwindow.cpp" line="6089"/>
-        <location filename="../mainwindow.cpp" line="6120"/>
-        <location filename="../mainwindow.cpp" line="6152"/>
+        <location filename="../mainwindow.cpp" line="5981"/>
+        <location filename="../mainwindow.cpp" line="6014"/>
+        <location filename="../mainwindow.cpp" line="6045"/>
+        <location filename="../mainwindow.cpp" line="6076"/>
+        <location filename="../mainwindow.cpp" line="6106"/>
+        <location filename="../mainwindow.cpp" line="6137"/>
+        <location filename="../mainwindow.cpp" line="6169"/>
         <source>视频画面大小倍数</source>
         <translation>视频画面大小倍数</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6183"/>
+        <location filename="../mainwindow.cpp" line="6200"/>
         <source>字体变大</source>
         <translation>字体变大</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6214"/>
+        <location filename="../mainwindow.cpp" line="6231"/>
         <source>字体默认大小</source>
         <translation>字体默认大小</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6247"/>
+        <location filename="../mainwindow.cpp" line="6264"/>
         <source>字体变小</source>
         <translation>字体变小</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6279"/>
+        <location filename="../mainwindow.cpp" line="6296"/>
         <source>重复播放启用</source>
         <translation>重复播放启用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6313"/>
+        <location filename="../mainwindow.cpp" line="6330"/>
         <source>重复播放禁用</source>
         <translation>重复播放禁用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6344"/>
+        <location filename="../mainwindow.cpp" line="6361"/>
         <source>循环播放启用</source>
         <translation>循环播放启用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6375"/>
+        <location filename="../mainwindow.cpp" line="6392"/>
         <source>循环播放禁用</source>
         <translation>循环播放禁用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6407"/>
-        <location filename="../mainwindow.cpp" line="6439"/>
-        <location filename="../mainwindow.cpp" line="6470"/>
-        <location filename="../mainwindow.cpp" line="6501"/>
-        <location filename="../mainwindow.cpp" line="6532"/>
+        <location filename="../mainwindow.cpp" line="6424"/>
+        <location filename="../mainwindow.cpp" line="6456"/>
+        <location filename="../mainwindow.cpp" line="6487"/>
+        <location filename="../mainwindow.cpp" line="6518"/>
+        <location filename="../mainwindow.cpp" line="6549"/>
         <source>循环播放次数</source>
         <translation>循环播放次数</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6563"/>
+        <location filename="../mainwindow.cpp" line="6580"/>
         <source>循环随机播放启用</source>
         <translation>循环随机播放启用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6594"/>
+        <location filename="../mainwindow.cpp" line="6611"/>
         <source>循环随机播放禁用</source>
         <translation>循环随机播放禁用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6626"/>
-        <location filename="../mainwindow.cpp" line="6658"/>
-        <location filename="../mainwindow.cpp" line="6689"/>
-        <location filename="../mainwindow.cpp" line="6720"/>
-        <location filename="../mainwindow.cpp" line="6750"/>
-        <location filename="../mainwindow.cpp" line="6781"/>
-        <location filename="../mainwindow.cpp" line="6811"/>
-        <location filename="../mainwindow.cpp" line="6840"/>
-        <location filename="../mainwindow.cpp" line="6870"/>
-        <location filename="../mainwindow.cpp" line="6900"/>
+        <location filename="../mainwindow.cpp" line="6643"/>
+        <location filename="../mainwindow.cpp" line="6675"/>
+        <location filename="../mainwindow.cpp" line="6706"/>
+        <location filename="../mainwindow.cpp" line="6737"/>
+        <location filename="../mainwindow.cpp" line="6767"/>
+        <location filename="../mainwindow.cpp" line="6798"/>
+        <location filename="../mainwindow.cpp" line="6828"/>
+        <location filename="../mainwindow.cpp" line="6857"/>
+        <location filename="../mainwindow.cpp" line="6887"/>
+        <location filename="../mainwindow.cpp" line="6917"/>
         <source>播放倍速为</source>
         <translation>播放倍速为</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6942"/>
+        <location filename="../mainwindow.cpp" line="6959"/>
         <source>选择高级播放列表文件的保存路径</source>
         <translation>选择高级播放列表文件的保存路径</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6965"/>
+        <location filename="../mainwindow.cpp" line="6982"/>
         <source>选择OSC样式文件</source>
         <translation>选择OSC样式文件</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6965"/>
+        <location filename="../mainwindow.cpp" line="6982"/>
         <source>OSC样式文件(*.lua)</source>
         <translation>OSC样式文件(*.lua)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7561"/>
-        <location filename="../mainwindow.cpp" line="7766"/>
-        <location filename="../mainwindow.cpp" line="7942"/>
-        <location filename="../mainwindow.cpp" line="8112"/>
-        <location filename="../mainwindow.cpp" line="8281"/>
-        <location filename="../mainwindow.cpp" line="8450"/>
+        <location filename="../mainwindow.cpp" line="7578"/>
+        <location filename="../mainwindow.cpp" line="7783"/>
+        <location filename="../mainwindow.cpp" line="7959"/>
+        <location filename="../mainwindow.cpp" line="8129"/>
+        <location filename="../mainwindow.cpp" line="8298"/>
+        <location filename="../mainwindow.cpp" line="8467"/>
         <source>播放失败</source>
         <translation>播放失败</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7562"/>
-        <location filename="../mainwindow.cpp" line="7767"/>
-        <location filename="../mainwindow.cpp" line="7943"/>
-        <location filename="../mainwindow.cpp" line="8113"/>
-        <location filename="../mainwindow.cpp" line="8282"/>
-        <location filename="../mainwindow.cpp" line="8451"/>
+        <location filename="../mainwindow.cpp" line="7579"/>
+        <location filename="../mainwindow.cpp" line="7784"/>
+        <location filename="../mainwindow.cpp" line="7960"/>
+        <location filename="../mainwindow.cpp" line="8130"/>
+        <location filename="../mainwindow.cpp" line="8299"/>
+        <location filename="../mainwindow.cpp" line="8468"/>
         <source>没有找到指定文件</source>
         <translation>没有找到指定文件</translation>
     </message>
