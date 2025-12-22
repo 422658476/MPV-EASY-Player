@@ -505,6 +505,18 @@ CTRL+0 no-osd change-list glsl-shaders clr “”
 
 ---
 
+### 画质与性能：
+
+MPV-EASY-Player默认启用硬解，也就是设置中vo=gpu-next或者vo=gpu。gpu-next或者gpu这2个值都可以通过profile选项来调整画质。
+
+当profile中存在high-quality这个值时（也就是默认设置profile=high-quality）：画质最好，但GPU使用率最高，比如24%
+
+当profile中的high-quality改为fast：画质最差，但GPU使用率最低，比如4%。
+
+如果你想要兼顾画质和性能的设置，那么请删除profile中的high-quality或者fast，这样就会转会mpv默认设置，mpv的默认设置就是兼顾画质和性能的，此时GPU使用率一般，比如14%。
+
+---
+
 ### 如何播放获取的在线视频链接：
 
 1.创建一个txt文件，使用文本编辑器打开这个文件，把一个或者多个在线视频链接复制到这个文件中，每行一个。
