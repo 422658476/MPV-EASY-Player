@@ -554,6 +554,10 @@ MPV-EASY Player设置界面虽然带有取色、调色板、几十种可选颜�
 
 ### MPV-EASY Player的视频画面不够锐利？
 
+默认情况下，当mpv播放器使用profile=high-quality或者默认设置时，画面会较为平滑，如果想要较为锐利的画质，请把profile=high-quality中的【high-quality】改为【fast】。
+
+如果上述设置调整不能满足你的需求，那么可以：
+
 查询mpv可以使用的过滤器(仅缩小图像尺寸)[来源](https://mpv.io/manual/stable/#options-dscale)，请按下【`】，开启命令控制台，输入：
 
 set dscale help
