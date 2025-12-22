@@ -53,6 +53,11 @@ end
 --修改鼠标左键和中键的命令------
 
 
+--修改鼠标右键的命令------
+mp.add_key_binding("MBTN_RIGHT", "mouse_right_1",  function() mp.command("script-binding select/menu") end)
+--修改鼠标右键的命令------
+
+
 --默认zh-cn时改变show-text显示的文字---------------
 if settings.language =="zh-cn" then
 
