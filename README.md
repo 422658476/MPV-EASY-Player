@@ -371,7 +371,7 @@ https://github.com/mpv-player/mpv/wiki/User-Scripts
 
 >[default-input.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，使用lua脚本添加经过修改的默认快捷键和修改某些快捷键的功能。使用此lua可以在避免修改input.conf文件的情况下添加默认快捷键，并且可以让命令中的show-text获得良好的支持多国语言。
 
->[audio-add-cover-art.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，通过检测打开文件的后缀名，如果发现打开的是常见的音频文件，那么加载默认封图片。益处：1.可以解决mpv原生gui下播放没有封面图的音乐文件时不显示gui的问题。2.MPV-EASY无边框GUI下播放没有封面图的音乐文件时避免界面延迟显示。3.添加默认封面图逻辑不会影响用户使用播放器打开和浏览图片文件。
+>[audio-add-cover-art.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，和[【mpv-easy-data\default-cover-art】](https://github.com/422658476/MPV-EASY-Player/tree/master/mpv-easy-data))配合使用，通过检测打开文件的后缀名，如果发现打开的是常见的音频文件，那么加载默认封图片。益处：1.可以解决mpv原生gui下播放没有封面图的音乐文件时不显示gui的问题。2.MPV-EASY无边框GUI下播放没有封面图的音乐文件时避免界面延迟显示。3.添加默认封面图逻辑不会影响用户使用播放器打开和浏览图片文件。
 
 >[use-cpu.lua](https://github.com/422658476/MPV-EASY-Player/tree/master/portable-data/scripts)         ----> MPV-EASY-Player原创，如果视频的宽度大于3000或者视频的高度大于2000，那么自动切换回使用cpu解码，视频宽度和高度的默认值如果觉得不合适可以自行修改，这个lua脚本没有被添加到MPV-EASY-Player的默认脚本中。
 
