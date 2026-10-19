@@ -37,7 +37,9 @@ If you don't know the Chinese language, it doesn't matter. You can download it f
 + 意大利语语言文件(**it-mpveasygui.ts**和**it-mpveasysettings.ts**)：感谢[bovirus](https://github.com/bovirus)提供的意大利语翻译和对英语翻译的修正。
 
 + 日语语言文件(**ja-mpveasygui.ts**和**ja-mpveasysettings.ts**)：感谢[coolvitto](https://github.com/coolvitto)提供的日语翻译。
-
++ 
++ 西班牙语语言文件(**es-mpveasygui.ts**和**es-mpveasysettings.ts**)：感谢[JRs11InGame](https://github.com/JRs11InGame)提供的日语翻译。
++ 
 ## Help translate language files of MPV-EASY Player
 
 If you like this player and have the ability to translate it into a language you are familiar with:
@@ -59,6 +61,8 @@ Many thanks.
 + Italian language file (**it-mpveasygui.ts** and **it-mpveasysettings.ts**): Thanks to [bovirus](https://github.com/bovirus) for the Italian translation and correction to the English translation. 
 
 + Japanese language file (**ja-mpveasygui.ts** and **ja-mpveasysettings.ts**): Thanks to [coolvitto](https://github.com/coolvitto) for providing the Japanese translation.
+
++ Spanish language file (**es-mpveasygui.ts** and **es-mpveasysettings.ts**): Thanks to [JRs11InGame](https://github.com/JRs11InGame) for providing the Spanish translation.
 ---
 
 ## 下方内容概括(如果你不想看下方这些复杂的内容,只需要记住以下三点):
