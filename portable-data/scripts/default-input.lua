@@ -11,6 +11,9 @@ local settings = {
 --mouse_mid = ignore | quit;  mouse_mid默认ignore     【MBTN_MID ignore】【MBTN_MID quit-watch-later】
 	mouse_left = "pause",
 	mouse_mid = "ignore",
+
+--默认右键菜单显示select/menu还是select/context-menu ---功能能够被input.conf中相同键添加的命令覆盖---------------
+	mpv_select_menu = "select/menu",
 	
 --默认en-us时show-text显示的文字---------------
 
@@ -54,7 +57,11 @@ end
 
 
 --修改鼠标右键的命令------
-mp.add_key_binding("MBTN_RIGHT", "mouse_right_1",  function() mp.command("script-binding select/menu") end)
+if settings.mpv_select_menu =="select/menu" then
+	mp.add_key_binding("MBTN_RIGHT", "mouse_right_1",  function() mp.command("script-binding select/menu") end)
+else
+	mp.add_key_binding("MBTN_RIGHT", "mouse_right_1",  function() mp.command("script-binding select/context-menu") end)
+end
 --修改鼠标右键的命令------
 
 
