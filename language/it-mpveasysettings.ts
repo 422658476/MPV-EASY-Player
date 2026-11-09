@@ -1709,49 +1709,51 @@ L&apos;interfaccia OSC deve essere nascosta prima di essere effettivamente nasco
     <message>
         <location filename="../mainwindow.ui" line="4666"/>
         <source>box样式OSC的宽度:</source>
-        <translation type="unfinished"></translation>
+        <translation>larghezza riquadro stile OSC:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4699"/>
         <source>box样式OSC可以显示的信息的最大字符数:</source>
-        <translation type="unfinished"></translation>
+        <translation>numero massimo caratteri visualizzabili nell&apos;OSC stile box:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4727"/>
         <source>隐藏后:显示浮动标题栏(启用【视频播放界面不显示边框和标题栏】时)</source>
-        <translation type="unfinished"></translation>
+        <translation>dopo averlo nascosto: visualizza la barra del titolo mobile (quando è abilitato [riproduci video senza bordi e decorazioni finestra])</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4730"/>
         <source>floating样式OSC隐藏【可以显示的信息】区块*</source>
-        <translation type="unfinished"></translation>
+        <translation>quando si usa l&apos;OSC in stile mobile nascondi la sezione [informazioni che possono essere visualizzate]*</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4739"/>
         <source>floating样式OSC的宽度:</source>
-        <translation type="unfinished"></translation>
+        <translation>larghezza OSC in stile mobile:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4772"/>
         <source>floating样式OSC的透明度*:</source>
-        <translation type="unfinished"></translation>
+        <translation>opacità OSC in stile mobile*:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4802"/>
         <source>OSC的图标样式:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stile icona OSC:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4841"/>
         <source>dark:OSC的背景为黑色,图标和文字为白色(按下为灰色)。
 light:OSC的背景为白色,图标和文字为黑色(按下为灰色)。
 custom:检测到用户自定义了OSC上某些元素的颜色(当为此值时,程序会跳过对OSC上所有元素的颜色的修改)。</source>
-        <translation type="unfinished"></translation>
+        <translation>scuro: lo sfondo dell&apos;OSC è nero, con icone e testo bianchi (che diventano grigie quando viene premuto).
+chiaro: lo sfondo dell&apos;OSC è bianco, con icone e testo neri (che diventano grigie quando premuto).
+personalizzato: indica che l&apos;utente ha personalizzato i colori di alcuni elementi dell&apos;OSC (impostando questo valore il programma salterà la modifica dei colori di eventuali elementi dell&apos;OSC).</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4846"/>
         <source>OSC的风格*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stile OSC*:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="5091"/>
@@ -1900,17 +1902,17 @@ ti consigliamo di non selezionare questa impostazione in modo che la finestra po
     <message>
         <location filename="../mainwindow.ui" line="6745"/>
         <source>mpv的菜单(a)</source>
-        <translation type="unfinished"></translation>
+        <translation>menu mpv (a)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6753"/>
         <source>默认设置时:单击鼠标右键显示</source>
-        <translation type="unfinished"></translation>
+        <translation>con le impostazioni predefinite: per visualizzare fai clic con il tasto destro</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6756"/>
         <source>使用的mpv内置菜单*:</source>
-        <translation type="unfinished"></translation>
+        <translation>usando il menu integrato mpv*:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6794"/>
@@ -1918,12 +1920,15 @@ ti consigliamo di non selezionare questa impostazione in modo che la finestra po
 系统绘制的菜单：
 1.可能会对操作造成负面影响。
 2.修改菜单的设置可能对其无效。</source>
-        <translation type="unfinished"></translation>
+        <translation>in caso contrario, verrà usato il menu visualizzato dal sistema.
+Menu visualizzato dal sistema:
+1. potrebbe avere un impatto negativo sul funzionamento.
+2. le modifiche alle impostazioni del menu potrebbero non avere effetto.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6800"/>
         <source>使用mpv绘制的菜单*</source>
-        <translation type="unfinished"></translation>
+        <translation>menu renderizzati usando mpv*</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6858"/>
