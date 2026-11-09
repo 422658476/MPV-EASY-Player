@@ -1686,49 +1686,51 @@ OSCインターフェースが実際に非表示になるまでのプロセス�
     <message>
         <location filename="../mainwindow.ui" line="4666"/>
         <source>box样式OSC的宽度:</source>
-        <translation type="unfinished"></translation>
+        <translation>ボックススタイル OSC の幅 :</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4699"/>
         <source>box样式OSC可以显示的信息的最大字符数:</source>
-        <translation type="unfinished"></translation>
+        <translation>ボックススタイル OSC に表示できる情報の最大文字数 :</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4727"/>
         <source>隐藏后:显示浮动标题栏(启用【视频播放界面不显示边框和标题栏】时)</source>
-        <translation type="unfinished"></translation>
+        <translation>非表示後 : フローティングタイトルバーを表示(【動画再生画面に枠とタイトルバーを表示しない】が有効な場合)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4730"/>
         <source>floating样式OSC隐藏【可以显示的信息】区块*</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティングスタイル OSC の【表示できる情報】ブロックを非表示にする*</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4739"/>
         <source>floating样式OSC的宽度:</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティングスタイル OSC の幅 :</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4772"/>
         <source>floating样式OSC的透明度*:</source>
-        <translation type="unfinished"></translation>
+        <translation>フローティングスタイル OSC の透明度*:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4802"/>
         <source>OSC的图标样式:</source>
-        <translation type="unfinished"></translation>
+        <translation>OSC のアイコンスタイル :</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4841"/>
         <source>dark:OSC的背景为黑色,图标和文字为白色(按下为灰色)。
 light:OSC的背景为白色,图标和文字为黑色(按下为灰色)。
 custom:检测到用户自定义了OSC上某些元素的颜色(当为此值时,程序会跳过对OSC上所有元素的颜色的修改)。</source>
-        <translation type="unfinished"></translation>
+        <translation>ダーク : OSC の背景は黒、アイコンと文字は白 (押下時はグレー)。
+ライト : OSC の背景は白、アイコンと文字は黒 (押下時はグレー)。
+カスタム : ユーザーが OSC 上の一部の要素の色をカスタマイズしたことを検出 (この値の場合、プログラムは OSC 上のすべての要素の色の変更をスキップします)。</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4846"/>
         <source>OSC的风格*:</source>
-        <translation type="unfinished"></translation>
+        <translation>OSC のスタイル*:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="5091"/>
@@ -1877,17 +1879,17 @@ msg-bar: 進捗バーとテキストの両方を表示</translation>
     <message>
         <location filename="../mainwindow.ui" line="6745"/>
         <source>mpv的菜单(a)</source>
-        <translation type="unfinished"></translation>
+        <translation>mpv のメニュー(a)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6753"/>
         <source>默认设置时:单击鼠标右键显示</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト設定時 : マウスの右クリックで表示</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6756"/>
         <source>使用的mpv内置菜单*:</source>
-        <translation type="unfinished"></translation>
+        <translation>使用する mpv 内蔵メニュー*:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6794"/>
@@ -1895,12 +1897,15 @@ msg-bar: 進捗バーとテキストの両方を表示</translation>
 系统绘制的菜单：
 1.可能会对操作造成负面影响。
 2.修改菜单的设置可能对其无效。</source>
-        <translation type="unfinished"></translation>
+        <translation>それ以外の場合はシステム描画のメニューを使用
+システム描画のメニュー :
+1.操作に悪影響を及ぼす可能性があります。
+2.メニューの設定を変更しても無効な場合があります。</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6800"/>
         <source>使用mpv绘制的菜单*</source>
-        <translation type="unfinished"></translation>
+        <translation>mpv 描画のメニューを使用*</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6858"/>
