@@ -560,7 +560,7 @@ Windows はスクリプトの実行に非常に不向きであるため、英語
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4968"/>
-        <location filename="../mainwindow.cpp" line="5647"/>
+        <location filename="../mainwindow.cpp" line="5649"/>
         <source>音量</source>
         <translation>音量</translation>
     </message>
@@ -792,102 +792,6 @@ Windows はスクリプトの実行に非常に不向きであるため、英語
         <location filename="../mainwindow.ui" line="6375"/>
         <source>自定义菜单A的名字:</source>
         <translation>カスタムメニューAの名前 :</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="6435"/>
-        <source>数据文件存放路径:data\mpv-easy-data\menu.conf
-
-使用菜单项替代键盘发送一组快捷键给mpv.
-一组快捷键中的每个快捷键会间隔一小段时间分别发送.
-一组快捷键中使用空格区分每个快捷键.
-
-注意:
-执行过程中请勿触发鼠标和键盘.
-
-请使用input.conf中的快捷键表示方式,比如:
-回车=enter
-空格=space
-
-适用于:
-1.不想要记忆快捷键.
-2.依次按下多个快捷键才能完成的事项.
-3.在mpv的命令行窗口自动执行某些命令.
-
-例子:
-
-菜单项名字:
-This is the name of a menu item
-快捷键:
-ctrl+a alt+b shift+c ctrl+shift+d
-
-按下【This is the name of a menu item】菜单项后发送:
-ctrl+a
-等待几百毫秒
-alt+b
-等待几百毫秒
-shift+c
-等待几百毫秒
-ctrl+shift+d
-
-例子:
-
-快捷键:
-` s e t space v o l u m e space 8 8 enter esc
-
-打开命令行窗口
-输入并执行set volume 88
-退出命令行窗口
-
-注意:
-MPV原生GUI模式下,如果启用多实例
-1.执行过程中请勿切换窗口
-2.建议关闭置顶功能.</source>
-        <translation>データファイルの保存パス: data\mpv-easy-data\menu.conf
-
-キーボードショートカットの代わりにメニュー項目を使用して、ショートカットセットをmpvに送信します。
-セット内の各ショートカットは、短い間隔で送信されます。
-セット内の各ショートカットはスペースで区切ってください。
-
-注意 :
-実行中はマウスやキーボードを使用しないでください。
-
-input.conf では、ショートカット表記を使用してください。例:
-Enter = Enter
-Space = Space
-
-次の場合に適しています:
-1. ショートカットを覚えたくない場合。
-2. 複数のショートカットを順番に押す必要があるタスクの場合。
-3. mpv コマンドラインウィンドウで特定のコマンドを自動的に実行する場合。
-
-例:
-
-メニュー項目名:
-これはメニュー項目の名前です
-ショートカット:
-Ctrl+A Alt+B Shift+C Ctrl+Shift+D
-
-「これはメニュー項目の名前です」というメニュー項目を押した後、以下のコマンドを送信します:
-Ctrl+A
-数百ミリ秒待つ
-Alt+B
-数百ミリ秒待つ
-Shift+C
-数百ミリ秒待つ
-Ctrl+Shift+D
-
-例:
-
-ショートカット:
-` s `set space volume 88` `esc` と入力
-
-コマンドラインウィンドウを開く
-`set volume 88` と入力して実行する
-コマンドラインウィンドウを終了する
-
-注意 : MPV のネイティブ GUI モードで複数のインスタンスが有効になっている場合:
-1. 実行中にウィンドウを切り替えないでください。
-2. 「最前面にピン留めする」機能を無効にすることをお勧めします。</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="6526"/>
@@ -1877,6 +1781,102 @@ msg-bar: 進捗バーとテキストの両方を表示</translation>
         <translation>右クリックでダブルクリック</translation>
     </message>
     <message>
+        <location filename="../mainwindow.ui" line="6435"/>
+        <source>数据文件存放路径:data\mpv-easy-data\mpv-easy-menu.ini
+
+使用菜单项替代键盘发送一组快捷键给mpv.
+一组快捷键中的每个快捷键会间隔一小段时间分别发送.
+一组快捷键中使用空格区分每个快捷键.
+
+注意:
+执行过程中请勿触发鼠标和键盘.
+
+请使用input.conf中的快捷键表示方式,比如:
+回车=enter
+空格=space
+
+适用于:
+1.不想要记忆快捷键.
+2.依次按下多个快捷键才能完成的事项.
+3.在mpv的命令行窗口自动执行某些命令.
+
+例子:
+
+菜单项名字:
+This is the name of a menu item
+快捷键:
+ctrl+a alt+b shift+c ctrl+shift+d
+
+按下【This is the name of a menu item】菜单项后发送:
+ctrl+a
+等待几百毫秒
+alt+b
+等待几百毫秒
+shift+c
+等待几百毫秒
+ctrl+shift+d
+
+例子:
+
+快捷键:
+` s e t space v o l u m e space 8 8 enter esc
+
+打开命令行窗口
+输入并执行set volume 88
+退出命令行窗口
+
+注意:
+MPV原生GUI模式下,如果启用多实例
+1.执行过程中请勿切换窗口
+2.建议关闭置顶功能.</source>
+        <translation>データファイルの保存パス: data\mpv-easy-data\mpv-easy-menu.ini
+
+キーボードショートカットの代わりにメニュー項目を使用して、ショートカットセットをmpvに送信します。
+セット内の各ショートカットは、短い間隔で送信されます。
+セット内の各ショートカットはスペースで区切ってください。
+
+注意 :
+実行中はマウスやキーボードを使用しないでください。
+
+input.conf では、ショートカット表記を使用してください。例:
+Enter = Enter
+Space = Space
+
+次の場合に適しています:
+1. ショートカットを覚えたくない場合。
+2. 複数のショートカットを順番に押す必要があるタスクの場合。
+3. mpv コマンドラインウィンドウで特定のコマンドを自動的に実行する場合。
+
+例:
+
+メニュー項目名:
+これはメニュー項目の名前です
+ショートカット:
+Ctrl+A Alt+B Shift+C Ctrl+Shift+D
+
+「これはメニュー項目の名前です」というメニュー項目を押した後、以下のコマンドを送信します:
+Ctrl+A
+数百ミリ秒待つ
+Alt+B
+数百ミリ秒待つ
+Shift+C
+数百ミリ秒待つ
+Ctrl+Shift+D
+
+例:
+
+ショートカット:
+` s `set space volume 88` `esc` と入力
+
+コマンドラインウィンドウを開く
+`set volume 88` と入力して実行する
+コマンドラインウィンドウを終了する
+
+注意 : MPV のネイティブ GUI モードで複数のインスタンスが有効になっている場合:
+1. 実行中にウィンドウを切り替えないでください。
+2. 「最前面にピン留めする」機能を無効にすることをお勧めします。</translation>
+    </message>
+    <message>
         <location filename="../mainwindow.ui" line="6745"/>
         <source>mpv的菜单(a)</source>
         <translation>mpv のメニュー(a)</translation>
@@ -2239,171 +2239,171 @@ msg-bar: 進捗バーとテキストの両方を表示</translation>
         <translation>速度 4x</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5745"/>
+        <location filename="../mainwindow.cpp" line="5747"/>
         <source>音轨切换为：</source>
         <translation>オーディオ :</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5779"/>
+        <location filename="../mainwindow.cpp" line="5781"/>
         <source>字幕切换为：</source>
         <translation>字幕 :</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5831"/>
-        <location filename="../mainwindow.cpp" line="5867"/>
-        <location filename="../mainwindow.cpp" line="5900"/>
-        <location filename="../mainwindow.cpp" line="5932"/>
-        <location filename="../mainwindow.cpp" line="5964"/>
-        <location filename="../mainwindow.cpp" line="5996"/>
-        <location filename="../mainwindow.cpp" line="6029"/>
-        <location filename="../mainwindow.cpp" line="6060"/>
-        <location filename="../mainwindow.cpp" line="6092"/>
-        <location filename="../mainwindow.cpp" line="6124"/>
-        <location filename="../mainwindow.cpp" line="6155"/>
-        <location filename="../mainwindow.cpp" line="6187"/>
-        <location filename="../mainwindow.cpp" line="6218"/>
+        <location filename="../mainwindow.cpp" line="5833"/>
+        <location filename="../mainwindow.cpp" line="5869"/>
+        <location filename="../mainwindow.cpp" line="5902"/>
+        <location filename="../mainwindow.cpp" line="5934"/>
+        <location filename="../mainwindow.cpp" line="5966"/>
+        <location filename="../mainwindow.cpp" line="5998"/>
+        <location filename="../mainwindow.cpp" line="6031"/>
+        <location filename="../mainwindow.cpp" line="6062"/>
+        <location filename="../mainwindow.cpp" line="6094"/>
+        <location filename="../mainwindow.cpp" line="6126"/>
+        <location filename="../mainwindow.cpp" line="6157"/>
+        <location filename="../mainwindow.cpp" line="6189"/>
+        <location filename="../mainwindow.cpp" line="6220"/>
         <source>画面宽高比例</source>
         <translation>アスペクト比</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5832"/>
+        <location filename="../mainwindow.cpp" line="5834"/>
         <source>默认</source>
         <translation>既定</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6249"/>
-        <location filename="../mainwindow.cpp" line="6282"/>
-        <location filename="../mainwindow.cpp" line="6313"/>
-        <location filename="../mainwindow.cpp" line="6344"/>
+        <location filename="../mainwindow.cpp" line="6251"/>
+        <location filename="../mainwindow.cpp" line="6284"/>
+        <location filename="../mainwindow.cpp" line="6315"/>
+        <location filename="../mainwindow.cpp" line="6346"/>
         <source>画面旋转角度</source>
         <translation>ビデオの回転</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6376"/>
+        <location filename="../mainwindow.cpp" line="6378"/>
         <source>画面适合显示器宽度：上下黑边</source>
         <translation>黒い帯付きの表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6408"/>
+        <location filename="../mainwindow.cpp" line="6410"/>
         <source>画面适合显示器高度：左右裁切</source>
         <translation>黒い帯なしで表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6440"/>
-        <location filename="../mainwindow.cpp" line="6473"/>
-        <location filename="../mainwindow.cpp" line="6504"/>
-        <location filename="../mainwindow.cpp" line="6535"/>
-        <location filename="../mainwindow.cpp" line="6565"/>
-        <location filename="../mainwindow.cpp" line="6596"/>
-        <location filename="../mainwindow.cpp" line="6628"/>
+        <location filename="../mainwindow.cpp" line="6442"/>
+        <location filename="../mainwindow.cpp" line="6475"/>
+        <location filename="../mainwindow.cpp" line="6506"/>
+        <location filename="../mainwindow.cpp" line="6537"/>
+        <location filename="../mainwindow.cpp" line="6567"/>
+        <location filename="../mainwindow.cpp" line="6598"/>
+        <location filename="../mainwindow.cpp" line="6630"/>
         <source>视频画面大小倍数</source>
         <translation>ビデオサイズ倍率</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="5713"/>
+        <location filename="../mainwindow.cpp" line="5715"/>
         <source>置顶:</source>
         <translation>常に手前に表示 :</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6659"/>
+        <location filename="../mainwindow.cpp" line="6661"/>
         <source>字体变大</source>
         <translation>サイズ +</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6690"/>
+        <location filename="../mainwindow.cpp" line="6692"/>
         <source>字体默认大小</source>
         <translation>リセット</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6723"/>
+        <location filename="../mainwindow.cpp" line="6725"/>
         <source>字体变小</source>
         <translation>サイズ -</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6755"/>
+        <location filename="../mainwindow.cpp" line="6757"/>
         <source>重复播放启用</source>
         <translation>再生リスト : 有効</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6789"/>
+        <location filename="../mainwindow.cpp" line="6791"/>
         <source>重复播放禁用</source>
         <translation>再生リスト : 無効</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6820"/>
+        <location filename="../mainwindow.cpp" line="6822"/>
         <source>循环播放启用</source>
         <translation>再生リスト : 有効</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6851"/>
+        <location filename="../mainwindow.cpp" line="6853"/>
         <source>循环播放禁用</source>
         <translation>再生リスト : 無効</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="6883"/>
-        <location filename="../mainwindow.cpp" line="6915"/>
-        <location filename="../mainwindow.cpp" line="6946"/>
-        <location filename="../mainwindow.cpp" line="6977"/>
-        <location filename="../mainwindow.cpp" line="7008"/>
+        <location filename="../mainwindow.cpp" line="6885"/>
+        <location filename="../mainwindow.cpp" line="6917"/>
+        <location filename="../mainwindow.cpp" line="6948"/>
+        <location filename="../mainwindow.cpp" line="6979"/>
+        <location filename="../mainwindow.cpp" line="7010"/>
         <source>循环播放次数</source>
         <translation>再生リスト回数</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7039"/>
+        <location filename="../mainwindow.cpp" line="7041"/>
         <source>循环随机播放启用</source>
         <translation>ループ再生有効</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7070"/>
+        <location filename="../mainwindow.cpp" line="7072"/>
         <source>循环随机播放禁用</source>
         <translation>ループ再生無効</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7102"/>
-        <location filename="../mainwindow.cpp" line="7134"/>
-        <location filename="../mainwindow.cpp" line="7165"/>
-        <location filename="../mainwindow.cpp" line="7196"/>
-        <location filename="../mainwindow.cpp" line="7226"/>
-        <location filename="../mainwindow.cpp" line="7257"/>
-        <location filename="../mainwindow.cpp" line="7287"/>
-        <location filename="../mainwindow.cpp" line="7316"/>
-        <location filename="../mainwindow.cpp" line="7346"/>
-        <location filename="../mainwindow.cpp" line="7376"/>
+        <location filename="../mainwindow.cpp" line="7104"/>
+        <location filename="../mainwindow.cpp" line="7136"/>
+        <location filename="../mainwindow.cpp" line="7167"/>
+        <location filename="../mainwindow.cpp" line="7198"/>
+        <location filename="../mainwindow.cpp" line="7228"/>
+        <location filename="../mainwindow.cpp" line="7259"/>
+        <location filename="../mainwindow.cpp" line="7289"/>
+        <location filename="../mainwindow.cpp" line="7318"/>
+        <location filename="../mainwindow.cpp" line="7348"/>
+        <location filename="../mainwindow.cpp" line="7378"/>
         <source>播放倍速为</source>
         <translation>速度</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7418"/>
+        <location filename="../mainwindow.cpp" line="7420"/>
         <source>选择高级播放列表文件的保存路径</source>
         <translation>詳細再生リストファイルの保存先の選択</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7441"/>
+        <location filename="../mainwindow.cpp" line="7443"/>
         <source>选择OSC样式文件</source>
         <translation>OSCスタイルファイルの選択</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="7441"/>
+        <location filename="../mainwindow.cpp" line="7443"/>
         <source>OSC样式文件(*.lua)</source>
         <translation>OSCスタイルファイル(*.lua)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="8155"/>
-        <location filename="../mainwindow.cpp" line="8360"/>
-        <location filename="../mainwindow.cpp" line="8536"/>
-        <location filename="../mainwindow.cpp" line="8706"/>
-        <location filename="../mainwindow.cpp" line="8875"/>
-        <location filename="../mainwindow.cpp" line="9044"/>
+        <location filename="../mainwindow.cpp" line="8157"/>
+        <location filename="../mainwindow.cpp" line="8362"/>
+        <location filename="../mainwindow.cpp" line="8538"/>
+        <location filename="../mainwindow.cpp" line="8708"/>
+        <location filename="../mainwindow.cpp" line="8877"/>
+        <location filename="../mainwindow.cpp" line="9046"/>
         <source>播放失败</source>
         <translation>再生に失敗しました</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="8156"/>
-        <location filename="../mainwindow.cpp" line="8361"/>
-        <location filename="../mainwindow.cpp" line="8537"/>
-        <location filename="../mainwindow.cpp" line="8707"/>
-        <location filename="../mainwindow.cpp" line="8876"/>
-        <location filename="../mainwindow.cpp" line="9045"/>
+        <location filename="../mainwindow.cpp" line="8158"/>
+        <location filename="../mainwindow.cpp" line="8363"/>
+        <location filename="../mainwindow.cpp" line="8539"/>
+        <location filename="../mainwindow.cpp" line="8709"/>
+        <location filename="../mainwindow.cpp" line="8878"/>
+        <location filename="../mainwindow.cpp" line="9047"/>
         <source>没有找到指定文件</source>
         <translation>指定されたファイルが見つかりません</translation>
     </message>
